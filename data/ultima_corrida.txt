@@ -23,6 +23,4 @@ Resultados crudos: 120 — únicos con ≤1 escala: 53
   MAD  Ciudad de Madrid         solo ida      n=  1  min USD 753
   IGR  Puerto Iguazú            solo ida      n=  1  min USD 85
 
-Rutas nuevas: COR-GUA, COR-PUJ, COR-NAT, COR-AUA, COR-GYE, COR-FLN, COR-BUE-IDA, COR-HAV-IDA, COR-FTE-IDA, COR-GRU-IDA, COR-SCL-IDA, COR-MAD-IDA, COR-IGR-IDA, COR-FLL, COR-MIL, COR-IST
-
-Listo: 15 requests, 0 errores — 39 precios nuevos guardados
+Listo: 15 requests, 0 errores — 0 precios nuevos guardados
