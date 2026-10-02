@@ -10,6 +10,11 @@ from urllib.parse import urlencode
 from core.config import BASE_DIR, ORIGEN, TRAVELPAYOUTS_MARKER
 from core.aerolineas import nombre_aerolinea
 from core.db import conectar, init_db
+from core.textos import texto_instagram, texto_x
+
+# Criterios de oferta del documento de arquitectura (Fase 2)
+MIN_REGISTROS = 10        # historial mínimo por ruta antes de marcar ofertas
+UMBRAL_DESCUENTO = 0.20   # 20 % por debajo del promedio de 90 días
 
 SALIDA = BASE_DIR / "public" / "panel" / "data.json"      # panel privado (con contraseña)
 SALIDA_PUBLICA = BASE_DIR / "public" / "ofertas.json"      # web pública
@@ -51,7 +56,18 @@ def exportar():
                    FROM historial_precios WHERE ruta_id = ? AND dia_captura = ?
                    ORDER BY precio_usd LIMIT 1""",
                 (r["id"], ultimo_dia)).fetchone()
+            # Historial PREVIO a la última recolección: contra eso se compara el precio actual.
+            prev = c.execute(
+                """SELECT COUNT(*) n, AVG(precio_usd) prom, MIN(precio_usd) minimo
+                   FROM historial_precios WHERE ruta_id = ? AND timestamp >= ? AND dia_captura < ?""",
+                (r["id"], hace_90, ultimo_dia)).fetchone()
             prom = st["prom"]
+            oferta = None
+            if actual and prev["n"] >= MIN_REGISTROS:
+                if actual["precio_usd"] < prev["minimo"]:
+                    oferta = "minimo"   # más barato que todo lo visto en 90 días
+                elif actual["precio_usd"] <= prev["prom"] * (1 - UMBRAL_DESCUENTO):
+                    oferta = "normal"
             rutas.append({
                 "id": r["id"],
                 "destino": r["destino_nombre"],
@@ -70,9 +86,20 @@ def exportar():
                                        actual["fecha_retorno"], "web") if actual else None,
                 "promedio_90d": round(prom, 2) if prom else None,
                 "minimo_90d": st["minimo"],
-                "descuento_pct": round((1 - actual["precio_usd"] / prom) * 100, 1) if actual and prom else None,
+                "promedio_previo": round(prev["prom"], 2) if prev["prom"] else None,
+                "registros_previos": prev["n"],
+                "descuento_pct": round((1 - actual["precio_usd"] / prev["prom"]) * 100, 1)
+                                 if actual and prev["prom"] else None,
+                "oferta": oferta,
+                "url_x": url_reserva(actual["link"], r["codigo_busqueda"], actual["fecha_salida"],
+                                     actual["fecha_retorno"], "x") if actual else None,
                 "ultima_actualizacion": st["ult"],
             })
+
+    for r in rutas:
+        if r["precio_actual"]:
+            r["texto_x"] = texto_x(r, r["url_x"])
+            r["texto_instagram"] = texto_instagram(r)
 
     datos = {
         "generado": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
@@ -92,7 +119,7 @@ def exportar():
     # Web pública: solo el precio vigente de cada destino, sin estadísticas internas.
     publicas = sorted(
         ({k: r[k] for k in ("destino", "region", "tipo", "precio_actual", "fecha_salida",
-                            "fecha_retorno", "aerolinea", "escalas")} | {"url": r["url_web"]}
+                            "fecha_retorno", "aerolinea", "escalas", "oferta")} | {"url": r["url_web"]}
          for r in rutas if r["precio_actual"] and r["activa"]),
         key=lambda r: r["precio_actual"])
     SALIDA_PUBLICA.write_text(json.dumps(

@@ -48,6 +48,24 @@
                  border-radius: 6px; padding: 6px 12px; font: 500 13px "IBM Plex Sans", sans-serif; cursor: pointer; }
   .tabs button.on { color: var(--bg); background: var(--accent); border-color: var(--accent); }
   .nota { color: var(--muted); font-size: 13px; margin-top: 10px; }
+  .publicar { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+  .post { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px;
+          display: flex; flex-direction: column; gap: 10px; }
+  .post.oferta { border-color: var(--good); }
+  .post-cab { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  .post-cab b { font-size: 16px; }
+  .post-cab span { font-family: "IBM Plex Mono", monospace; color: var(--accent); font-weight: 600; white-space: nowrap; }
+  .post-sub { color: var(--muted); font-size: 12px; }
+  .post pre { margin: 0; white-space: pre-wrap; word-break: break-word; font: 13px/1.5 "IBM Plex Sans", sans-serif;
+              background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 10px;
+              max-height: 210px; overflow: auto; }
+  .post-tabs { display: flex; gap: 6px; }
+  .post-tabs button, .copiar { background: none; border: 1px solid var(--line); color: var(--muted); border-radius: 6px;
+                padding: 5px 10px; font: 500 12px "IBM Plex Sans", sans-serif; cursor: pointer; }
+  .post-tabs button.on { color: var(--ink); border-color: var(--muted); }
+  .copiar { background: var(--accent); color: #1a1300; border-color: var(--accent); font-weight: 600; font-size: 13px; padding: 8px; }
+  .copiar.ok { background: var(--good); border-color: var(--good); }
+  .filtro-pub { display: flex; gap: 6px; margin-bottom: 10px; flex-wrap: wrap; }
   .err { color: var(--bad); }
 </style>
 </head>
@@ -63,6 +81,15 @@
 
   <h2>Estado del sistema</h2>
   <div class="stats" id="stats"></div>
+
+  <h2>Para publicar</h2>
+  <div class="filtro-pub tabs" id="filtro-pub">
+    <button data-f="ofertas" class="on">Ofertas detectadas</button>
+    <button data-f="todos">Todos los precios</button>
+  </div>
+  <div class="publicar" id="publicar"></div>
+  <p class="nota">Una ruta se marca como oferta cuando tiene al menos 10 precios de días anteriores y el precio actual
+    está 20 % o más por debajo de su promedio, o es el más bajo visto en 90 días. Revisá el precio en el link antes de publicar.</p>
 
   <h2>Rutas monitoreadas</h2>
   <div class="tabs" id="tabs">
@@ -102,7 +129,7 @@ let rutas = [], tipo = "ida_vuelta", orden = {k: "registros_90d", dir: -1};
 
 function pill(r) {
   if (r.descuento_pct == null) return '<span class="pill none">—</span>';
-  const cls = r.registros_90d >= 10 && r.descuento_pct >= 20 ? "good" : r.descuento_pct > 0 ? "warn" : "none";
+  const cls = r.oferta ? "good" : r.descuento_pct > 0 ? "warn" : "none";
   const sig = r.descuento_pct > 0 ? "−" : "+";
   return `<span class="pill ${cls}">${sig}${Math.abs(r.descuento_pct)}%</span>`;
 }
@@ -142,6 +169,53 @@ document.querySelectorAll("#tabs button").forEach(b => b.addEventListener("click
   render();
 }));
 
+let filtroPub = "ofertas";
+const red = {};  // ruta id -> "x" | "ig"
+
+function renderPublicar() {
+  let lista = rutas.filter(r => r.texto_x && (filtroPub === "todos" || r.oferta));
+  lista.sort((a, b) => (!!b.oferta - !!a.oferta) || a.precio_actual - b.precio_actual);
+  const cont = document.getElementById("publicar");
+  if (!lista.length) {
+    cont.innerHTML = `<p class="nota" style="margin:0">Todavía no hay ofertas detectadas: hacen falta al menos 10 precios
+      de días anteriores por ruta. Mientras tanto podés ver los textos de <a href="#" id="ver-todos" style="color:var(--accent)">todos los precios</a>.</p>`;
+    document.getElementById("ver-todos").onclick = e => { e.preventDefault(); elegirFiltro("todos"); };
+    return;
+  }
+  cont.innerHTML = lista.map(r => {
+    const modo = red[r.id] || "x";
+    const etiqueta = r.oferta === "minimo" ? "Mínimo en 90 días" : r.oferta ? `${r.descuento_pct}% bajo el promedio` : "";
+    return `<div class="post ${r.oferta ? "oferta" : ""}">
+      <div class="post-cab"><b>${r.destino}</b><span>${usd(r.precio_actual)}</span></div>
+      <div class="post-sub">${r.tipo === "solo_ida" ? "Solo ida" : "Ida y vuelta"}${etiqueta ? " · " + etiqueta : ""}
+        · <a href="${r.url}" target="_blank" rel="noopener" style="color:var(--muted)">verificar precio</a></div>
+      <div class="post-tabs">
+        <button data-id="${r.id}" data-red="x" class="${modo === "x" ? "on" : ""}">X</button>
+        <button data-id="${r.id}" data-red="ig" class="${modo === "ig" ? "on" : ""}">Instagram</button>
+      </div>
+      <pre>${(modo === "x" ? r.texto_x.replace(r.url_x, r.url_x.slice(0, 48) + "…") : r.texto_instagram).replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}</pre>
+      <button class="copiar" data-id="${r.id}">Copiar para ${modo === "x" ? "X" : "Instagram"}</button>
+    </div>`;
+  }).join("");
+  cont.querySelectorAll(".post-tabs button").forEach(b => b.onclick = () => { red[b.dataset.id] = b.dataset.red; renderPublicar(); });
+  cont.querySelectorAll(".copiar").forEach(b => b.onclick = async () => {
+    const r = rutas.find(x => x.id === b.dataset.id);
+    const texto = (red[r.id] || "x") === "x" ? r.texto_x : r.texto_instagram;
+    try { await navigator.clipboard.writeText(texto); }
+    catch { const t = document.createElement("textarea"); t.value = texto; document.body.appendChild(t); t.select(); document.execCommand("copy"); t.remove(); }
+    const original = b.textContent;
+    b.textContent = "Copiado"; b.classList.add("ok");
+    setTimeout(() => { b.textContent = original; b.classList.remove("ok"); }, 1500);
+  });
+}
+
+function elegirFiltro(f) {
+  filtroPub = f;
+  document.querySelectorAll("#filtro-pub button").forEach(x => x.classList.toggle("on", x.dataset.f === f));
+  renderPublicar();
+}
+document.querySelectorAll("#filtro-pub button").forEach(b => b.onclick = () => elegirFiltro(b.dataset.f));
+
 fetch("/panel/data.json", {cache: "no-store"}).then(r => r.json()).then(d => {
   const e = d.estado;
   document.getElementById("generado").textContent = "Datos generados: " + fecha(d.generado);
@@ -153,6 +227,7 @@ fetch("/panel/data.json", {cache: "no-store"}).then(r => r.json()).then(d => {
   ].map(([v, t]) => `<div class="stat"><b>${v}</b><small>${t}</small></div>`).join("");
   rutas = d.rutas;
   render();
+  renderPublicar();
 }).catch(() => {
   document.getElementById("stats").innerHTML = '<p class="err">No se pudieron cargar los datos.</p>';
 });
