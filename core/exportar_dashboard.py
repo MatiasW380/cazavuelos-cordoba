@@ -16,16 +16,17 @@ SALIDA_PUBLICA = BASE_DIR / "public" / "ofertas.json"      # web pública
 AVIASALES = "https://www.aviasales.com"
 
 
-def url_reserva(link, destino, salida, retorno):
+def url_reserva(link, destino, salida, retorno, origen_trafico="web"):
     """Link a la búsqueda en Aviasales. Usa el que trae la API; si no hay, lo arma con las fechas.
-    Si hay marker de afiliado configurado, lo agrega (así la reserva genera comisión)."""
+    Si hay marker de afiliado configurado, lo agrega (así la reserva genera comisión).
+    origen_trafico va como SubID (marker.subid) para ver en Travelpayouts de dónde vino cada venta."""
     if link:
         url = AVIASALES + link
     else:
         ddmm = lambda f: f[8:10] + f[5:7]
         url = f"{AVIASALES}/search/{ORIGEN}{ddmm(salida)}{destino}{ddmm(retorno) if retorno else ''}1"
     if TRAVELPAYOUTS_MARKER:
-        url += ("&" if "?" in url else "?") + urlencode({"marker": TRAVELPAYOUTS_MARKER})
+        url += ("&" if "?" in url else "?") + urlencode({"marker": f"{TRAVELPAYOUTS_MARKER}.{origen_trafico}"})
     return url
 
 
@@ -62,7 +63,9 @@ def exportar():
                 "fecha_salida": actual["fecha_salida"] if actual else None,
                 "fecha_retorno": (actual["fecha_retorno"] or None) if actual else None,
                 "url": url_reserva(actual["link"], r["codigo_busqueda"], actual["fecha_salida"],
-                                   actual["fecha_retorno"]) if actual else None,
+                                   actual["fecha_retorno"], "panel") if actual else None,
+                "url_web": url_reserva(actual["link"], r["codigo_busqueda"], actual["fecha_salida"],
+                                       actual["fecha_retorno"], "web") if actual else None,
                 "promedio_90d": round(prom, 2) if prom else None,
                 "minimo_90d": st["minimo"],
                 "descuento_pct": round((1 - actual["precio_usd"] / prom) * 100, 1) if actual and prom else None,
@@ -87,7 +90,7 @@ def exportar():
     # Web pública: solo el precio vigente de cada destino, sin estadísticas internas.
     publicas = sorted(
         ({k: r[k] for k in ("destino", "region", "tipo", "precio_actual", "fecha_salida",
-                            "fecha_retorno", "aerolinea", "escalas", "url")}
+                            "fecha_retorno", "aerolinea", "escalas")} | {"url": r["url_web"]}
          for r in rutas if r["precio_actual"] and r["activa"]),
         key=lambda r: r["precio_actual"])
     SALIDA_PUBLICA.write_text(json.dumps(
