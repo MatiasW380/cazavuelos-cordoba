@@ -25,8 +25,10 @@ def url_reserva(link, destino, salida, retorno, origen_trafico="web"):
     else:
         ddmm = lambda f: f[8:10] + f[5:7]
         url = f"{AVIASALES}/search/{ORIGEN}{ddmm(salida)}{destino}{ddmm(retorno) if retorno else ''}1"
+    params = {"locale": "es", "currency": "usd"}   # sitio en español y precios en dólares
     if TRAVELPAYOUTS_MARKER:
-        url += ("&" if "?" in url else "?") + urlencode({"marker": f"{TRAVELPAYOUTS_MARKER}.{origen_trafico}"})
+        params["marker"] = f"{TRAVELPAYOUTS_MARKER}.{origen_trafico}"
+    url += ("&" if "?" in url else "?") + urlencode(params)
     return url
 
 
