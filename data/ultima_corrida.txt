@@ -11,10 +11,10 @@ Resultados crudos: 120 — únicos con ≤1 escala: 53
   GYE  Guayaquil                ida y vuelta  n=  1  min USD 779
   PAR  París                    ida y vuelta  n=  1  min USD 1,583
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,598
-  FLN  Florianópolis            ida y vuelta  n=  1  min USD 483
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 1,158
   MIL  Milán                    ida y vuelta  n=  1  min USD 1,240
   IST  Estambul                 ida y vuelta  n=  1  min USD 1,579
+  FLN  Florianópolis            ida y vuelta  n=  1  min USD 464
   BUE  Buenos Aires             solo ida      n= 17  min USD 30
   SCL  Santiago de Chile        solo ida      n=  3  min USD 146
   HAV  La Habana                solo ida      n=  1  min USD 530
