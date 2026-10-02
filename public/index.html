@@ -69,15 +69,18 @@
   footer { padding: 8px 0 56px; color: var(--gris); font-size: 14px; max-width: 70ch; }
   footer p { margin: 0 0 10px; }
 
-  @media (max-width: 720px) {
-    .fila { grid-template-columns: minmax(0, 1fr) auto; gap: 6px 14px; padding: 16px; }
-    .destino { font-size: 24px; }
-    .precio { grid-column: 2; grid-row: 1; font-size: 28px; }
-    .dato { grid-column: 1 / -1; }
+  /* Celular y tablet: tarjeta compacta — destino y precio arriba, detalles abajo con el botón al costado */
+  @media (max-width: 900px) {
+    .fila { grid-template-columns: minmax(0, 1fr) auto; gap: 2px 14px; padding: 12px 16px; }
+    .destino { grid-column: 1; grid-row: 1; font-size: clamp(19px, 6vw, 26px); overflow-wrap: break-word; }
+    .precio { grid-column: 2; grid-row: 1; font-size: 26px; }
+    .precio small { display: none; }
+    .dato { grid-column: 1; font-size: 14px; }
     .dato small { display: inline; margin-left: 6px; }
-    .ver { grid-column: 1 / -1; text-align: center; margin-top: 8px; }
-    .destino { grid-column: 1; grid-row: 1; }
-    .tablero-cabeza { padding: 16px; }
+    .dato:nth-of-type(2) { grid-row: 2; margin-top: 4px; }
+    .dato:nth-of-type(3) { grid-row: 3; }
+    .ver { grid-column: 2; grid-row: 2 / span 2; align-self: end; padding: 8px 14px; }
+    .tablero-cabeza { padding: 14px 16px; }
   }
 </style>
 </head>
