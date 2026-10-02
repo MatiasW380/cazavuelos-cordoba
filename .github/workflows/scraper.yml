@@ -1,0 +1,54 @@
+name: Scraper de precios
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # cada 6 horas (hora UTC)
+  workflow_dispatch:          # botón "Run workflow" para correrlo a mano
+    inputs:
+      probe:
+        description: "Solo medir cobertura (no guarda nada)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scraper
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Tests
+        run: python -m pytest tests/ -q
+
+      - name: Consultar precios
+        env:
+          TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
+        run: |
+          if [ "${{ inputs.probe }}" = "true" ]; then
+            python -m scrapers.travelpayouts_scraper --probe
+          else
+            python -m scrapers.travelpayouts_scraper
+          fi
+
+      - name: Guardar la base en el repositorio
+        if: ${{ inputs.probe != true }}
+        run: |
+          git config user.name "cazavuelos-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/cazavuelos.db
+          git diff --cached --quiet || git commit -m "datos: corrida $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
