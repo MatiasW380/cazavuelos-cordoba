@@ -26,17 +26,16 @@
   :focus-visible { outline: 3px solid var(--ambar); outline-offset: 2px; }
   .contenedor { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
 
-  header.barra { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; }
+  header.barra { display: flex; justify-content: space-between; align-items: center; padding: 16px 0 12px; }
   .marca { font: 800 22px/1 "Big Shoulders Display", sans-serif; letter-spacing: .02em; text-decoration: none; }
   .marca small { font: 500 14px "Public Sans", sans-serif; color: var(--gris); margin-left: 6px; letter-spacing: 0; }
   .boton-panel { font: 600 14px "Public Sans", sans-serif; text-decoration: none; color: var(--tinta);
                  border: 1.5px solid var(--tinta); border-radius: 999px; padding: 7px 16px; }
   .boton-panel:hover { background: var(--tinta); color: var(--papel); }
 
-  .hero { padding: 40px 0 32px; }
-  .hero h1 { font: 800 clamp(44px, 8vw, 88px)/.92 "Big Shoulders Display", sans-serif; margin: 0 0 18px;
-             max-width: 12ch; letter-spacing: -.01em; }
-  .hero p { margin: 0; max-width: 56ch; color: var(--gris); font-size: 18px; }
+  .hero { padding: 4px 0 18px; }
+  .hero h1 { font: 800 clamp(26px, 3.4vw, 34px)/1.1 "Big Shoulders Display", sans-serif; margin: 0 0 4px; }
+  .hero p { margin: 0; color: var(--gris); font-size: 15px; }
 
   .tablero { background: var(--tablero); color: var(--papel); border-radius: 14px; overflow: hidden;
              margin-bottom: 28px; box-shadow: 0 30px 60px -30px rgba(21,35,61,.55); }
@@ -50,13 +49,13 @@
   .selector button[aria-pressed="true"] { background: var(--ambar); color: var(--tablero); }
 
   .fila { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) minmax(0, 1fr) 8.5rem 6.5rem;
-          align-items: center; gap: 18px; padding: 16px 22px; border-bottom: 1px solid var(--tablero-linea); }
+          align-items: center; gap: 18px; padding: 11px 22px; border-bottom: 1px solid var(--tablero-linea); }
   .fila:last-child { border-bottom: 0; }
-  .destino { font: 800 30px/1 "Big Shoulders Display", sans-serif; text-transform: uppercase; color: var(--ambar);
+  .destino { font: 800 26px/1 "Big Shoulders Display", sans-serif; text-transform: uppercase; color: var(--ambar);
              letter-spacing: .03em; min-width: 0; overflow-wrap: anywhere; }
   .dato { font-size: 14px; color: var(--papel); }
   .dato small { display: block; color: var(--gris-tablero); font-size: 13px; }
-  .precio { font: 800 34px/1 "Big Shoulders Display", sans-serif; color: var(--ambar); text-align: right; white-space: nowrap; }
+  .precio { font: 800 30px/1 "Big Shoulders Display", sans-serif; color: var(--ambar); text-align: right; white-space: nowrap; }
   .precio small { font: 500 12px "Public Sans", sans-serif; color: var(--gris-tablero); display: block; margin-top: 4px; }
   .ver { text-align: center; background: var(--papel); color: var(--tablero); text-decoration: none; font-weight: 600; font-size: 14px;
          padding: 9px 16px; border-radius: 8px; white-space: nowrap; }
@@ -91,8 +90,7 @@
 
   <section class="hero">
     <h1>Vuelos baratos desde Córdoba</h1>
-    <p>Revisamos todos los destinos que salen del aeropuerto de Córdoba y te mostramos el precio más bajo
-      encontrado para cada uno. Se actualiza cada 6 horas.</p>
+    <p>El precio más bajo encontrado para cada destino. Se actualiza cada 6 horas.</p>
   </section>
 
   <section class="tablero" id="tablero" aria-labelledby="titulo-tablero">
