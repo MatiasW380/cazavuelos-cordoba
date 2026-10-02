@@ -6,7 +6,7 @@ COR-CDG  París                        crudos=  1  ≤1 escala=  1  min USD 1,58
 COR-CUN  Cancún                       crudos=  0  ≤1 escala=  0  sin datos
 COR-EZE  Buenos Aires (Ezeiza)        crudos=  1  ≤1 escala=  1  min USD 191
 COR-FCO  Roma                         crudos=  2  ≤1 escala=  1  min USD 1,598
-COR-GIG  Río de Janeiro               crudos=  4  ≤1 escala=  3  min USD 380
+COR-GIG  Río de Janeiro               crudos=  5  ≤1 escala=  4  min USD 380
 COR-GRU  San Pablo                    crudos=  0  ≤1 escala=  0  sin datos
 COR-HAV  La Habana                    crudos=  0  ≤1 escala=  0  sin datos
 COR-JFK  Nueva York                   crudos=  0  ≤1 escala=  0  sin datos
@@ -20,4 +20,4 @@ COR-PTY  Panamá                       crudos=  0  ≤1 escala=  0  sin datos
 COR-SCL  Santiago                     crudos=  3  ≤1 escala=  3  min USD 275
 COR-YYZ  Toronto                      crudos=  0  ≤1 escala=  0  sin datos
 
-Listo: 120 requests, 0 errores — PROBE (no se guardó nada)
+Listo: 120 requests, 0 errores — 15 precios nuevos guardados
