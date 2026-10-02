@@ -114,6 +114,13 @@
 
 <script>
 const MESES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+const DIAS_SEMANA = ["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
+const aFecha = f => new Date(+f.slice(0,4), +f.slice(5,7)-1, +f.slice(8,10));
+function duracion(v) {
+  if (!v.fecha_retorno) return DIAS_SEMANA[aFecha(v.fecha_salida).getDay()];  // solo ida: día de la semana
+  const n = Math.round((aFecha(v.fecha_retorno) - aFecha(v.fecha_salida)) / 86400000);
+  return n === 0 ? "mismo día" : n === 1 ? "1 día" : `${n} días`;
+}
 const dia = f => `${+f.slice(8,10)} ${MESES[+f.slice(5,7)-1]}`;
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let vuelos = [], tipo = "ida_vuelta";
@@ -123,7 +130,7 @@ function fila(v) {
   const escalas = v.escalas === 0 ? "Directo" : v.escalas === 1 ? "1 escala" : "";
   return `<div class="fila">
     <div class="destino">${esc(v.destino)}</div>
-    <div class="dato">${fechas}<small>${v.fecha_retorno ? "salida – regreso" : "salida"}</small></div>
+    <div class="dato">${fechas}<small>${duracion(v)}</small></div>
     <div class="dato">${esc(v.aerolinea || "Varias aerolíneas")}<small>${escalas}</small></div>
     <div class="precio">USD ${Math.round(v.precio_actual).toLocaleString("es-AR")}<small>${v.fecha_retorno ? "ida y vuelta" : "solo ida"}</small></div>
     <a class="ver" href="${esc(v.url)}" target="_blank" rel="noopener sponsored">Ver vuelo</a>
