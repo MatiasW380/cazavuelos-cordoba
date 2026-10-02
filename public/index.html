@@ -68,6 +68,10 @@
 
   footer { padding: 8px 0 56px; color: var(--gris); font-size: 14px; max-width: 70ch; }
   footer p { margin: 0 0 10px; }
+  .pie-links { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 18px; padding-top: 16px;
+               border-top: 1px solid #c9d6e4; }
+  .pie-links a { color: var(--tinta); font-weight: 500; text-decoration: none; }
+  .pie-links a:hover { text-decoration: underline; }
 
   /* Celular y tablet: tarjeta compacta — destino y precio arriba, detalles abajo con el botón al costado */
   @media (max-width: 900px) {
@@ -112,6 +116,11 @@
     <p>Los precios salen de búsquedas recientes en Aviasales y pueden cambiar en cualquier momento.
       Confirmá el precio final antes de comprar. Precios en dólares, por persona, con hasta una escala.</p>
     <p>Cuando comprás desde estos links, CazaVuelos recibe una comisión. A vos no te cuesta nada extra.</p>
+    <nav class="pie-links" aria-label="Información">
+      <a href="/sobre.html">Quiénes somos</a>
+      <a href="mailto:cazavueloscordoba@gmail.com">Contacto</a>
+      <a href="/privacidad.html">Privacidad</a>
+    </nav>
   </footer>
 </div>
 
@@ -160,7 +169,7 @@ fetch("/ofertas.json", {cache: "no-store"}).then(r => r.json()).then(d => {
   vuelos = d.vuelos || [];
   if (d.actualizado) {
     const f = new Date(d.actualizado).toLocaleString("es-AR", {day: "numeric", month: "long", hour: "2-digit", minute: "2-digit"});
-    document.getElementById("actualizado").textContent = `Última actualización: ${f}.`;
+    document.getElementById("actualizado").textContent = `Última actualización: ${f}`;
   }
   render(true);
 }).catch(() => {
