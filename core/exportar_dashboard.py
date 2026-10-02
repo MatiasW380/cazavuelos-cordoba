@@ -8,6 +8,7 @@ from datetime import datetime, timedelta, timezone
 from urllib.parse import urlencode
 
 from core.config import BASE_DIR, ORIGEN, TRAVELPAYOUTS_MARKER
+from core.aerolineas import nombre_aerolinea
 from core.db import conectar, init_db
 
 SALIDA = BASE_DIR / "public" / "data.json"
@@ -55,7 +56,7 @@ def exportar():
                 "activa": bool(r["activa"]),
                 "registros_90d": st["n"],
                 "precio_actual": actual["precio_usd"] if actual else None,
-                "aerolinea": actual["aerolinea"] if actual else None,
+                "aerolinea": nombre_aerolinea(actual["aerolinea"]) if actual else None,
                 "escalas": actual["escalas"] if actual else None,
                 "fecha_salida": actual["fecha_salida"] if actual else None,
                 "fecha_retorno": (actual["fecha_retorno"] or None) if actual else None,
