@@ -1,0 +1,69 @@
+"""Genera public/data.json a partir de la base, para el dashboard en Vercel.
+
+    python -m core.exportar_dashboard
+"""
+import json
+from datetime import datetime, timedelta, timezone
+
+from core.config import BASE_DIR
+from core.db import conectar, init_db
+
+SALIDA = BASE_DIR / "public" / "data.json"
+
+
+def exportar():
+    init_db()
+    hace_90 = (datetime.now(timezone.utc) - timedelta(days=90)).isoformat()
+    with conectar() as c:
+        corrida = c.execute(
+            "SELECT * FROM corridas WHERE fin IS NOT NULL ORDER BY id DESC LIMIT 1").fetchone()
+        ultimo_dia = c.execute("SELECT MAX(dia_captura) FROM historial_precios").fetchone()[0]
+        total = c.execute("SELECT COUNT(*) FROM historial_precios").fetchone()[0]
+        rutas = []
+        for r in c.execute("SELECT * FROM rutas ORDER BY region, destino_nombre"):
+            st = c.execute(
+                """SELECT COUNT(*) n, AVG(precio_usd) prom, MIN(precio_usd) minimo, MAX(timestamp) ult
+                   FROM historial_precios WHERE ruta_id = ? AND timestamp >= ?""",
+                (r["id"], hace_90)).fetchone()
+            actual = c.execute(
+                """SELECT precio_usd, aerolinea, escalas, fecha_salida, fecha_retorno
+                   FROM historial_precios WHERE ruta_id = ? AND dia_captura = ?
+                   ORDER BY precio_usd LIMIT 1""",
+                (r["id"], ultimo_dia)).fetchone()
+            prom = st["prom"]
+            rutas.append({
+                "id": r["id"],
+                "destino": r["destino_nombre"],
+                "region": r["region"],
+                "activa": bool(r["activa"]),
+                "registros_90d": st["n"],
+                "precio_actual": actual["precio_usd"] if actual else None,
+                "aerolinea": actual["aerolinea"] if actual else None,
+                "escalas": actual["escalas"] if actual else None,
+                "fecha_salida": actual["fecha_salida"] if actual else None,
+                "fecha_retorno": actual["fecha_retorno"] if actual else None,
+                "promedio_90d": round(prom, 2) if prom else None,
+                "minimo_90d": st["minimo"],
+                "descuento_pct": round((1 - actual["precio_usd"] / prom) * 100, 1) if actual and prom else None,
+                "ultima_actualizacion": st["ult"],
+            })
+
+    datos = {
+        "generado": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        "estado": {
+            "ultima_corrida": corrida["fin"] if corrida else None,
+            "requests": corrida["requests"] if corrida else 0,
+            "errores": corrida["errores"] if corrida else 0,
+            "rutas_activas": sum(1 for r in rutas if r["activa"]),
+            "rutas_con_datos": sum(1 for r in rutas if r["registros_90d"]),
+            "precios_en_historial": total,
+        },
+        "rutas": rutas,
+    }
+    SALIDA.parent.mkdir(exist_ok=True)
+    SALIDA.write_text(json.dumps(datos, ensure_ascii=False, indent=1))
+    print(f"Dashboard: {SALIDA} ({len(rutas)} rutas, {total} precios)")
+
+
+if __name__ == "__main__":
+    exportar()
