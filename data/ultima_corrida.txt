@@ -1,23 +1,28 @@
-Base lista en /home/runner/work/cazavuelos-cordoba/cazavuelos-cordoba/data/cazavuelos.db — 20 rutas cargadas.
-COR-AEP  Buenos Aires (Aeroparque)    crudos=  1  ≤1 escala=  1  min USD 76
-COR-BCN  Barcelona                    crudos=  1  ≤1 escala=  0  sin datos
-COR-BOG  Bogotá                       crudos=  0  ≤1 escala=  0  sin datos
-COR-CDG  París                        crudos=  1  ≤1 escala=  1  min USD 1,583
-COR-CUN  Cancún                       crudos=  0  ≤1 escala=  0  sin datos
-COR-EZE  Buenos Aires (Ezeiza)        crudos=  1  ≤1 escala=  1  min USD 191
-COR-FCO  Roma                         crudos=  2  ≤1 escala=  1  min USD 1,598
-COR-GIG  Río de Janeiro               crudos=  5  ≤1 escala=  4  min USD 380
-COR-GRU  San Pablo                    crudos=  0  ≤1 escala=  0  sin datos
-COR-HAV  La Habana                    crudos=  0  ≤1 escala=  0  sin datos
-COR-JFK  Nueva York                   crudos=  0  ≤1 escala=  0  sin datos
-COR-LAX  Los Ángeles                  crudos=  0  ≤1 escala=  0  sin datos
-COR-LIM  Lima                         crudos=  0  ≤1 escala=  0  sin datos
-COR-LIS  Lisboa                       crudos=  0  ≤1 escala=  0  sin datos
-COR-MAD  Madrid                       crudos=  1  ≤1 escala=  0  sin datos
-COR-MIA  Miami                        crudos=  4  ≤1 escala=  4  min USD 632
-COR-MVD  Montevideo                   crudos=  0  ≤1 escala=  0  sin datos
-COR-PTY  Panamá                       crudos=  0  ≤1 escala=  0  sin datos
-COR-SCL  Santiago                     crudos=  3  ≤1 escala=  3  min USD 275
-COR-YYZ  Toronto                      crudos=  0  ≤1 escala=  0  sin datos
+Resultados crudos: 120 — únicos con ≤1 escala: 53
 
-Listo: 120 requests, 0 errores — 15 precios nuevos guardados
+  PUJ  Punta Cana               ida y vuelta  n=  6  min USD 645
+  RIO  Río de Janeiro           ida y vuelta  n=  4  min USD 380
+  MIA  Miami                    ida y vuelta  n=  4  min USD 632
+  SCL  Santiago de Chile        ida y vuelta  n=  3  min USD 275
+  GUA  Guatemala                ida y vuelta  n=  1  min USD 504
+  NAT  Natal                    ida y vuelta  n=  1  min USD 566
+  AUA  Oranjestad               ida y vuelta  n=  1  min USD 674
+  BUE  Buenos Aires             ida y vuelta  n=  1  min USD 76
+  GYE  Guayaquil                ida y vuelta  n=  1  min USD 779
+  PAR  París                    ida y vuelta  n=  1  min USD 1,583
+  ROM  Roma                     ida y vuelta  n=  1  min USD 1,598
+  FLN  Florianópolis            ida y vuelta  n=  1  min USD 483
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 1,158
+  MIL  Milán                    ida y vuelta  n=  1  min USD 1,240
+  IST  Estambul                 ida y vuelta  n=  1  min USD 1,579
+  BUE  Buenos Aires             solo ida      n= 17  min USD 30
+  SCL  Santiago de Chile        solo ida      n=  3  min USD 146
+  HAV  La Habana                solo ida      n=  1  min USD 530
+  FTE  El Calafate              solo ida      n=  1  min USD 164
+  SAO  São Paulo                solo ida      n=  1  min USD 254
+  MAD  Ciudad de Madrid         solo ida      n=  1  min USD 753
+  IGR  Puerto Iguazú            solo ida      n=  1  min USD 85
+
+Rutas nuevas: COR-GUA, COR-PUJ, COR-NAT, COR-AUA, COR-GYE, COR-FLN, COR-BUE-IDA, COR-HAV-IDA, COR-FTE-IDA, COR-GRU-IDA, COR-SCL-IDA, COR-MAD-IDA, COR-IGR-IDA, COR-FLL, COR-MIL, COR-IST
+
+Listo: 15 requests, 0 errores — 39 precios nuevos guardados
