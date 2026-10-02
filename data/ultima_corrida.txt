@@ -1,0 +1,23 @@
+Base lista en /home/runner/work/cazavuelos-cordoba/cazavuelos-cordoba/data/cazavuelos.db — 20 rutas cargadas.
+COR-AEP  Buenos Aires (Aeroparque)    crudos=  1  ≤1 escala=  1  min USD 76
+COR-BCN  Barcelona                    crudos=  1  ≤1 escala=  0  sin datos
+COR-BOG  Bogotá                       crudos=  0  ≤1 escala=  0  sin datos
+COR-CDG  París                        crudos=  1  ≤1 escala=  1  min USD 1,583
+COR-CUN  Cancún                       crudos=  0  ≤1 escala=  0  sin datos
+COR-EZE  Buenos Aires (Ezeiza)        crudos=  1  ≤1 escala=  1  min USD 191
+COR-FCO  Roma                         crudos=  2  ≤1 escala=  1  min USD 1,598
+COR-GIG  Río de Janeiro               crudos=  4  ≤1 escala=  3  min USD 380
+COR-GRU  San Pablo                    crudos=  0  ≤1 escala=  0  sin datos
+COR-HAV  La Habana                    crudos=  0  ≤1 escala=  0  sin datos
+COR-JFK  Nueva York                   crudos=  0  ≤1 escala=  0  sin datos
+COR-LAX  Los Ángeles                  crudos=  0  ≤1 escala=  0  sin datos
+COR-LIM  Lima                         crudos=  0  ≤1 escala=  0  sin datos
+COR-LIS  Lisboa                       crudos=  0  ≤1 escala=  0  sin datos
+COR-MAD  Madrid                       crudos=  1  ≤1 escala=  0  sin datos
+COR-MIA  Miami                        crudos=  4  ≤1 escala=  4  min USD 632
+COR-MVD  Montevideo                   crudos=  0  ≤1 escala=  0  sin datos
+COR-PTY  Panamá                       crudos=  0  ≤1 escala=  0  sin datos
+COR-SCL  Santiago                     crudos=  3  ≤1 escala=  3  min USD 275
+COR-YYZ  Toronto                      crudos=  0  ≤1 escala=  0  sin datos
+
+Listo: 120 requests, 0 errores — PROBE (no se guardó nada)
