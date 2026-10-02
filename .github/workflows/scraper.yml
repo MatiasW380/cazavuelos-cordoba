@@ -39,7 +39,6 @@ jobs:
         shell: bash
         env:
           TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
-          TRAVELPAYOUTS_MARKER: ${{ vars.TRAVELPAYOUTS_MARKER }}
         run: |
           MODO="${{ inputs.modo || 'real' }}"
           case "$MODO" in

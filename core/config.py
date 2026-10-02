@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / ".env")
 
 TRAVELPAYOUTS_TOKEN = os.getenv("TRAVELPAYOUTS_TOKEN", "")
-TRAVELPAYOUTS_MARKER = os.getenv("TRAVELPAYOUTS_MARKER", "")  # ID de afiliado (para links)
+TRAVELPAYOUTS_MARKER = os.getenv("TRAVELPAYOUTS_MARKER") or "784835"  # ID de afiliado (público, va en los links)
 
 DB_PATH = Path(os.getenv("DB_PATH", BASE_DIR / "data" / "cazavuelos.db"))
 
