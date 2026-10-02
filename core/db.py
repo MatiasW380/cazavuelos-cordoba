@@ -96,6 +96,10 @@ RUTAS_INICIALES = [
     ("BUE", "BUE", "Buenos Aires", "argentina"),
 ]
 
+# Nombres más reconocibles que los que trae el catálogo (por código de ciudad).
+NOMBRES_PREFERIDOS = {"AUA": "Aruba", "MAD": "Madrid", "SAO": "San Pablo", "SCL": "Santiago de Chile",
+                      "IGR": "Iguazú", "FTE": "El Calafate", "NYC": "Nueva York"}
+
 REGION_POR_PAIS = {
     "argentina": ["AR"],
     "sudamerica": ["BR", "CL", "PE", "CO", "UY", "PY", "BO", "EC", "VE", "GY", "SR"],
@@ -172,6 +176,8 @@ def init_db():
                VALUES (?, ?, ?, ?, ?, ?)""",
             [(id_ruta(d, "ida_vuelta"), ORIGEN, d, c, n, r) for d, c, n, r in RUTAS_INICIALES],
         )
+        conn.executemany("UPDATE rutas SET destino_nombre = ? WHERE codigo_busqueda = ?",
+                         [(n, c) for c, n in NOMBRES_PREFERIDOS.items()])
         conn.execute(f"PRAGMA user_version = {VERSION}")
 
 
@@ -184,7 +190,7 @@ def obtener_o_crear_ruta(conn, ciudad, tipo, nombre=None, pais=None):
     otra = conn.execute("SELECT destino, destino_nombre, region FROM rutas WHERE codigo_busqueda = ?",
                         (ciudad,)).fetchone()
     destino = otra["destino"] if otra else ciudad
-    nombre = otra["destino_nombre"] if otra else (nombre or ciudad)
+    nombre = otra["destino_nombre"] if otra else NOMBRES_PREFERIDOS.get(ciudad, nombre or ciudad)
     region = otra["region"] if otra else region_de(pais)
     rid = id_ruta(destino, tipo)
     conn.execute(

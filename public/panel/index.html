@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CazaVuelos Córdoba</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0f1419; --panel: #161d24; --line: #26313b; --ink: #e7edf2; --muted: #8a99a6;
+    --accent: #f2b33d; --good: #3ecf8e; --warn: #f2b33d; --bad: #e5675c;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.5 "IBM Plex Sans", system-ui, sans-serif; }
+  main { max-width: 1100px; margin: 0 auto; padding: 28px 16px 60px; }
+  header { display: flex; justify-content: space-between; align-items: end; gap: 16px;
+           flex-wrap: wrap; border-bottom: 1px solid var(--line); padding-bottom: 18px; }
+  h1 { margin: 0; font-size: 22px; letter-spacing: .02em; }
+  h1 span { color: var(--accent); font-family: "IBM Plex Mono", monospace; }
+  .sub { color: var(--muted); font-size: 13px; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted);
+       margin: 32px 0 12px; font-weight: 600; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; }
+  .stat b { display: block; font: 600 22px "IBM Plex Mono", monospace; }
+  .stat small { color: var(--muted); font-size: 12px; }
+  .wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
+  table { width: 100%; border-collapse: collapse; min-width: 720px; }
+  th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  th { background: var(--panel); color: var(--muted); font-size: 12px; font-weight: 600;
+       cursor: pointer; user-select: none; }
+  th:hover { color: var(--ink); }
+  td.num { font-family: "IBM Plex Mono", monospace; text-align: right; }
+  th.num { text-align: right; }
+  tr:last-child td { border-bottom: 0; }
+  tr.vacia td { color: var(--muted); }
+  a.precio { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
+  a.precio:hover { border-bottom-style: solid; }
+  .reg { color: var(--muted); font-size: 12px; }
+  .pill { font: 600 12px "IBM Plex Mono", monospace; padding: 2px 8px; border-radius: 99px; }
+  .pill.good { background: rgba(62,207,142,.15); color: var(--good); }
+  .pill.warn { background: rgba(242,179,61,.15); color: var(--warn); }
+  .pill.none { color: var(--muted); }
+  .tabs { display: flex; gap: 6px; margin-bottom: 10px; }
+  .tabs button { background: var(--panel); color: var(--muted); border: 1px solid var(--line);
+                 border-radius: 6px; padding: 6px 12px; font: 500 13px "IBM Plex Sans", sans-serif; cursor: pointer; }
+  .tabs button.on { color: var(--bg); background: var(--accent); border-color: var(--accent); }
+  .nota { color: var(--muted); font-size: 13px; margin-top: 10px; }
+  .err { color: var(--bad); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <h1>CazaVuelos <span>COR</span></h1>
+      <div class="sub">Ofertas de vuelos desde Córdoba — panel privado</div>
+    </div>
+    <div class="sub"><a href="/" style="color:var(--muted)">Ver la web pública</a><br><span id="generado"></span></div>
+  </header>
+
+  <h2>Estado del sistema</h2>
+  <div class="stats" id="stats"></div>
+
+  <h2>Rutas monitoreadas</h2>
+  <div class="tabs" id="tabs">
+    <button data-t="ida_vuelta" class="on">Ida y vuelta</button>
+    <button data-t="solo_ida">Solo ida</button>
+  </div>
+  <div class="wrap"><table id="tabla">
+    <thead><tr>
+      <th data-k="destino">Destino</th>
+      <th data-k="region">Región</th>
+      <th data-k="fecha_salida">Fechas</th>
+      <th data-k="precio_actual" class="num">Precio actual</th>
+      <th data-k="promedio_90d" class="num">Promedio 90 d</th>
+      <th data-k="minimo_90d" class="num">Mínimo 90 d</th>
+      <th data-k="descuento_pct" class="num">vs promedio</th>
+      <th data-k="registros_90d" class="num">Registros</th>
+      <th data-k="ultima_actualizacion">Actualizado</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table></div>
+  <p class="nota">Precios en USD, máximo 1 escala. Los destinos nuevos se agregan solos cuando aparecen. El sistema necesita al menos 10 registros por ruta
+    antes de considerar una oferta. Tocá un precio para ver ese vuelo en Aviasales, o un encabezado para ordenar.</p>
+</main>
+
+<script>
+const usd = v => v == null ? "—" : "USD " + Math.round(v).toLocaleString("es-AR");
+const fecha = s => s ? new Date(s).toLocaleString("es-AR", {day:"2-digit", month:"short", hour:"2-digit", minute:"2-digit"}) : "—";
+const MESES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+const dia = f => f ? `${+f.slice(8,10)} ${MESES[+f.slice(5,7)-1]}` : "";
+function fechas(r) {
+  if (!r.fecha_salida) return '<span class="reg">—</span>';
+  const det = [r.escalas === 0 ? "directo" : r.escalas === 1 ? "1 escala" : "", r.aerolinea || ""].filter(Boolean).join(" · ");
+  return `${dia(r.fecha_salida)}${r.fecha_retorno ? " → " + dia(r.fecha_retorno) : ""}`
+    + (det ? `<br><span class="reg">${det}</span>` : "");
+}
+let rutas = [], tipo = "ida_vuelta", orden = {k: "registros_90d", dir: -1};
+
+function pill(r) {
+  if (r.descuento_pct == null) return '<span class="pill none">—</span>';
+  const cls = r.registros_90d >= 10 && r.descuento_pct >= 20 ? "good" : r.descuento_pct > 0 ? "warn" : "none";
+  const sig = r.descuento_pct > 0 ? "−" : "+";
+  return `<span class="pill ${cls}">${sig}${Math.abs(r.descuento_pct)}%</span>`;
+}
+
+function render() {
+  const {k, dir} = orden;
+  const filas = rutas.filter(r => r.tipo === tipo).sort((a, b) => {
+    const x = a[k], y = b[k];
+    if (x == null && y == null) return 0;
+    if (x == null) return 1;
+    if (y == null) return -1;
+    return (x > y ? 1 : x < y ? -1 : 0) * dir;
+  });
+  document.querySelector("#tabla tbody").innerHTML = filas.map(r => `
+    <tr class="${r.registros_90d ? "" : "vacia"}">
+      <td>${r.destino}${r.activa ? "" : ' <span class="reg">(pausada)</span>'}</td>
+      <td class="reg">${r.region}</td>
+      <td>${fechas(r)}</td>
+      <td class="num">${r.url ? `<a class="precio" href="${r.url}" target="_blank" rel="noopener">${usd(r.precio_actual)} ↗</a>` : usd(r.precio_actual)}</td>
+      <td class="num">${usd(r.promedio_90d)}</td>
+      <td class="num">${usd(r.minimo_90d)}</td>
+      <td class="num">${pill(r)}</td>
+      <td class="num">${r.registros_90d}</td>
+      <td class="reg">${fecha(r.ultima_actualizacion)}</td>
+    </tr>`).join("");
+}
+
+document.querySelectorAll("#tabla th").forEach(th => th.addEventListener("click", () => {
+  const k = th.dataset.k;
+  orden = {k, dir: orden.k === k ? -orden.dir : (k === "destino" || k === "region" ? 1 : -1)};
+  render();
+}));
+
+document.querySelectorAll("#tabs button").forEach(b => b.addEventListener("click", () => {
+  tipo = b.dataset.t;
+  document.querySelectorAll("#tabs button").forEach(x => x.classList.toggle("on", x === b));
+  render();
+}));
+
+fetch("/panel/data.json", {cache: "no-store"}).then(r => r.json()).then(d => {
+  const e = d.estado;
+  document.getElementById("generado").textContent = "Datos generados: " + fecha(d.generado);
+  document.getElementById("stats").innerHTML = [
+    [fecha(e.ultima_corrida), "Última corrida"],
+    [`${e.rutas_con_datos} / ${e.rutas_activas}`, "Rutas con datos"],
+    [e.precios_en_historial.toLocaleString("es-AR"), "Precios en historial"],
+    [e.errores, "Errores en la última corrida"],
+  ].map(([v, t]) => `<div class="stat"><b>${v}</b><small>${t}</small></div>`).join("");
+  rutas = d.rutas;
+  render();
+}).catch(() => {
+  document.getElementById("stats").innerHTML = '<p class="err">No se pudieron cargar los datos.</p>';
+});
+</script>
+</body>
+</html>

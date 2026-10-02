@@ -11,7 +11,8 @@ from core.config import BASE_DIR, ORIGEN, TRAVELPAYOUTS_MARKER
 from core.aerolineas import nombre_aerolinea
 from core.db import conectar, init_db
 
-SALIDA = BASE_DIR / "public" / "data.json"
+SALIDA = BASE_DIR / "public" / "panel" / "data.json"      # panel privado (con contraseña)
+SALIDA_PUBLICA = BASE_DIR / "public" / "ofertas.json"      # web pública
 AVIASALES = "https://www.aviasales.com"
 
 
@@ -80,8 +81,18 @@ def exportar():
         },
         "rutas": rutas,
     }
-    SALIDA.parent.mkdir(exist_ok=True)
+    SALIDA.parent.mkdir(parents=True, exist_ok=True)
     SALIDA.write_text(json.dumps(datos, ensure_ascii=False, indent=1))
+
+    # Web pública: solo el precio vigente de cada destino, sin estadísticas internas.
+    publicas = sorted(
+        ({k: r[k] for k in ("destino", "region", "tipo", "precio_actual", "fecha_salida",
+                            "fecha_retorno", "aerolinea", "escalas", "url")}
+         for r in rutas if r["precio_actual"] and r["activa"]),
+        key=lambda r: r["precio_actual"])
+    SALIDA_PUBLICA.write_text(json.dumps(
+        {"actualizado": datos["estado"]["ultima_corrida"] or datos["generado"], "vuelos": publicas},
+        ensure_ascii=False, indent=1))
     print(f"Dashboard: {SALIDA} ({len(rutas)} rutas, {total} precios)")
 
 

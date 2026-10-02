@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-02T20:41:42+00:00",
+ "generado": "2026-10-02T20:49:24+00:00",
  "estado": {
   "ultima_corrida": "2026-10-02T20:41:42+00:00",
   "requests": 15,
@@ -26,6 +26,24 @@
    "minimo_90d": 76.0,
    "descuento_pct": 0.0,
    "ultima_actualizacion": "2026-10-02T20:21:36+00:00"
+  },
+  {
+   "id": "COR-AUA",
+   "destino": "Aruba",
+   "region": "caribe",
+   "tipo": "ida_vuelta",
+   "activa": true,
+   "registros_90d": 1,
+   "precio_actual": 674.0,
+   "aerolinea": "Avianca",
+   "escalas": 1,
+   "fecha_salida": "2026-11-29",
+   "fecha_retorno": "2026-12-10",
+   "url": "https://www.aviasales.com/search/COR2911AUA10121?t=AV17959380001795968000000560CORBOGAUA17969238001796970000000710AUABOGCOR_6b97c924dd7708a24525a47ef250aadb_56446&search_date=30092026&expected_price_uuid=01a0f0f2-e088-8030-213b-5401f7d41888&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=JK03lPhD8liJ9NTGTh3d6w&expected_price_source=share&expected_price_currency=usd&expected_price=674&marker=784835",
+   "promedio_90d": 674.0,
+   "minimo_90d": 674.0,
+   "descuento_pct": 0.0,
+   "ultima_actualizacion": "2026-10-02T20:28:49+00:00"
   },
   {
    "id": "COR-CUN",
@@ -62,24 +80,6 @@
    "minimo_90d": null,
    "descuento_pct": null,
    "ultima_actualizacion": null
-  },
-  {
-   "id": "COR-AUA",
-   "destino": "Oranjestad",
-   "region": "caribe",
-   "tipo": "ida_vuelta",
-   "activa": true,
-   "registros_90d": 1,
-   "precio_actual": 674.0,
-   "aerolinea": "Avianca",
-   "escalas": 1,
-   "fecha_salida": "2026-11-29",
-   "fecha_retorno": "2026-12-10",
-   "url": "https://www.aviasales.com/search/COR2911AUA10121?t=AV17959380001795968000000560CORBOGAUA17969238001796970000000710AUABOGCOR_6b97c924dd7708a24525a47ef250aadb_56446&search_date=30092026&expected_price_uuid=01a0f0f2-e088-8030-213b-5401f7d41888&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=JK03lPhD8liJ9NTGTh3d6w&expected_price_source=share&expected_price_currency=usd&expected_price=674&marker=784835",
-   "promedio_90d": 674.0,
-   "minimo_90d": 674.0,
-   "descuento_pct": 0.0,
-   "ultima_actualizacion": "2026-10-02T20:28:49+00:00"
   },
   {
    "id": "COR-PUJ",
@@ -497,7 +497,7 @@
   },
   {
    "id": "COR-SCL",
-   "destino": "Santiago",
+   "destino": "Santiago de Chile",
    "region": "sudamerica",
    "tipo": "ida_vuelta",
    "activa": true,
@@ -551,7 +551,7 @@
   },
   {
    "id": "COR-IGR-IDA",
-   "destino": "Puerto Iguazú",
+   "destino": "Iguazú",
    "region": "argentina",
    "tipo": "solo_ida",
    "activa": true,
@@ -623,7 +623,7 @@
   },
   {
    "id": "COR-SCL-IDA",
-   "destino": "Santiago",
+   "destino": "Santiago de Chile",
    "region": "sudamerica",
    "tipo": "solo_ida",
    "activa": true,

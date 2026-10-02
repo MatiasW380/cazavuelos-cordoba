@@ -1,6 +1,6 @@
-// Protege todo el dashboard con usuario y contraseña (autenticación básica del navegador).
+// Protege el panel privado (/panel) con usuario y contraseña (autenticación básica del navegador).
 // La contraseña se configura en Vercel: Settings → Environment Variables → DASHBOARD_PASSWORD
-export const config = { matcher: "/(.*)" };
+export const config = { matcher: ["/panel", "/panel/:path*"] };
 
 export default function middleware(request) {
   const clave = process.env.DASHBOARD_PASSWORD;

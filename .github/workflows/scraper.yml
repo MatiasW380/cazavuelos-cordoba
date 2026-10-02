@@ -53,6 +53,6 @@ jobs:
           git add data/*.txt
           git config user.name "cazavuelos-bot"
           git config user.email "actions@users.noreply.github.com"
-          if [ "${{ inputs.modo || 'real' }}" = "real" ]; then git add data/cazavuelos.db public/data.json; git add data/aerolineas.json 2>/dev/null || true; fi
+          if [ "${{ inputs.modo || 'real' }}" = "real" ]; then git add data/cazavuelos.db public/panel/data.json public/ofertas.json; git add data/aerolineas.json 2>/dev/null || true; fi
           git diff --cached --quiet || git commit -m "datos: corrida $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
