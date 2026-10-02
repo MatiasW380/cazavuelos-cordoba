@@ -36,6 +36,8 @@
   th.num { text-align: right; }
   tr:last-child td { border-bottom: 0; }
   tr.vacia td { color: var(--muted); }
+  a.precio { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
+  a.precio:hover { border-bottom-style: solid; }
   .reg { color: var(--muted); font-size: 12px; }
   .pill { font: 600 12px "IBM Plex Mono", monospace; padding: 2px 8px; border-radius: 99px; }
   .pill.good { background: rgba(62,207,142,.15); color: var(--good); }
@@ -71,6 +73,7 @@
     <thead><tr>
       <th data-k="destino">Destino</th>
       <th data-k="region">Región</th>
+      <th data-k="fecha_salida">Fechas</th>
       <th data-k="precio_actual" class="num">Precio actual</th>
       <th data-k="promedio_90d" class="num">Promedio 90 d</th>
       <th data-k="minimo_90d" class="num">Mínimo 90 d</th>
@@ -81,12 +84,20 @@
     <tbody></tbody>
   </table></div>
   <p class="nota">Precios en USD, máximo 1 escala. Los destinos nuevos se agregan solos cuando aparecen. El sistema necesita al menos 10 registros por ruta
-    antes de considerar una oferta. Tocá un encabezado para ordenar.</p>
+    antes de considerar una oferta. Tocá un precio para ver ese vuelo en Aviasales, o un encabezado para ordenar.</p>
 </main>
 
 <script>
 const usd = v => v == null ? "—" : "USD " + Math.round(v).toLocaleString("es-AR");
 const fecha = s => s ? new Date(s).toLocaleString("es-AR", {day:"2-digit", month:"short", hour:"2-digit", minute:"2-digit"}) : "—";
+const MESES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+const dia = f => f ? `${+f.slice(8,10)} ${MESES[+f.slice(5,7)-1]}` : "";
+function fechas(r) {
+  if (!r.fecha_salida) return '<span class="reg">—</span>';
+  const det = [r.escalas === 0 ? "directo" : r.escalas === 1 ? "1 escala" : "", r.aerolinea || ""].filter(Boolean).join(" · ");
+  return `${dia(r.fecha_salida)}${r.fecha_retorno ? " → " + dia(r.fecha_retorno) : ""}`
+    + (det ? `<br><span class="reg">${det}</span>` : "");
+}
 let rutas = [], tipo = "ida_vuelta", orden = {k: "registros_90d", dir: -1};
 
 function pill(r) {
@@ -109,7 +120,8 @@ function render() {
     <tr class="${r.registros_90d ? "" : "vacia"}">
       <td>${r.destino}${r.activa ? "" : ' <span class="reg">(pausada)</span>'}</td>
       <td class="reg">${r.region}</td>
-      <td class="num">${usd(r.precio_actual)}</td>
+      <td>${fechas(r)}</td>
+      <td class="num">${r.url ? `<a class="precio" href="${r.url}" target="_blank" rel="noopener">${usd(r.precio_actual)} ↗</a>` : usd(r.precio_actual)}</td>
       <td class="num">${usd(r.promedio_90d)}</td>
       <td class="num">${usd(r.minimo_90d)}</td>
       <td class="num">${pill(r)}</td>

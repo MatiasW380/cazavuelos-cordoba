@@ -5,10 +5,26 @@
 import json
 from datetime import datetime, timedelta, timezone
 
-from core.config import BASE_DIR
+from urllib.parse import urlencode
+
+from core.config import BASE_DIR, ORIGEN, TRAVELPAYOUTS_MARKER
 from core.db import conectar, init_db
 
 SALIDA = BASE_DIR / "public" / "data.json"
+AVIASALES = "https://www.aviasales.com"
+
+
+def url_reserva(link, destino, salida, retorno):
+    """Link a la búsqueda en Aviasales. Usa el que trae la API; si no hay, lo arma con las fechas.
+    Si hay marker de afiliado configurado, lo agrega (así la reserva genera comisión)."""
+    if link:
+        url = AVIASALES + link
+    else:
+        ddmm = lambda f: f[8:10] + f[5:7]
+        url = f"{AVIASALES}/search/{ORIGEN}{ddmm(salida)}{destino}{ddmm(retorno) if retorno else ''}1"
+    if TRAVELPAYOUTS_MARKER:
+        url += ("&" if "?" in url else "?") + urlencode({"marker": TRAVELPAYOUTS_MARKER})
+    return url
 
 
 def exportar():
@@ -26,7 +42,7 @@ def exportar():
                    FROM historial_precios WHERE ruta_id = ? AND timestamp >= ?""",
                 (r["id"], hace_90)).fetchone()
             actual = c.execute(
-                """SELECT precio_usd, aerolinea, escalas, fecha_salida, fecha_retorno
+                """SELECT precio_usd, aerolinea, escalas, fecha_salida, fecha_retorno, link
                    FROM historial_precios WHERE ruta_id = ? AND dia_captura = ?
                    ORDER BY precio_usd LIMIT 1""",
                 (r["id"], ultimo_dia)).fetchone()
@@ -42,7 +58,9 @@ def exportar():
                 "aerolinea": actual["aerolinea"] if actual else None,
                 "escalas": actual["escalas"] if actual else None,
                 "fecha_salida": actual["fecha_salida"] if actual else None,
-                "fecha_retorno": actual["fecha_retorno"] if actual else None,
+                "fecha_retorno": (actual["fecha_retorno"] or None) if actual else None,
+                "url": url_reserva(actual["link"], r["codigo_busqueda"], actual["fecha_salida"],
+                                   actual["fecha_retorno"]) if actual else None,
                 "promedio_90d": round(prom, 2) if prom else None,
                 "minimo_90d": st["minimo"],
                 "descuento_pct": round((1 - actual["precio_usd"] / prom) * 100, 1) if actual and prom else None,
