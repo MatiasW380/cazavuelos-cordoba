@@ -1,37 +1,45 @@
-"""Inicialización de SQLite: tablas rutas, historial_precios y ofertas + carga de las 20 rutas."""
+"""SQLite: esquema, migraciones y alta automática de rutas.
+
+Una "ruta" es destino + tipo de viaje (ida y vuelta / solo ida): los precios de uno y otro
+no se pueden comparar entre sí, así que cada combinación tiene su propio historial.
+"""
 import sqlite3
 from contextlib import contextmanager
 
 from core.config import DB_PATH, ORIGEN
 
+VERSION = 2
+
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS rutas (
-    id               TEXT PRIMARY KEY,          -- "COR-MAD"
+    id               TEXT PRIMARY KEY,          -- "COR-MAD" (ida y vuelta) / "COR-MAD-IDA"
     origen           TEXT NOT NULL DEFAULT 'COR',
-    destino          TEXT NOT NULL,             -- IATA del documento (aeropuerto)
-    codigo_busqueda  TEXT NOT NULL,             -- código que se manda a la API (ciudad si conviene)
+    destino          TEXT NOT NULL,             -- IATA de referencia
+    codigo_busqueda  TEXT NOT NULL,             -- código de CIUDAD que devuelve la API (MAD, PAR, BUE...)
     destino_nombre   TEXT NOT NULL,
     region           TEXT NOT NULL,
-    activa           INTEGER NOT NULL DEFAULT 1
+    tipo             TEXT NOT NULL DEFAULT 'ida_vuelta' CHECK (tipo IN ('ida_vuelta','solo_ida')),
+    activa           INTEGER NOT NULL DEFAULT 1,
+    UNIQUE (codigo_busqueda, tipo)
 );
 
 CREATE TABLE IF NOT EXISTS historial_precios (
     id             INTEGER PRIMARY KEY AUTOINCREMENT,
     ruta_id        TEXT NOT NULL REFERENCES rutas(id),
     precio_usd     REAL NOT NULL,
-    precio_ars     REAL,                       -- se completa en Fase 2 (USD es la referencia)
+    precio_ars     REAL,
     aerolinea      TEXT,
     numero_vuelo   TEXT,
-    escalas        INTEGER,                    -- 0 = directo, 1 = una escala (ida)
+    escalas        INTEGER,
     duracion_min   INTEGER,
-    fecha_salida   TEXT NOT NULL,
-    fecha_retorno  TEXT,                       -- NULL si es solo ida
+    fecha_salida   TEXT NOT NULL,              -- YYYY-MM-DD
+    fecha_retorno  TEXT NOT NULL DEFAULT '',   -- YYYY-MM-DD, '' si es solo ida
     aeropuerto_destino TEXT,
-    link           TEXT,                       -- path de Aviasales (se le agrega el marker al publicar)
+    link           TEXT,
     fuente         TEXT NOT NULL DEFAULT 'travelpayouts',
-    dia_captura    TEXT NOT NULL,              -- YYYY-MM-DD, para deduplicar
-    timestamp      TEXT NOT NULL,              -- ISO 8601 UTC
-    UNIQUE (ruta_id, fecha_salida, fecha_retorno, aerolinea, numero_vuelo, precio_usd, dia_captura)
+    dia_captura    TEXT NOT NULL,
+    timestamp      TEXT NOT NULL,
+    UNIQUE (ruta_id, fecha_salida, fecha_retorno, dia_captura)   -- 1 precio (el más bajo) por fechas y día
 );
 CREATE INDEX IF NOT EXISTS idx_hist_ruta_ts ON historial_precios(ruta_id, timestamp);
 
@@ -64,9 +72,8 @@ CREATE TABLE IF NOT EXISTS corridas (
 );
 """
 
-# (destino, codigo_busqueda, nombre, region)
-# codigo_busqueda: Travelpayouts trabaja mejor con códigos de CIUDAD cuando la ciudad
-# tiene varios aeropuertos (NYC, PAR, ROM, SAO, RIO). EZE/AEP quedan separados a propósito.
+# Rutas del documento de arquitectura (ida y vuelta). Se cargan aunque todavía no tengan datos,
+# para ver en el panel cuáles faltan. (destino, codigo_ciudad, nombre, region)
 RUTAS_INICIALES = [
     ("MAD", "MAD", "Madrid", "europa"),
     ("BCN", "BCN", "Barcelona", "europa"),
@@ -86,9 +93,27 @@ RUTAS_INICIALES = [
     ("GIG", "RIO", "Río de Janeiro", "sudamerica"),
     ("BOG", "BOG", "Bogotá", "sudamerica"),
     ("MVD", "MVD", "Montevideo", "sudamerica"),
-    ("EZE", "EZE", "Buenos Aires (Ezeiza)", "argentina"),
-    ("AEP", "AEP", "Buenos Aires (Aeroparque)", "argentina"),
+    ("BUE", "BUE", "Buenos Aires", "argentina"),
 ]
+
+REGION_POR_PAIS = {
+    "argentina": ["AR"],
+    "sudamerica": ["BR", "CL", "PE", "CO", "UY", "PY", "BO", "EC", "VE", "GY", "SR"],
+    "norteamerica": ["US", "CA", "MX"],
+    "caribe": ["DO", "CU", "AW", "CW", "BQ", "JM", "PR", "BS", "BB", "TT", "SX", "MF", "LC", "KY", "TC", "VC"],
+    "centroamerica": ["PA", "CR", "GT", "SV", "HN", "NI", "BZ"],
+    "europa": ["ES", "PT", "FR", "IT", "DE", "GB", "IE", "NL", "BE", "CH", "AT", "GR", "PL", "CZ", "HU",
+               "SE", "NO", "DK", "FI", "HR", "RO", "BG", "IS", "LU", "MT", "SI", "SK", "RS", "TR"],
+}
+_PAIS_A_REGION = {p: r for r, ps in REGION_POR_PAIS.items() for p in ps}
+
+
+def region_de(pais):
+    return _PAIS_A_REGION.get((pais or "").upper(), "otros")
+
+
+def id_ruta(destino, tipo):
+    return f"{ORIGEN}-{destino}" + ("-IDA" if tipo == "solo_ida" else "")
 
 
 @contextmanager
@@ -104,22 +129,72 @@ def conectar():
         conn.close()
 
 
+def _migrar_v1_a_v2(conn):
+    """Base creada con la versión 1: agrega 'tipo', unifica EZE/AEP en BUE y
+    rehace el historial con fechas normalizadas y la nueva regla de duplicados."""
+    conn.execute("PRAGMA foreign_keys = OFF")
+    conn.executescript("""
+        ALTER TABLE rutas RENAME TO rutas_v1;
+        ALTER TABLE historial_precios RENAME TO historial_v1;
+        DROP INDEX IF EXISTS idx_hist_ruta_ts;
+    """)
+    conn.executescript(SCHEMA)
+    conn.execute("""INSERT OR IGNORE INTO rutas (id, origen, destino, codigo_busqueda, destino_nombre, region, activa)
+                    SELECT id, origen, destino, codigo_busqueda, destino_nombre, region, activa
+                    FROM rutas_v1 WHERE id NOT IN ('COR-EZE', 'COR-AEP')""")
+    conn.execute("""INSERT OR IGNORE INTO rutas (id, origen, destino, codigo_busqueda, destino_nombre, region)
+                    VALUES ('COR-BUE', 'COR', 'BUE', 'BUE', 'Buenos Aires', 'argentina')""")
+    conn.execute("""
+        INSERT INTO historial_precios
+            (ruta_id, precio_usd, precio_ars, aerolinea, numero_vuelo, escalas, duracion_min, fecha_salida,
+             fecha_retorno, aeropuerto_destino, link, fuente, dia_captura, timestamp)
+        SELECT CASE WHEN ruta_id IN ('COR-EZE','COR-AEP') THEN 'COR-BUE' ELSE ruta_id END,
+               MIN(precio_usd), precio_ars, aerolinea, numero_vuelo, escalas, duracion_min,
+               substr(fecha_salida, 1, 10), COALESCE(substr(fecha_retorno, 1, 10), ''),
+               aeropuerto_destino, link, fuente, dia_captura, timestamp
+        FROM historial_v1
+        GROUP BY 1, substr(fecha_salida, 1, 10), COALESCE(substr(fecha_retorno, 1, 10), ''), dia_captura
+    """)
+    conn.executescript("DROP TABLE historial_v1; DROP TABLE rutas_v1;")
+    conn.execute("PRAGMA foreign_keys = ON")
+
+
 def init_db():
     with conectar() as conn:
+        version = conn.execute("PRAGMA user_version").fetchone()[0]
+        existe = conn.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='rutas'").fetchone()
+        if existe and version < 2:
+            _migrar_v1_a_v2(conn)
         conn.executescript(SCHEMA)
         conn.executemany(
             """INSERT OR IGNORE INTO rutas (id, origen, destino, codigo_busqueda, destino_nombre, region)
                VALUES (?, ?, ?, ?, ?, ?)""",
-            [(f"{ORIGEN}-{d}", ORIGEN, d, c, n, r) for d, c, n, r in RUTAS_INICIALES],
+            [(id_ruta(d, "ida_vuelta"), ORIGEN, d, c, n, r) for d, c, n, r in RUTAS_INICIALES],
         )
-        total = conn.execute("SELECT COUNT(*) FROM rutas").fetchone()[0]
-    print(f"Base lista en {DB_PATH} — {total} rutas cargadas.")
+        conn.execute(f"PRAGMA user_version = {VERSION}")
 
 
-def rutas_activas():
-    with conectar() as conn:
-        return conn.execute("SELECT * FROM rutas WHERE activa = 1 ORDER BY id").fetchall()
+def obtener_o_crear_ruta(conn, ciudad, tipo, nombre=None, pais=None):
+    """Devuelve el id de la ruta para (ciudad, tipo); si no existe, la crea."""
+    fila = conn.execute("SELECT id FROM rutas WHERE codigo_busqueda = ? AND tipo = ?", (ciudad, tipo)).fetchone()
+    if fila:
+        return fila["id"], False
+    # Si la ciudad ya existe con el otro tipo, reutilizar nombre y región.
+    otra = conn.execute("SELECT destino, destino_nombre, region FROM rutas WHERE codigo_busqueda = ?",
+                        (ciudad,)).fetchone()
+    destino = otra["destino"] if otra else ciudad
+    nombre = otra["destino_nombre"] if otra else (nombre or ciudad)
+    region = otra["region"] if otra else region_de(pais)
+    rid = id_ruta(destino, tipo)
+    conn.execute(
+        """INSERT INTO rutas (id, origen, destino, codigo_busqueda, destino_nombre, region, tipo)
+           VALUES (?, ?, ?, ?, ?, ?, ?)""",
+        (rid, ORIGEN, destino, ciudad, nombre, region, tipo))
+    return rid, True
 
 
 if __name__ == "__main__":
     init_db()
+    with conectar() as c:
+        print(f"Base lista en {DB_PATH} — {c.execute('SELECT COUNT(*) FROM rutas').fetchone()[0]} rutas.")

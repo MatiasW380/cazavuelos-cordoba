@@ -20,7 +20,7 @@ def exportar():
         ultimo_dia = c.execute("SELECT MAX(dia_captura) FROM historial_precios").fetchone()[0]
         total = c.execute("SELECT COUNT(*) FROM historial_precios").fetchone()[0]
         rutas = []
-        for r in c.execute("SELECT * FROM rutas ORDER BY region, destino_nombre"):
+        for r in c.execute("SELECT * FROM rutas ORDER BY tipo, region, destino_nombre"):
             st = c.execute(
                 """SELECT COUNT(*) n, AVG(precio_usd) prom, MIN(precio_usd) minimo, MAX(timestamp) ult
                    FROM historial_precios WHERE ruta_id = ? AND timestamp >= ?""",
@@ -35,6 +35,7 @@ def exportar():
                 "id": r["id"],
                 "destino": r["destino_nombre"],
                 "region": r["region"],
+                "tipo": r["tipo"],
                 "activa": bool(r["activa"]),
                 "registros_90d": st["n"],
                 "precio_actual": actual["precio_usd"] if actual else None,

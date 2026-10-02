@@ -8,7 +8,7 @@ on:
       modo:
         description: "Qué correr"
         type: choice
-        options: [real, probe, explorar]
+        options: [real, probe]
         default: real
 
 permissions:
@@ -43,7 +43,6 @@ jobs:
           MODO="${{ inputs.modo || 'real' }}"
           case "$MODO" in
             probe)    python -m scrapers.travelpayouts_scraper --probe 2>&1 | tee data/ultima_corrida.txt ;;
-            explorar) python -m scrapers.explorar 2>&1 | tee data/exploracion.txt ;;
             *)        python -m scrapers.travelpayouts_scraper 2>&1 | tee data/ultima_corrida.txt
                       python -m core.exportar_dashboard ;;
           esac

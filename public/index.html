@@ -41,6 +41,10 @@
   .pill.good { background: rgba(62,207,142,.15); color: var(--good); }
   .pill.warn { background: rgba(242,179,61,.15); color: var(--warn); }
   .pill.none { color: var(--muted); }
+  .tabs { display: flex; gap: 6px; margin-bottom: 10px; }
+  .tabs button { background: var(--panel); color: var(--muted); border: 1px solid var(--line);
+                 border-radius: 6px; padding: 6px 12px; font: 500 13px "IBM Plex Sans", sans-serif; cursor: pointer; }
+  .tabs button.on { color: var(--bg); background: var(--accent); border-color: var(--accent); }
   .nota { color: var(--muted); font-size: 13px; margin-top: 10px; }
   .err { color: var(--bad); }
 </style>
@@ -59,6 +63,10 @@
   <div class="stats" id="stats"></div>
 
   <h2>Rutas monitoreadas</h2>
+  <div class="tabs" id="tabs">
+    <button data-t="ida_vuelta" class="on">Ida y vuelta</button>
+    <button data-t="solo_ida">Solo ida</button>
+  </div>
   <div class="wrap"><table id="tabla">
     <thead><tr>
       <th data-k="destino">Destino</th>
@@ -72,14 +80,14 @@
     </tr></thead>
     <tbody></tbody>
   </table></div>
-  <p class="nota">Precios en USD, ida y vuelta, máximo 1 escala. El sistema necesita al menos 10 registros por ruta
+  <p class="nota">Precios en USD, máximo 1 escala. Los destinos nuevos se agregan solos cuando aparecen. El sistema necesita al menos 10 registros por ruta
     antes de considerar una oferta. Tocá un encabezado para ordenar.</p>
 </main>
 
 <script>
 const usd = v => v == null ? "—" : "USD " + Math.round(v).toLocaleString("es-AR");
 const fecha = s => s ? new Date(s).toLocaleString("es-AR", {day:"2-digit", month:"short", hour:"2-digit", minute:"2-digit"}) : "—";
-let rutas = [], orden = {k: "descuento_pct", dir: -1};
+let rutas = [], tipo = "ida_vuelta", orden = {k: "registros_90d", dir: -1};
 
 function pill(r) {
   if (r.descuento_pct == null) return '<span class="pill none">—</span>';
@@ -90,7 +98,7 @@ function pill(r) {
 
 function render() {
   const {k, dir} = orden;
-  const filas = [...rutas].sort((a, b) => {
+  const filas = rutas.filter(r => r.tipo === tipo).sort((a, b) => {
     const x = a[k], y = b[k];
     if (x == null && y == null) return 0;
     if (x == null) return 1;
@@ -110,9 +118,15 @@ function render() {
     </tr>`).join("");
 }
 
-document.querySelectorAll("th").forEach(th => th.addEventListener("click", () => {
+document.querySelectorAll("#tabla th").forEach(th => th.addEventListener("click", () => {
   const k = th.dataset.k;
   orden = {k, dir: orden.k === k ? -orden.dir : (k === "destino" || k === "region" ? 1 : -1)};
+  render();
+}));
+
+document.querySelectorAll("#tabs button").forEach(b => b.addEventListener("click", () => {
+  tipo = b.dataset.t;
+  document.querySelectorAll("#tabs button").forEach(x => x.classList.toggle("on", x === b));
   render();
 }));
 
