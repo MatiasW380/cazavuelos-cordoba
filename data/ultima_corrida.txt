@@ -1,9 +1,10 @@
-Resultados crudos: 119 — únicos con ≤1 escala: 54
+Resultados crudos: 125 — únicos con ≤1 escala: 54
 
   PUJ  Punta Cana               ida y vuelta  n=  6  min USD 645
   RIO  Río de Janeiro           ida y vuelta  n=  4  min USD 348
-  MIA  Miami                    ida y vuelta  n=  4  min USD 632
+  MIA  Miami                    ida y vuelta  n=  4  min USD 629
   SCL  Santiago de Chile        ida y vuelta  n=  3  min USD 275
+  MDZ  Mendoza                  ida y vuelta  n=  1  min USD 238
   GUA  Guatemala                ida y vuelta  n=  1  min USD 504
   NAT  Natal                    ida y vuelta  n=  1  min USD 566
   AUA  Oranjestad               ida y vuelta  n=  1  min USD 674
@@ -14,13 +15,15 @@ Resultados crudos: 119 — únicos con ≤1 escala: 54
   MIL  Milán                    ida y vuelta  n=  1  min USD 1,240
   IST  Estambul                 ida y vuelta  n=  1  min USD 1,579
   FLN  Florianópolis            ida y vuelta  n=  1  min USD 464
-  BUE  Buenos Aires             solo ida      n= 17  min USD 30
+  BUE  Buenos Aires             solo ida      n= 16  min USD 30
   SCL  Santiago de Chile        solo ida      n=  4  min USD 146
+  MDZ  Mendoza                  solo ida      n=  1  min USD 46
   HAV  La Habana                solo ida      n=  1  min USD 530
   BRC  Bariloche                solo ida      n=  1  min USD 103
   FTE  El Calafate              solo ida      n=  1  min USD 110
   SAO  São Paulo                solo ida      n=  1  min USD 254
   MAD  Ciudad de Madrid         solo ida      n=  1  min USD 753
-  IGR  Puerto Iguazú            solo ida      n=  1  min USD 85
 
-Listo: 15 requests, 0 errores — 0 precios nuevos guardados
+Rutas nuevas: COR-MDZ, COR-MDZ-IDA
+
+Listo: 15 requests, 0 errores — 2 precios nuevos guardados
