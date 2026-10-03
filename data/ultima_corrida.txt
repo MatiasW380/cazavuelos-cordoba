@@ -24,6 +24,4 @@ Resultados crudos: 125 — únicos con ≤1 escala: 54
   SAO  São Paulo                solo ida      n=  1  min USD 254
   MAD  Ciudad de Madrid         solo ida      n=  1  min USD 753
 
-Rutas nuevas: COR-MDZ, COR-MDZ-IDA
-
-Listo: 15 requests, 0 errores — 2 precios nuevos guardados
+Listo: 15 requests, 0 errores — 0 precios nuevos guardados
