@@ -1,7 +1,7 @@
-Resultados crudos: 120 — únicos con ≤1 escala: 53
+Resultados crudos: 118 — únicos con ≤1 escala: 54
 
   PUJ  Punta Cana               ida y vuelta  n=  6  min USD 645
-  RIO  Río de Janeiro           ida y vuelta  n=  4  min USD 380
+  RIO  Río de Janeiro           ida y vuelta  n=  4  min USD 348
   MIA  Miami                    ida y vuelta  n=  4  min USD 632
   SCL  Santiago de Chile        ida y vuelta  n=  3  min USD 275
   GUA  Guatemala                ida y vuelta  n=  1  min USD 504
@@ -9,18 +9,20 @@ Resultados crudos: 120 — únicos con ≤1 escala: 53
   AUA  Oranjestad               ida y vuelta  n=  1  min USD 674
   BUE  Buenos Aires             ida y vuelta  n=  1  min USD 76
   GYE  Guayaquil                ida y vuelta  n=  1  min USD 779
-  PAR  París                    ida y vuelta  n=  1  min USD 1,583
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,598
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 1,158
   MIL  Milán                    ida y vuelta  n=  1  min USD 1,240
   IST  Estambul                 ida y vuelta  n=  1  min USD 1,579
   FLN  Florianópolis            ida y vuelta  n=  1  min USD 464
   BUE  Buenos Aires             solo ida      n= 17  min USD 30
-  SCL  Santiago de Chile        solo ida      n=  3  min USD 146
+  SCL  Santiago de Chile        solo ida      n=  4  min USD 146
   HAV  La Habana                solo ida      n=  1  min USD 530
-  FTE  El Calafate              solo ida      n=  1  min USD 164
+  BRC  Bariloche                solo ida      n=  1  min USD 103
+  FTE  El Calafate              solo ida      n=  1  min USD 110
   SAO  São Paulo                solo ida      n=  1  min USD 254
   MAD  Ciudad de Madrid         solo ida      n=  1  min USD 753
   IGR  Puerto Iguazú            solo ida      n=  1  min USD 85
 
-Listo: 15 requests, 0 errores — 0 precios nuevos guardados
+Rutas nuevas: COR-BRC-IDA
+
+Listo: 15 requests, 0 errores — 54 precios nuevos guardados
