@@ -1,7 +1,7 @@
 {
- "generado": "2026-10-03T05:20:37+00:00",
+ "generado": "2026-10-03T11:41:45+00:00",
  "estado": {
-  "ultima_corrida": "2026-10-03T05:20:37+00:00",
+  "ultima_corrida": "2026-10-03T11:41:45+00:00",
   "requests": 15,
   "errores": 0,
   "rutas_activas": 36,
@@ -622,14 +622,14 @@
    "fecha_retorno": "2026-11-28",
    "url": "https://www.aviasales.com/search/COR1311RIO28111?t=JA17945835001794594300000180CORGIG17958843001795897740000224GIGCOR_6630949585bbbaedca78efde8f87be35_29090&search_date=03102026&expected_price_uuid=01a0ff76-8829-8030-a409-0adbee6d06f8&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=yBaic9uJgyma-H4DpwrxCQ&expected_price_source=share&expected_price_currency=usd&expected_price=348&locale=es&currency=usd&marker=784835.panel",
    "url_web": "https://www.aviasales.com/search/COR1311RIO28111?t=JA17945835001794594300000180CORGIG17958843001795897740000224GIGCOR_6630949585bbbaedca78efde8f87be35_29090&search_date=03102026&expected_price_uuid=01a0ff76-8829-8030-a409-0adbee6d06f8&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=yBaic9uJgyma-H4DpwrxCQ&expected_price_source=share&expected_price_currency=usd&expected_price=348&locale=es&currency=usd&marker=784835.web",
-   "promedio_90d": 473.25,
+   "promedio_90d": 472.12,
    "minimo_90d": 348.0,
    "promedio_previo": 477.25,
    "registros_previos": 4,
    "descuento_pct": 27.1,
    "oferta": null,
    "url_x": "https://www.aviasales.com/search/COR1311RIO28111?t=JA17945835001794594300000180CORGIG17958843001795897740000224GIGCOR_6630949585bbbaedca78efde8f87be35_29090&search_date=03102026&expected_price_uuid=01a0ff76-8829-8030-a409-0adbee6d06f8&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=yBaic9uJgyma-H4DpwrxCQ&expected_price_source=share&expected_price_currency=usd&expected_price=348&locale=es&currency=usd&marker=784835.x",
-   "ultima_actualizacion": "2026-10-03T05:20:27+00:00",
+   "ultima_actualizacion": "2026-10-03T11:41:34+00:00",
    "texto_x": "✈️ Córdoba → Río de Janeiro\n💵 USD 348 ida y vuelta · Aerolíneas Argentinas, directo\n🗓️ 13 nov – 28 nov (15 días)\n\nhttps://www.aviasales.com/search/COR1311RIO28111?t=JA17945835001794594300000180CORGIG17958843001795897740000224GIGCOR_6630949585bbbaedca78efde8f87be35_29090&search_date=03102026&expected_price_uuid=01a0ff76-8829-8030-a409-0adbee6d06f8&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=yBaic9uJgyma-H4DpwrxCQ&expected_price_source=share&expected_price_currency=usd&expected_price=348&locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #RioDeJaneiro",
    "texto_instagram": "✈️ Córdoba → Río de Janeiro por USD 348 ida y vuelta\n\n🗓️ Salida el 13 de noviembre, regreso el 28 de noviembre (15 días)\n🛫 Aerolíneas Argentinas, directo\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #RioDeJaneiro"
   },
