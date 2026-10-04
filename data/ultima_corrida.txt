@@ -1,22 +1,22 @@
-Resultados crudos: 130 — únicos con ≤1 escala: 52
+Resultados crudos: 132 — únicos con ≤1 escala: 54
 
-  PUJ  Punta Cana               ida y vuelta  n=  6  min USD 645
-  MIA  Miami                    ida y vuelta  n=  4  min USD 629
-  RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 348
-  SCL  Santiago de Chile        ida y vuelta  n=  3  min USD 275
+  PUJ  Punta Cana               ida y vuelta  n=  6  min USD 642
+  MIA  Miami                    ida y vuelta  n=  4  min USD 627
+  RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 346
+  SCL  Santiago de Chile        ida y vuelta  n=  3  min USD 274
   MDZ  Mendoza                  ida y vuelta  n=  1  min USD 238
-  GUA  Guatemala                ida y vuelta  n=  1  min USD 504
-  HAV  La Habana                ida y vuelta  n=  1  min USD 1,107
-  NAT  Natal                    ida y vuelta  n=  1  min USD 566
-  AUA  Oranjestad               ida y vuelta  n=  1  min USD 674
-  BUE  Buenos Aires             ida y vuelta  n=  1  min USD 76
-  GYE  Guayaquil                ida y vuelta  n=  1  min USD 779
+  GUA  Guatemala                ida y vuelta  n=  1  min USD 502
+  HAV  La Habana                ida y vuelta  n=  1  min USD 1,103
+  NAT  Natal                    ida y vuelta  n=  1  min USD 564
+  AUA  Oranjestad               ida y vuelta  n=  1  min USD 671
+  BUE  Buenos Aires             ida y vuelta  n=  1  min USD 75
+  GYE  Guayaquil                ida y vuelta  n=  1  min USD 776
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,598
-  FLN  Florianópolis            ida y vuelta  n=  1  min USD 467
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 1,158
-  MAD  Ciudad de Madrid         ida y vuelta  n=  1  min USD 1,217
-  MIL  Milán                    ida y vuelta  n=  1  min USD 1,240
-  BUE  Buenos Aires             solo ida      n= 14  min USD 30
+  FLN  Florianópolis            ida y vuelta  n=  1  min USD 465
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 1,153
+  MAD  Ciudad de Madrid         ida y vuelta  n=  1  min USD 1,212
+  MIL  Milán                    ida y vuelta  n=  1  min USD 1,235
+  BUE  Buenos Aires             solo ida      n= 16  min USD 30
   SCL  Santiago de Chile        solo ida      n=  4  min USD 146
   MDZ  Mendoza                  solo ida      n=  1  min USD 46
   HAV  La Habana                solo ida      n=  1  min USD 530
@@ -25,4 +25,4 @@ Resultados crudos: 130 — únicos con ≤1 escala: 52
   SAO  São Paulo                solo ida      n=  1  min USD 254
   MAD  Ciudad de Madrid         solo ida      n=  1  min USD 753
 
-Listo: 15 requests, 0 errores — 52 precios nuevos guardados
+Listo: 15 requests, 0 errores — 2 precios nuevos guardados
