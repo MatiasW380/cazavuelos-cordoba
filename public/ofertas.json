@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-05T05:43:27+00:00",
+ "actualizado": "2026-10-05T14:43:01+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -209,10 +209,10 @@
    "destino": "Maceió",
    "region": "sudamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 586.0,
+   "precio_actual": 583.0,
    "fecha_salida": "2027-03-01",
    "fecha_retorno": "2027-03-11",
-   "aerolinea": "LATAM",
+   "aerolinea": "JetSMART",
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR0103MCZ11031?locale=es&currency=usd&marker=784835.web"

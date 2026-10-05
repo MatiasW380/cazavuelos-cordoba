@@ -1,4 +1,4 @@
-Resultados crudos: 146 — únicos con ≤1 escala: 64
+Resultados crudos: 144 — únicos con ≤1 escala: 65
 
   PUJ  Punta Cana               ida y vuelta  n=  6  min USD 645
   REC  Recife                   ida y vuelta  n=  4  min USD 617
@@ -14,13 +14,12 @@ Resultados crudos: 146 — únicos con ≤1 escala: 64
   GYE  Guayaquil                ida y vuelta  n=  1  min USD 779
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,603
   FLN  Florianópolis            ida y vuelta  n=  1  min USD 467
-  MCZ  Maceió                   ida y vuelta  n=  1  min USD 586
+  MCZ  Maceió                   ida y vuelta  n=  1  min USD 583
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 1,158
   MIL  Milán                    ida y vuelta  n=  1  min USD 1,240
-  BUE  Buenos Aires             solo ida      n= 15  min USD 34
-  SCL  Santiago de Chile        solo ida      n=  8  min USD 137
+  BUE  Buenos Aires             solo ida      n= 16  min USD 34
+  SCL  Santiago de Chile        solo ida      n=  9  min USD 137
   MDZ  Mendoza                  solo ida      n=  1  min USD 46
-  NQN  Neuquén                  solo ida      n=  1  min USD 169
   HAV  La Habana                solo ida      n=  1  min USD 530
   BRC  Bariloche                solo ida      n=  1  min USD 103
   FTE  El Calafate              solo ida      n=  1  min USD 110
@@ -29,6 +28,4 @@ Resultados crudos: 146 — únicos con ≤1 escala: 64
   AUA  Oranjestad               solo ida      n=  1  min USD 378
   MAD  Ciudad de Madrid         solo ida      n=  1  min USD 753
 
-Rutas nuevas: COR-AUA-IDA
-
-Listo: 15 requests, 0 errores — 64 precios nuevos guardados
+Listo: 15 requests, 0 errores — 2 precios nuevos guardados
