@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-06T06:23:12+00:00",
+ "actualizado": "2026-10-06T18:23:45+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -317,13 +317,13 @@
    "destino": "Madrid",
    "region": "europa",
    "tipo": "ida_vuelta",
-   "precio_actual": 989.0,
-   "fecha_salida": "2027-05-07",
-   "fecha_retorno": "2027-05-31",
+   "precio_actual": 921.0,
+   "fecha_salida": "2027-03-17",
+   "fecha_retorno": "2027-04-07",
    "aerolinea": "LATAM",
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0705MAD31051?locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR1703MAD07041?t=LA18052836001805360400001040CORSCLMAD18071382001807187640001124MADSCLCOR_a3b77841ef412b4703a30f6bd1053537_78840&search_date=06102026&expected_price_uuid=01a1113f-353e-8030-6bbe-506758ff73f3&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=hmB-9w7hudjNHOEXY4kjYw&expected_price_source=share&expected_price_currency=usd&expected_price=921&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "La Habana",
