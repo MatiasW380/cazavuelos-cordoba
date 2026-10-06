@@ -1,24 +1,25 @@
-Resultados crudos: 144 — únicos con ≤1 escala: 65
+Resultados crudos: 172 — únicos con ≤1 escala: 72
 
   PUJ  Punta Cana               ida y vuelta  n=  6  min USD 645
+  LIS  Lisboa                   ida y vuelta  n=  5  min USD 1,327
   REC  Recife                   ida y vuelta  n=  4  min USD 617
   MIA  Miami                    ida y vuelta  n=  4  min USD 629
   RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 348
   SCL  Santiago de Chile        ida y vuelta  n=  3  min USD 275
+  GUA  Guatemala                ida y vuelta  n=  2  min USD 504
+  FLN  Florianópolis            ida y vuelta  n=  2  min USD 373
   MDZ  Mendoza                  ida y vuelta  n=  1  min USD 238
-  GUA  Guatemala                ida y vuelta  n=  1  min USD 504
+  JUJ  Jujuy                    ida y vuelta  n=  1  min USD 298
   HAV  La Habana                ida y vuelta  n=  1  min USD 1,107
-  NAT  Natal                    ida y vuelta  n=  1  min USD 566
+  NAT  Natal                    ida y vuelta  n=  1  min USD 529
   AUA  Oranjestad               ida y vuelta  n=  1  min USD 674
   BUE  Buenos Aires             ida y vuelta  n=  1  min USD 76
   GYE  Guayaquil                ida y vuelta  n=  1  min USD 779
-  ROM  Roma                     ida y vuelta  n=  1  min USD 1,603
-  FLN  Florianópolis            ida y vuelta  n=  1  min USD 467
   MCZ  Maceió                   ida y vuelta  n=  1  min USD 583
+  MAD  Ciudad de Madrid         ida y vuelta  n=  1  min USD 989
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 1,158
-  MIL  Milán                    ida y vuelta  n=  1  min USD 1,240
-  BUE  Buenos Aires             solo ida      n= 16  min USD 34
-  SCL  Santiago de Chile        solo ida      n=  9  min USD 137
+  BUE  Buenos Aires             solo ida      n= 14  min USD 34
+  SCL  Santiago de Chile        solo ida      n= 11  min USD 132
   MDZ  Mendoza                  solo ida      n=  1  min USD 46
   HAV  La Habana                solo ida      n=  1  min USD 530
   BRC  Bariloche                solo ida      n=  1  min USD 103
@@ -28,4 +29,6 @@ Resultados crudos: 144 — únicos con ≤1 escala: 65
   AUA  Oranjestad               solo ida      n=  1  min USD 378
   MAD  Ciudad de Madrid         solo ida      n=  1  min USD 753
 
-Listo: 15 requests, 0 errores — 2 precios nuevos guardados
+Rutas nuevas: COR-JUJ
+
+Listo: 15 requests, 0 errores — 72 precios nuevos guardados
