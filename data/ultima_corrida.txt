@@ -1,33 +1,34 @@
-Resultados crudos: 168 — únicos con ≤1 escala: 76
+Resultados crudos: 169 — únicos con ≤1 escala: 74
 
-  PUJ  Punta Cana               ida y vuelta  n=  6  min USD 645
+  PUJ  Punta Cana               ida y vuelta  n=  6  min USD 644
   LIS  Lisboa                   ida y vuelta  n=  5  min USD 1,327
   REC  Recife                   ida y vuelta  n=  4  min USD 617
-  MIA  Miami                    ida y vuelta  n=  4  min USD 629
   RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 368
   SCL  Santiago de Chile        ida y vuelta  n=  3  min USD 275
+  MIA  Miami                    ida y vuelta  n=  3  min USD 629
   GUA  Guatemala                ida y vuelta  n=  2  min USD 504
   FLN  Florianópolis            ida y vuelta  n=  2  min USD 373
+  MAD  Ciudad de Madrid         ida y vuelta  n=  2  min USD 920
   MDZ  Mendoza                  ida y vuelta  n=  1  min USD 238
   JUJ  Jujuy                    ida y vuelta  n=  1  min USD 298
-  HAV  La Habana                ida y vuelta  n=  1  min USD 1,107
+  HAV  La Habana                ida y vuelta  n=  1  min USD 1,106
   NAT  Natal                    ida y vuelta  n=  1  min USD 529
-  AUA  Oranjestad               ida y vuelta  n=  1  min USD 674
-  BUE  Buenos Aires             ida y vuelta  n=  1  min USD 76
+  AUA  Oranjestad               ida y vuelta  n=  1  min USD 673
+  BUE  Buenos Aires             ida y vuelta  n=  1  min USD 75
   MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 310
-  GYE  Guayaquil                ida y vuelta  n=  1  min USD 779
-  MAD  Ciudad de Madrid         ida y vuelta  n=  1  min USD 921
+  GYE  Guayaquil                ida y vuelta  n=  1  min USD 778
   MCZ  Maceió                   ida y vuelta  n=  1  min USD 583
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 1,158
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 1,157
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,456
-  BUE  Buenos Aires             solo ida      n= 18  min USD 34
+  BUE  Buenos Aires             solo ida      n= 15  min USD 37
   SCL  Santiago de Chile        solo ida      n= 10  min USD 132
   MDZ  Mendoza                  solo ida      n=  1  min USD 133
   HAV  La Habana                solo ida      n=  1  min USD 530
   BRC  Bariloche                solo ida      n=  1  min USD 103
   FTE  El Calafate              solo ida      n=  1  min USD 110
   SAO  São Paulo                solo ida      n=  1  min USD 256
+  MAD  Ciudad de Madrid         solo ida      n=  1  min USD 394
   CRD  Comodoro Rivadavia       solo ida      n=  1  min USD 87
   AUA  Oranjestad               solo ida      n=  1  min USD 378
 
-Listo: 15 requests, 0 errores — 4 precios nuevos guardados
+Listo: 15 requests, 0 errores — 74 precios nuevos guardados
