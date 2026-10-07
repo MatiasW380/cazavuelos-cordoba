@@ -1,13 +1,13 @@
-Resultados crudos: 163 — únicos con ≤1 escala: 75
+Resultados crudos: 168 — únicos con ≤1 escala: 80
 
-  LIS  Lisboa                   ida y vuelta  n=  5  min USD 1,327
+  LIS  Lisboa                   ida y vuelta  n=  6  min USD 1,327
   REC  Recife                   ida y vuelta  n=  4  min USD 617
   RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 368
   SCL  Santiago de Chile        ida y vuelta  n=  3  min USD 275
   MIA  Miami                    ida y vuelta  n=  3  min USD 629
   GUA  Guatemala                ida y vuelta  n=  2  min USD 504
   PUJ  Punta Cana               ida y vuelta  n=  2  min USD 645
-  FLN  Florianópolis            ida y vuelta  n=  2  min USD 373
+  FLN  Florianópolis            ida y vuelta  n=  2  min USD 378
   MAD  Ciudad de Madrid         ida y vuelta  n=  2  min USD 921
   MDZ  Mendoza                  ida y vuelta  n=  1  min USD 238
   JUJ  Jujuy                    ida y vuelta  n=  1  min USD 298
@@ -18,19 +18,19 @@ Resultados crudos: 163 — únicos con ≤1 escala: 75
   MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 310
   MCZ  Maceió                   ida y vuelta  n=  1  min USD 583
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 1,158
+  BCN  Barcelona                ida y vuelta  n=  1  min USD 1,427
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,456
   BUE  Buenos Aires             solo ida      n= 18  min USD 19
-  SCL  Santiago de Chile        solo ida      n= 10  min USD 132
+  SCL  Santiago de Chile        solo ida      n= 11  min USD 132
   RIO  Río de Janeiro           solo ida      n=  3  min USD 216
-  TUC  TUC                      solo ida      n=  1  min USD 102
+  MAD  Ciudad de Madrid         solo ida      n=  2  min USD 1,227
+  MDZ  Mendoza                  solo ida      n=  1  min USD 117
   HAV  La Habana                solo ida      n=  1  min USD 530
   BRC  Bariloche                solo ida      n=  1  min USD 103
   FTE  El Calafate              solo ida      n=  1  min USD 110
   SAO  São Paulo                solo ida      n=  1  min USD 256
   CRD  Comodoro Rivadavia       solo ida      n=  1  min USD 87
   AUA  Oranjestad               solo ida      n=  1  min USD 378
-  MAD  Ciudad de Madrid         solo ida      n=  1  min USD 1,227
+  IGR  Puerto Iguazú            solo ida      n=  1  min USD 60
 
-Rutas nuevas: COR-GDL, COR-TUC-IDA, COR-GIG-IDA
-
-Listo: 15 requests, 0 errores — 10 precios nuevos guardados
+Listo: 15 requests, 0 errores — 6 precios nuevos guardados
