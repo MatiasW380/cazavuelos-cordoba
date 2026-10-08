@@ -1,4 +1,4 @@
-Resultados crudos: 170 — únicos con ≤1 escala: 79
+Resultados crudos: 168 — únicos con ≤1 escala: 79
 
   LIS  Lisboa                   ida y vuelta  n=  6  min USD 1,327
   REC  Recife                   ida y vuelta  n=  4  min USD 617
@@ -6,7 +6,7 @@ Resultados crudos: 170 — únicos con ≤1 escala: 79
   SCL  Santiago de Chile        ida y vuelta  n=  3  min USD 275
   MIA  Miami                    ida y vuelta  n=  3  min USD 629
   GUA  Guatemala                ida y vuelta  n=  2  min USD 504
-  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 645
+  ROM  Roma                     ida y vuelta  n=  2  min USD 1,456
   FLN  Florianópolis            ida y vuelta  n=  2  min USD 378
   MAD  Ciudad de Madrid         ida y vuelta  n=  2  min USD 921
   MDZ  Mendoza                  ida y vuelta  n=  1  min USD 238
@@ -19,12 +19,11 @@ Resultados crudos: 170 — únicos con ≤1 escala: 79
   MCZ  Maceió                   ida y vuelta  n=  1  min USD 583
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 1,158
   BCN  Barcelona                ida y vuelta  n=  1  min USD 1,427
-  ROM  Roma                     ida y vuelta  n=  1  min USD 1,456
-  BUE  Buenos Aires             solo ida      n= 16  min USD 19
+  BUE  Buenos Aires             solo ida      n= 18  min USD 19
   SCL  Santiago de Chile        solo ida      n= 11  min USD 127
   RIO  Río de Janeiro           solo ida      n=  3  min USD 216
-  MDZ  Mendoza                  solo ida      n=  2  min USD 83
   MAD  Ciudad de Madrid         solo ida      n=  2  min USD 1,227
+  MDZ  Mendoza                  solo ida      n=  1  min USD 83
   HAV  La Habana                solo ida      n=  1  min USD 530
   BRC  Bariloche                solo ida      n=  1  min USD 103
   FTE  El Calafate              solo ida      n=  1  min USD 107
@@ -33,4 +32,4 @@ Resultados crudos: 170 — únicos con ≤1 escala: 79
   AUA  Oranjestad               solo ida      n=  1  min USD 378
   IGR  Puerto Iguazú            solo ida      n=  1  min USD 60
 
-Listo: 15 requests, 0 errores — 79 precios nuevos guardados
+Listo: 15 requests, 0 errores — 3 precios nuevos guardados
