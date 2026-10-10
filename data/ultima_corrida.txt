@@ -1,10 +1,10 @@
-Resultados crudos: 156 — únicos con ≤1 escala: 75
+Resultados crudos: 159 — únicos con ≤1 escala: 75
 
   LIS  Lisboa                   ida y vuelta  n=  6  min USD 1,327
   REC  Recife                   ida y vuelta  n=  4  min USD 617
   BUE  Buenos Aires             ida y vuelta  n=  3  min USD 53
   MAD  Ciudad de Madrid         ida y vuelta  n=  3  min USD 921
-  GUA  Guatemala                ida y vuelta  n=  2  min USD 474
+  GUA  Guatemala                ida y vuelta  n=  2  min USD 575
   RIO  Río de Janeiro           ida y vuelta  n=  2  min USD 368
   MDQ  Mar del Plata            ida y vuelta  n=  2  min USD 227
   ROM  Roma                     ida y vuelta  n=  2  min USD 1,456
@@ -14,7 +14,7 @@ Resultados crudos: 156 — únicos con ≤1 escala: 75
   HAV  La Habana                ida y vuelta  n=  1  min USD 1,107
   CUN  Cancún                   ida y vuelta  n=  1  min USD 727
   MIA  Miami                    ida y vuelta  n=  1  min USD 629
-  AUA  Oranjestad               ida y vuelta  n=  1  min USD 691
+  AUA  Oranjestad               ida y vuelta  n=  1  min USD 711
   MCZ  Maceió                   ida y vuelta  n=  1  min USD 583
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 1,158
   BCN  Barcelona                ida y vuelta  n=  1  min USD 1,427
@@ -31,6 +31,4 @@ Resultados crudos: 156 — únicos con ≤1 escala: 75
   AUA  Oranjestad               solo ida      n=  1  min USD 378
   IGR  Puerto Iguazú            solo ida      n=  1  min USD 60
 
-Rutas nuevas: COR-JUJ-IDA
-
-Listo: 15 requests, 0 errores — 75 precios nuevos guardados
+Listo: 15 requests, 0 errores — 0 precios nuevos guardados
