@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-11T05:49:29+00:00",
+ "actualizado": "2026-10-11T12:52:54+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -254,6 +254,18 @@
    "url": "https://www.aviasales.com/search/COR0403AUA14031?t=CM18041247001804156200000585CORPTYAUA18050262001805071260000691AUAPTYCOR_bd83592a6e3b25eaf8f9ae3ce59279a1_60572&search_date=10102026&expected_price_uuid=01a124d1-fb41-8040-a8ff-f2647d23a51a&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=5KvBYEEFgrCIOLkMMcYLcg&expected_price_source=share&expected_price_currency=usd&expected_price=711&locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Punta Cana",
+   "region": "caribe",
+   "tipo": "ida_vuelta",
+   "precio_actual": 711.0,
+   "fecha_salida": "2027-03-03",
+   "fecha_retorno": "2027-03-10",
+   "aerolinea": "Avianca",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR0303PUJ10031?t=AV18040596001804092900000615CORBOGPUJ18046827001804746000000995PUJBOGCOR_30934757558ea1ef0725d30d587d9705_60581&search_date=11102026&expected_price_uuid=01a12a6e-d170-8030-aa1e-e48289ce32ce&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Vb6rG7JZkJbHZHHGXIdCEA&expected_price_source=share&expected_price_currency=usd&expected_price=711&locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Cancún",
    "region": "caribe",
    "tipo": "ida_vuelta",
@@ -264,6 +276,18 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR2211CUN28111?t=DM17953182001795355220000737CORPUJCUN17958693001795919400000715CUNPUJCOR_17c15a547ce713a4ee37034982a685e1_61834&search_date=08102026&expected_price_uuid=01a11c53-9fd4-8040-694e-538ffbe16a91&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=lpxu5Q-tfW5XOUHv4kh6xw&expected_price_source=share&expected_price_currency=usd&expected_price=727&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Santo Domingo",
+   "region": "caribe",
+   "tipo": "ida_vuelta",
+   "precio_actual": 736.0,
+   "fecha_salida": "2027-03-01",
+   "fecha_retorno": "2027-03-08",
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR0103SDQ08031?t=DM18039378001803991380000953CORAEPEZESDQ18045337801804609200001197SDQEZEAEPCOR_23e10e8a7bded0fdbe63170257d77aea_62663&search_date=11102026&expected_price_uuid=01a12a6e-c828-8030-aaab-23887b66af32&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=QGYbHEr0_VmtR7z-EFiBlw&expected_price_source=share&expected_price_currency=usd&expected_price=736&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Guadalajara",
