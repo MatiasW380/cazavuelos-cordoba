@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-11T12:52:54+00:00",
+ "actualizado": "2026-10-11T21:59:37+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -206,6 +206,30 @@
    "url": "https://www.aviasales.com/search/COR2701AUA1?t=CM18010153801801087380001260CORPTYAUA_f4f3595022176f73d493efbb6fa277cc_31504&search_date=04102026&expected_price_uuid=01a10959-edfd-8030-2d3d-fbf0c7eccaef&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=IecKTQeYRju8MD5jC1tLXQ&expected_price_source=share&expected_price_currency=usd&expected_price=378&locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "San Pablo",
+   "region": "sudamerica",
+   "tipo": "ida_vuelta",
+   "precio_actual": 473.0,
+   "fecha_salida": "2026-12-27",
+   "fecha_retorno": "2027-01-05",
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2712SAO05011?t=AR17984082001798449000000680CORAEPGRU17991702001799226900000945GRUAEPCOR_70c233399f2e0790ec02a4ac0d13026d_40239&search_date=11102026&expected_price_uuid=01a12b78-bd52-8040-a778-d478747303d0&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=2-ZitXaje-WwfhQkmURI8w&expected_price_source=share&expected_price_currency=usd&expected_price=473&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Recife",
+   "region": "sudamerica",
+   "tipo": "ida_vuelta",
+   "precio_actual": 566.0,
+   "fecha_salida": "2027-02-07",
+   "fecha_retorno": "2027-02-16",
+   "aerolinea": "JetSMART",
+   "escalas": 1,
+   "oferta": "minimo",
+   "url": "https://www.aviasales.com/search/COR0702REC16021?locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Guatemala",
    "region": "centroamerica",
    "tipo": "ida_vuelta",
@@ -228,18 +252,6 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR0103MCZ11031?locale=es&currency=usd&marker=784835.web"
-  },
-  {
-   "destino": "Recife",
-   "region": "sudamerica",
-   "tipo": "ida_vuelta",
-   "precio_actual": 617.0,
-   "fecha_salida": "2026-12-24",
-   "fecha_retorno": "2027-01-02",
-   "aerolinea": "Aerolíneas Argentinas",
-   "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR2412REC02011?t=G317981310001798193100001035CORAEPREC17989137001798934700000350RECCOR_9ee39d10e45b655e50414fe249b4832c_51381&search_date=04102026&expected_price_uuid=01a10874-c4b1-8040-2057-2023d604059e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=q8VXPzou-frDqL2eIGso7g&expected_price_source=share&expected_price_currency=usd&expected_price=617&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Aruba",
