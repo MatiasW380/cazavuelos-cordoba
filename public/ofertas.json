@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-13T14:14:18+00:00",
+ "actualizado": "2026-10-13T22:46:54+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -108,6 +108,18 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR1111LIM1?t=JA17944377001794473700000720CORAEPLIM_34a1a7a6781d976d262f675f42574138_16131&search_date=08102026&expected_price_uuid=01a11bb9-d385-8040-a3d8-597bde6b4e07&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=-35gTeJEM_NpWFmbtsymLA&expected_price_source=share&expected_price_currency=usd&expected_price=189&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Iguazú",
+   "region": "argentina",
+   "tipo": "ida_vuelta",
+   "precio_actual": 205.0,
+   "fecha_salida": "2026-10-29",
+   "fecha_retorno": "2026-10-31",
+   "aerolinea": null,
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2910IGR31101?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Río de Janeiro",
@@ -300,6 +312,18 @@
    "escalas": 1,
    "oferta": "minimo",
    "url": "https://www.aviasales.com/search/COR1703MAD07041?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "La Habana",
+   "region": "caribe",
+   "tipo": "ida_vuelta",
+   "precio_actual": 1160.0,
+   "fecha_salida": "2026-12-25",
+   "fecha_retorno": "2027-01-03",
+   "aerolinea": null,
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2512HAV03011?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Barcelona",
