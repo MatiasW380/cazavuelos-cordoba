@@ -1,29 +1,28 @@
-Resultados crudos: 156 — únicos con ≤1 escala: 63
+Resultados crudos: 135 — únicos con ≤1 escala: 58
 
-  LIS  Lisboa                   ida y vuelta  n=  6  min USD 1,327
   BUE  Buenos Aires             ida y vuelta  n=  3  min USD 52
-  MAD  Ciudad de Madrid         ida y vuelta  n=  3  min USD 908
+  FLN  Florianópolis            ida y vuelta  n=  3  min USD 277
+  MAD  Ciudad de Madrid         ida y vuelta  n=  3  min USD 907
   GUA  Guatemala                ida y vuelta  n=  2  min USD 567
   AUA  Oranjestad               ida y vuelta  n=  2  min USD 669
-  MDQ  Mar del Plata            ida y vuelta  n=  2  min USD 220
-  FLN  Florianópolis            ida y vuelta  n=  2  min USD 373
+  MDQ  Mar del Plata            ida y vuelta  n=  2  min USD 219
   PUJ  Punta Cana               ida y vuelta  n=  2  min USD 711
   SDQ  Santo Domingo            ida y vuelta  n=  2  min USD 725
   GDL  Guadalajara              ida y vuelta  n=  1  min USD 894
   RIO  Río de Janeiro           ida y vuelta  n=  1  min USD 363
-  CUN  Cancún                   ida y vuelta  n=  1  min USD 717
+  CUN  Cancún                   ida y vuelta  n=  1  min USD 716
   SAO  São Paulo                ida y vuelta  n=  1  min USD 466
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 2,287
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 2,286
   BCN  Barcelona                ida y vuelta  n=  1  min USD 1,427
   BUE  Buenos Aires             solo ida      n= 12  min USD 19
-  SCL  Santiago de Chile        solo ida      n=  5  min USD 127
+  FTE  El Calafate              solo ida      n=  4  min USD 91
   SAO  São Paulo                solo ida      n=  4  min USD 219
-  FTE  El Calafate              solo ida      n=  3  min USD 91
+  SCL  Santiago de Chile        solo ida      n=  3  min USD 127
   RIO  Río de Janeiro           solo ida      n=  3  min USD 216
+  LIM  Lima                     solo ida      n=  2  min USD 189
   SLA  Salta                    solo ida      n=  2  min USD 79
   EQS  Esquel                   solo ida      n=  1  min USD 188
-  LIM  Lima                     solo ida      n=  1  min USD 189
   REC  Recife                   solo ida      n=  1  min USD 355
   IGR  Puerto Iguazú            solo ida      n=  1  min USD 60
 
-Listo: 15 requests, 0 errores — 2 precios nuevos guardados
+Listo: 15 requests, 0 errores — 58 precios nuevos guardados
