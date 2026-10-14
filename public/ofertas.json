@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14T11:55:21+00:00",
+ "actualizado": "2026-10-14T17:12:36+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -53,13 +53,13 @@
    "destino": "Bariloche",
    "region": "argentina",
    "tipo": "solo_ida",
-   "precio_actual": 105.0,
-   "fecha_salida": "2026-11-25",
+   "precio_actual": 97.0,
+   "fecha_salida": "2026-11-24",
    "fecha_retorno": null,
    "aerolinea": "JetSMART",
    "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR2511BRC1?t=JA17956084801795648860000673CORAEPBRC_66e5a2a72622c95dfd9693026a8db09e_8796&search_date=13102026&expected_price_uuid=01a134f2-4126-8040-aacd-b3080750d2ec&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ItKLqUOcOmzDP6MWrFH8yg&expected_price_source=share&expected_price_currency=usd&expected_price=105&locale=es&currency=usd&marker=784835.web"
+   "oferta": "minimo",
+   "url": "https://www.aviasales.com/search/COR2411BRC1?t=JA17955576001795641360001396CORAEPBRC_5b1b4be61f840da2d3b3e35adf2c0ad3_8124&search_date=14102026&expected_price_uuid=01a13b64-505e-8040-6409-835bd6be9d1b&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=oPLO0J8-Bau_qnOiD66Glw&expected_price_source=share&expected_price_currency=usd&expected_price=97&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Santiago de Chile",
