@@ -1,4 +1,4 @@
-Resultados crudos: 156 — únicos con ≤1 escala: 75
+Resultados crudos: 150 — únicos con ≤1 escala: 74
 
   FLN  Florianópolis            ida y vuelta  n=  3  min USD 280
   RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 439
@@ -11,7 +11,6 @@ Resultados crudos: 156 — únicos con ≤1 escala: 75
   IGR  Puerto Iguazú            ida y vuelta  n=  1  min USD 206
   MDZ  Mendoza                  ida y vuelta  n=  1  min USD 251
   NAT  Natal                    ida y vuelta  n=  1  min USD 685
-  CUN  Cancún                   ida y vuelta  n=  1  min USD 723
   SAO  São Paulo                ida y vuelta  n=  1  min USD 470
   MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 222
   USH  Ushuaia                  ida y vuelta  n=  1  min USD 250
@@ -19,8 +18,8 @@ Resultados crudos: 156 — únicos con ≤1 escala: 75
   HAV  La Habana                ida y vuelta  n=  1  min USD 1,166
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 2,307
   BCN  Barcelona                ida y vuelta  n=  1  min USD 1,623
-  BRC  Bariloche                solo ida      n= 14  min USD 76
-  BUE  Buenos Aires             solo ida      n= 12  min USD 20
+  BUE  Buenos Aires             solo ida      n= 13  min USD 20
+  BRC  Bariloche                solo ida      n= 13  min USD 76
   RIO  Río de Janeiro           solo ida      n=  5  min USD 216
   SAO  São Paulo                solo ida      n=  4  min USD 219
   FTE  El Calafate              solo ida      n=  3  min USD 128
@@ -30,4 +29,4 @@ Resultados crudos: 156 — únicos con ≤1 escala: 75
   IGR  Puerto Iguazú            solo ida      n=  1  min USD 102
   REC  Recife                   solo ida      n=  1  min USD 355
 
-Listo: 15 requests, 0 errores — 0 precios nuevos guardados
+Listo: 15 requests, 0 errores — 1 precios nuevos guardados
