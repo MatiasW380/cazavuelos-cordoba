@@ -1,4 +1,4 @@
-Resultados crudos: 149 — únicos con ≤1 escala: 74
+Resultados crudos: 155 — únicos con ≤1 escala: 77
 
   FLN  Florianópolis            ida y vuelta  n=  3  min USD 279
   RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 437
@@ -21,13 +21,14 @@ Resultados crudos: 149 — únicos con ≤1 escala: 74
   BCN  Barcelona                ida y vuelta  n=  1  min USD 1,623
   BRC  Bariloche                solo ida      n= 14  min USD 76
   BUE  Buenos Aires             solo ida      n= 13  min USD 19
-  RIO  Río de Janeiro           solo ida      n=  4  min USD 216
+  RIO  Río de Janeiro           solo ida      n=  5  min USD 216
   SAO  São Paulo                solo ida      n=  4  min USD 219
   FTE  El Calafate              solo ida      n=  3  min USD 128
   SCL  Santiago de Chile        solo ida      n=  2  min USD 127
   SLA  Salta                    solo ida      n=  2  min USD 79
+  MAD  Ciudad de Madrid         solo ida      n=  2  min USD 762
   IGR  Puerto Iguazú            solo ida      n=  1  min USD 102
   LIM  Lima                     solo ida      n=  1  min USD 189
   REC  Recife                   solo ida      n=  1  min USD 355
 
-Listo: 15 requests, 0 errores — 74 precios nuevos guardados
+Listo: 15 requests, 0 errores — 3 precios nuevos guardados
