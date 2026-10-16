@@ -1,12 +1,12 @@
 {
- "generado": "2026-10-16T11:26:53+00:00",
+ "generado": "2026-10-16T16:41:09+00:00",
  "estado": {
-  "ultima_corrida": "2026-10-16T11:26:53+00:00",
+  "ultima_corrida": "2026-10-16T16:41:08+00:00",
   "requests": 15,
   "errores": 0,
   "rutas_activas": 57,
   "rutas_con_datos": 50,
-  "precios_en_historial": 1116
+  "precios_en_historial": 1119
  },
  "rutas": [
   {
@@ -837,14 +837,14 @@
    "fecha_retorno": "2027-01-01",
    "url": "https://www.aviasales.com/search/COR2412RIO01011?locale=es&currency=usd&marker=784835.panel",
    "url_web": "https://www.aviasales.com/search/COR2412RIO01011?locale=es&currency=usd&marker=784835.web",
-   "promedio_90d": 471.32,
+   "promedio_90d": 471.23,
    "minimo_90d": 346.0,
    "promedio_previo": 469.66,
    "registros_previos": 41,
    "descuento_pct": 6.3,
    "oferta": null,
    "url_x": "https://www.aviasales.com/search/COR2412RIO01011?locale=es&currency=usd&marker=784835.x",
-   "ultima_actualizacion": "2026-10-16T11:26:42+00:00",
+   "ultima_actualizacion": "2026-10-16T16:40:59+00:00",
    "texto_x": "✈️ Córdoba → Río de Janeiro\n💵 USD 440 ida y vuelta · directo\n🗓️ 24 dic – 1 ene (8 días)\n\nhttps://www.aviasales.com/search/COR2412RIO01011?locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #RioDeJaneiro",
    "texto_instagram": "✈️ Córdoba → Río de Janeiro por USD 440 ida y vuelta\n\n🗓️ Salida el 24 de diciembre, regreso el 1 de enero (8 días)\n🛫 Directo\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #RioDeJaneiro"
   },
@@ -975,7 +975,7 @@
    "region": "argentina",
    "tipo": "solo_ida",
    "activa": true,
-   "registros_90d": 30,
+   "registros_90d": 33,
    "precio_actual": 128.0,
    "aerolinea": "Aerolíneas Argentinas",
    "escalas": 1,
@@ -983,14 +983,14 @@
    "fecha_retorno": null,
    "url": "https://www.aviasales.com/search/COR2611FTE1?t=AR17957271001795768200000685CORAEPEZEFTE_ef236892754e77c4c35bbe9a21496779_10739&search_date=12102026&expected_price_uuid=01a131ce-7ebb-8031-28ea-099cc82714d3&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=_I3VqjE5sSM_Fb1H20w3iA&expected_price_source=share&expected_price_currency=usd&expected_price=128&locale=es&currency=usd&marker=784835.panel",
    "url_web": "https://www.aviasales.com/search/COR2611FTE1?t=AR17957271001795768200000685CORAEPEZEFTE_ef236892754e77c4c35bbe9a21496779_10739&search_date=12102026&expected_price_uuid=01a131ce-7ebb-8031-28ea-099cc82714d3&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=_I3VqjE5sSM_Fb1H20w3iA&expected_price_source=share&expected_price_currency=usd&expected_price=128&locale=es&currency=usd&marker=784835.web",
-   "promedio_90d": 130.0,
+   "promedio_90d": 138.06,
    "minimo_90d": 91.0,
    "promedio_previo": 127.96,
    "registros_previos": 27,
    "descuento_pct": -0.0,
    "oferta": null,
    "url_x": "https://www.aviasales.com/search/COR2611FTE1?t=AR17957271001795768200000685CORAEPEZEFTE_ef236892754e77c4c35bbe9a21496779_10739&search_date=12102026&expected_price_uuid=01a131ce-7ebb-8031-28ea-099cc82714d3&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=_I3VqjE5sSM_Fb1H20w3iA&expected_price_source=share&expected_price_currency=usd&expected_price=128&locale=es&currency=usd&marker=784835.x",
-   "ultima_actualizacion": "2026-10-16T04:34:08+00:00",
+   "ultima_actualizacion": "2026-10-16T16:40:59+00:00",
    "texto_x": "✈️ Córdoba → El Calafate\n💵 USD 128 solo ida · Aerolíneas Argentinas, 1 escala\n🗓️ Salida 26 nov\n\nhttps://www.aviasales.com/search/COR2611FTE1?t=AR17957271001795768200000685CORAEPEZEFTE_ef236892754e77c4c35bbe9a21496779_10739&search_date=12102026&expected_price_uuid=01a131ce-7ebb-8031-28ea-099cc82714d3&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=_I3VqjE5sSM_Fb1H20w3iA&expected_price_source=share&expected_price_currency=usd&expected_price=128&locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #ElCalafate",
    "texto_instagram": "✈️ Córdoba → El Calafate por USD 128 solo ida\n\n🗓️ Salida el 26 de noviembre\n🛫 Aerolíneas Argentinas, 1 escala\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #ElCalafate"
   },
