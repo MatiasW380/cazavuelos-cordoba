@@ -1,7 +1,7 @@
 {
- "generado": "2026-10-17T04:29:21+00:00",
+ "generado": "2026-10-17T10:46:25+00:00",
  "estado": {
-  "ultima_corrida": "2026-10-17T04:29:21+00:00",
+  "ultima_corrida": "2026-10-17T10:46:25+00:00",
   "requests": 15,
   "errores": 0,
   "rutas_activas": 59,
@@ -23,14 +23,14 @@
    "fecha_retorno": "2027-03-04",
    "url": "https://www.aviasales.com/search/COR0303BUE04031?locale=es&currency=usd&marker=784835.panel",
    "url_web": "https://www.aviasales.com/search/COR0303BUE04031?locale=es&currency=usd&marker=784835.web",
-   "promedio_90d": 84.46,
+   "promedio_90d": 84.43,
    "minimo_90d": 52.0,
    "promedio_previo": 85.46,
    "registros_previos": 26,
    "descuento_pct": 39.2,
    "oferta": "normal",
    "url_x": "https://www.aviasales.com/search/COR0303BUE04031?locale=es&currency=usd&marker=784835.x",
-   "ultima_actualizacion": "2026-10-17T04:29:10+00:00",
+   "ultima_actualizacion": "2026-10-17T10:46:15+00:00",
    "texto_x": "🔥 OFERTA desde Córdoba\n✈️ Córdoba → Buenos Aires\n💵 USD 52 ida y vuelta · directo\n🗓️ 3 mar – 4 mar (1 día)\n📉 39% menos que el promedio (USD 85)\n\nhttps://www.aviasales.com/search/COR0303BUE04031?locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #BuenosAires",
    "texto_instagram": "🔥 ¡Oferta! Córdoba → Buenos Aires por USD 52 ida y vuelta\n\n🗓️ Salida el 3 de marzo, regreso el 4 de marzo (1 día)\n🛫 Directo\n📉 39% menos que el precio promedio de esta ruta (USD 85)\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #BuenosAires"
   },

@@ -1,14 +1,14 @@
-Resultados crudos: 153 — únicos con ≤1 escala: 77
+Resultados crudos: 148 — únicos con ≤1 escala: 74
 
   PUJ  Punta Cana               ida y vuelta  n=  3  min USD 687
   RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 435
   GUA  Guatemala                ida y vuelta  n=  2  min USD 567
-  AUA  Oranjestad               ida y vuelta  n=  2  min USD 669
-  BUE  Buenos Aires             ida y vuelta  n=  2  min USD 52
   MDZ  Mendoza                  ida y vuelta  n=  2  min USD 146
   FLN  Florianópolis            ida y vuelta  n=  2  min USD 277
   SDQ  Santo Domingo            ida y vuelta  n=  2  min USD 725
   IGR  Puerto Iguazú            ida y vuelta  n=  1  min USD 204
+  AUA  Oranjestad               ida y vuelta  n=  1  min USD 669
+  BUE  Buenos Aires             ida y vuelta  n=  1  min USD 90
   CRD  Comodoro Rivadavia       ida y vuelta  n=  1  min USD 283
   NAT  Natal                    ida y vuelta  n=  1  min USD 678
   SAO  São Paulo                ida y vuelta  n=  1  min USD 466
@@ -24,7 +24,7 @@ Resultados crudos: 153 — únicos con ≤1 escala: 77
   FTE  El Calafate              solo ida      n=  6  min USD 128
   RIO  Río de Janeiro           solo ida      n=  5  min USD 216
   LIM  Lima                     solo ida      n=  3  min USD 37
-  SAO  São Paulo                solo ida      n=  3  min USD 219
+  SAO  São Paulo                solo ida      n=  2  min USD 219
   SCL  Santiago de Chile        solo ida      n=  2  min USD 127
   MAD  Ciudad de Madrid         solo ida      n=  2  min USD 762
   IGR  Puerto Iguazú            solo ida      n=  1  min USD 102
@@ -32,6 +32,4 @@ Resultados crudos: 153 — únicos con ≤1 escala: 77
   SLA  Salta                    solo ida      n=  1  min USD 92
   REC  Recife                   solo ida      n=  1  min USD 355
 
-Rutas nuevas: COR-CRD, COR-REL-IDA
-
-Listo: 15 requests, 0 errores — 77 precios nuevos guardados
+Listo: 15 requests, 0 errores — 0 precios nuevos guardados
