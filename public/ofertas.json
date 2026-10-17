@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T10:46:25+00:00",
+ "actualizado": "2026-10-17T15:37:18+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -218,6 +218,18 @@
    "url": "https://www.aviasales.com/search/COR1102REC1?t=LA18023472001802400900000895CORGRUREC_a13d68bb6a4d9cf6bb34119db5c750a5_30258&search_date=10102026&expected_price_uuid=01a12632-3b04-8040-a5c5-062b0cc6ccc2&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=UXquuHMXULcuCsVBZtBBXA&expected_price_source=share&expected_price_currency=usd&expected_price=355&locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Santiago de Chile",
+   "region": "sudamerica",
+   "tipo": "ida_vuelta",
+   "precio_actual": 400.0,
+   "fecha_salida": "2026-10-26",
+   "fecha_retorno": "2026-10-27",
+   "aerolinea": null,
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2610SCL27101?locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Río de Janeiro",
    "region": "sudamerica",
    "tipo": "ida_vuelta",
@@ -254,16 +266,40 @@
    "url": "https://www.aviasales.com/search/COR2110GUA29101?locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Asunción",
+   "region": "sudamerica",
+   "tipo": "ida_vuelta",
+   "precio_actual": 567.0,
+   "fecha_salida": "2026-10-26",
+   "fecha_retorno": "2026-10-27",
+   "aerolinea": null,
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2610ASU27101?locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Recife",
    "region": "sudamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 597.0,
+   "precio_actual": 588.0,
    "fecha_salida": "2027-03-17",
    "fecha_retorno": "2027-03-24",
-   "aerolinea": "LATAM",
+   "aerolinea": null,
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR1703REC24031?t=LA18052848001805328300000725CORGRUREC18058566001805886600000500RECGRUCOR_9d98f8104f82513b7999a115e5806fd1_49568&search_date=16102026&expected_price_uuid=01a145cd-97d3-8040-2236-c46a09b84e0f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=vhaPIxJZ1aCcFAuhPu0BxQ&expected_price_source=share&expected_price_currency=usd&expected_price=597&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR1703REC24031?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Natal",
+   "region": "sudamerica",
+   "tipo": "ida_vuelta",
+   "precio_actual": 625.0,
+   "fecha_salida": "2026-11-02",
+   "fecha_retorno": "2026-11-06",
+   "aerolinea": null,
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR0211NAT06111?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Aruba",
@@ -276,18 +312,6 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR2310AUA01111?locale=es&currency=usd&marker=784835.web"
-  },
-  {
-   "destino": "Natal",
-   "region": "sudamerica",
-   "tipo": "ida_vuelta",
-   "precio_actual": 678.0,
-   "fecha_salida": "2026-11-02",
-   "fecha_retorno": "2026-11-06",
-   "aerolinea": null,
-   "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0211NAT06111?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Punta Cana",
