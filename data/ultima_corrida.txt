@@ -1,9 +1,9 @@
-Resultados crudos: 151 — únicos con ≤1 escala: 71
+Resultados crudos: 152 — únicos con ≤1 escala: 72
 
   PUJ  Punta Cana               ida y vuelta  n=  3  min USD 687
   RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 435
-  GUA  Guatemala                ida y vuelta  n=  2  min USD 567
   MDZ  Mendoza                  ida y vuelta  n=  2  min USD 146
+  ASU  Asunción                 ida y vuelta  n=  2  min USD 285
   FLN  Florianópolis            ida y vuelta  n=  2  min USD 277
   SDQ  Santo Domingo            ida y vuelta  n=  2  min USD 725
   IGR  Puerto Iguazú            ida y vuelta  n=  1  min USD 204
@@ -14,25 +14,25 @@ Resultados crudos: 151 — únicos con ≤1 escala: 71
   NAT  Natal                    ida y vuelta  n=  1  min USD 625
   SAO  São Paulo                ida y vuelta  n=  1  min USD 466
   MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 219
+  GUA  Guatemala                ida y vuelta  n=  1  min USD 659
   USH  Ushuaia                  ida y vuelta  n=  1  min USD 248
   REC  Recife                   ida y vuelta  n=  1  min USD 588
   MAD  Ciudad de Madrid         ida y vuelta  n=  1  min USD 998
-  ASU  Asunción                 ida y vuelta  n=  1  min USD 567
   MIA  Miami                    ida y vuelta  n=  1  min USD 1,019
   HAV  La Habana                ida y vuelta  n=  1  min USD 1,155
   BCN  Barcelona                ida y vuelta  n=  1  min USD 1,623
   BRC  Bariloche                solo ida      n= 12  min USD 76
   BUE  Buenos Aires             solo ida      n= 11  min USD 33
   FTE  El Calafate              solo ida      n=  6  min USD 128
+  RIO  Río de Janeiro           solo ida      n=  4  min USD 226
   LIM  Lima                     solo ida      n=  3  min USD 37
-  RIO  Río de Janeiro           solo ida      n=  3  min USD 247
   MAD  Ciudad de Madrid         solo ida      n=  2  min USD 762
   IGR  Puerto Iguazú            solo ida      n=  1  min USD 102
-  REL  Trelew                   solo ida      n=  1  min USD 135
+  PRA  Paraná                   solo ida      n=  1  min USD 128
   SAO  São Paulo                solo ida      n=  1  min USD 235
   SCL  Santiago de Chile        solo ida      n=  1  min USD 127
   SLA  Salta                    solo ida      n=  1  min USD 92
 
-Rutas nuevas: COR-ASU
+Rutas nuevas: COR-PRA-IDA
 
-Listo: 15 requests, 0 errores — 2 precios nuevos guardados
+Listo: 15 requests, 0 errores — 3 precios nuevos guardados

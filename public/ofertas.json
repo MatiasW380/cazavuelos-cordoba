@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T15:37:18+00:00",
+ "actualizado": "2026-10-17T20:38:25+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -96,6 +96,18 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR2611FTE1?t=AR17957271001795768200000685CORAEPEZEFTE_ef236892754e77c4c35bbe9a21496779_10739&search_date=12102026&expected_price_uuid=01a131ce-7ebb-8031-28ea-099cc82714d3&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=_I3VqjE5sSM_Fb1H20w3iA&expected_price_source=share&expected_price_currency=usd&expected_price=128&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Paraná",
+   "region": "argentina",
+   "tipo": "solo_ida",
+   "precio_actual": 128.0,
+   "fecha_salida": "2026-10-27",
+   "fecha_retorno": null,
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2710PRA1?t=AR17930868001793113200000440CORAEPPRA_e1dd4680a995e1958a337142d7732e85_10577&search_date=17102026&expected_price_uuid=01a14b21-3698-8030-6702-4a852a342c24&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=d5NoLBae5TP90ZX-gOONXw&expected_price_source=share&expected_price_currency=usd&expected_price=128&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Trelew",
@@ -206,6 +218,18 @@
    "url": "https://www.aviasales.com/search/COR2811CRD13121?locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Asunción",
+   "region": "sudamerica",
+   "tipo": "ida_vuelta",
+   "precio_actual": 285.0,
+   "fecha_salida": "2026-11-17",
+   "fecha_retorno": "2026-11-22",
+   "aerolinea": null,
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR1711ASU22111?locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Recife",
    "region": "sudamerica",
    "tipo": "solo_ida",
@@ -264,18 +288,6 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR2110GUA29101?locale=es&currency=usd&marker=784835.web"
-  },
-  {
-   "destino": "Asunción",
-   "region": "sudamerica",
-   "tipo": "ida_vuelta",
-   "precio_actual": 567.0,
-   "fecha_salida": "2026-10-26",
-   "fecha_retorno": "2026-10-27",
-   "aerolinea": null,
-   "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR2610ASU27101?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Recife",
