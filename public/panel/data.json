@@ -1,12 +1,12 @@
 {
- "generado": "2026-10-18T11:10:49+00:00",
+ "generado": "2026-10-18T15:53:27+00:00",
  "estado": {
-  "ultima_corrida": "2026-10-18T11:10:49+00:00",
+  "ultima_corrida": "2026-10-18T15:53:27+00:00",
   "requests": 15,
-  "errores": 2,
+  "errores": 0,
   "rutas_activas": 62,
   "rutas_con_datos": 55,
-  "precios_en_historial": 1275
+  "precios_en_historial": 1276
  },
  "rutas": [
   {
@@ -1428,24 +1428,24 @@
    "region": "sudamerica",
    "tipo": "solo_ida",
    "activa": true,
-   "registros_90d": 48,
-   "precio_actual": 226.0,
-   "aerolinea": "JetSMART",
+   "registros_90d": 49,
+   "precio_actual": 217.0,
+   "aerolinea": "GOL",
    "escalas": 0,
-   "fecha_salida": "2026-11-01",
+   "fecha_salida": "2026-11-02",
    "fecha_retorno": null,
-   "url": "https://www.aviasales.com/search/COR0111RIO1?t=JA17935228201793534400000193CORGIG_8d9492ec1c560d164200176cf5730df5_18661&search_date=17102026&expected_price_uuid=01a14aa3-ba5d-8030-2289-15e7ded8437b&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=uTVEaUXflZf5tWEuNqApeQ&expected_price_source=share&expected_price_currency=usd&expected_price=226&locale=es&currency=usd&marker=784835.panel",
-   "url_web": "https://www.aviasales.com/search/COR0111RIO1?t=JA17935228201793534400000193CORGIG_8d9492ec1c560d164200176cf5730df5_18661&search_date=17102026&expected_price_uuid=01a14aa3-ba5d-8030-2289-15e7ded8437b&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=uTVEaUXflZf5tWEuNqApeQ&expected_price_source=share&expected_price_currency=usd&expected_price=226&locale=es&currency=usd&marker=784835.web",
-   "promedio_90d": 249.35,
+   "url": "https://www.aviasales.com/search/COR0211RIO1?t=G317935875001793598900000190CORGIG_ed99184d9d47050eba05c43e9b412124_18280&search_date=18102026&expected_price_uuid=01a14f16-5c5a-8030-66a2-a2126dd1382a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=sminkSj6VbwS0VjT3gG4DA&expected_price_source=share&expected_price_currency=usd&expected_price=217&locale=es&currency=usd&marker=784835.panel",
+   "url_web": "https://www.aviasales.com/search/COR0211RIO1?t=G317935875001793598900000190CORGIG_ed99184d9d47050eba05c43e9b412124_18280&search_date=18102026&expected_price_uuid=01a14f16-5c5a-8030-66a2-a2126dd1382a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=sminkSj6VbwS0VjT3gG4DA&expected_price_source=share&expected_price_currency=usd&expected_price=217&locale=es&currency=usd&marker=784835.web",
+   "promedio_90d": 248.69,
    "minimo_90d": 216.0,
    "promedio_previo": 247.44,
    "registros_previos": 43,
-   "descuento_pct": 8.7,
+   "descuento_pct": 12.3,
    "oferta": null,
-   "url_x": "https://www.aviasales.com/search/COR0111RIO1?t=JA17935228201793534400000193CORGIG_8d9492ec1c560d164200176cf5730df5_18661&search_date=17102026&expected_price_uuid=01a14aa3-ba5d-8030-2289-15e7ded8437b&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=uTVEaUXflZf5tWEuNqApeQ&expected_price_source=share&expected_price_currency=usd&expected_price=226&locale=es&currency=usd&marker=784835.x",
-   "ultima_actualizacion": "2026-10-18T04:36:15+00:00",
-   "texto_x": "✈️ Córdoba → Río de Janeiro\n💵 USD 226 solo ida · JetSMART, directo\n🗓️ Salida 1 nov\n\nhttps://www.aviasales.com/search/COR0111RIO1?t=JA17935228201793534400000193CORGIG_8d9492ec1c560d164200176cf5730df5_18661&search_date=17102026&expected_price_uuid=01a14aa3-ba5d-8030-2289-15e7ded8437b&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=uTVEaUXflZf5tWEuNqApeQ&expected_price_source=share&expected_price_currency=usd&expected_price=226&locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #RioDeJaneiro",
-   "texto_instagram": "✈️ Córdoba → Río de Janeiro por USD 226 solo ida\n\n🗓️ Salida el 1 de noviembre\n🛫 JetSMART, directo\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #RioDeJaneiro"
+   "url_x": "https://www.aviasales.com/search/COR0211RIO1?t=G317935875001793598900000190CORGIG_ed99184d9d47050eba05c43e9b412124_18280&search_date=18102026&expected_price_uuid=01a14f16-5c5a-8030-66a2-a2126dd1382a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=sminkSj6VbwS0VjT3gG4DA&expected_price_source=share&expected_price_currency=usd&expected_price=217&locale=es&currency=usd&marker=784835.x",
+   "ultima_actualizacion": "2026-10-18T15:53:18+00:00",
+   "texto_x": "✈️ Córdoba → Río de Janeiro\n💵 USD 217 solo ida · GOL, directo\n🗓️ Salida 2 nov\n\nhttps://www.aviasales.com/search/COR0211RIO1?t=G317935875001793598900000190CORGIG_ed99184d9d47050eba05c43e9b412124_18280&search_date=18102026&expected_price_uuid=01a14f16-5c5a-8030-66a2-a2126dd1382a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=sminkSj6VbwS0VjT3gG4DA&expected_price_source=share&expected_price_currency=usd&expected_price=217&locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #RioDeJaneiro",
+   "texto_instagram": "✈️ Córdoba → Río de Janeiro por USD 217 solo ida\n\n🗓️ Salida el 2 de noviembre\n🛫 GOL, directo\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #RioDeJaneiro"
   },
   {
    "id": "COR-GRU-IDA",
