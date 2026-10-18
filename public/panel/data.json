@@ -1,9 +1,9 @@
 {
- "generado": "2026-10-18T04:36:25+00:00",
+ "generado": "2026-10-18T11:10:49+00:00",
  "estado": {
-  "ultima_corrida": "2026-10-18T04:36:25+00:00",
+  "ultima_corrida": "2026-10-18T11:10:49+00:00",
   "requests": 15,
-  "errores": 0,
+  "errores": 2,
   "rutas_activas": 62,
   "rutas_con_datos": 55,
   "precios_en_historial": 1275

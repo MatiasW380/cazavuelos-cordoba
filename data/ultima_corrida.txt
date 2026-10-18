@@ -1,25 +1,23 @@
-Resultados crudos: 147 — únicos con ≤1 escala: 70
+  ! /v2/prices/latest: HTTPSConnectionPool(host='api.travelpayouts.com', port=443): Read timed out. (read timeout=30)
+  ! /v1/prices/cheap: HTTPSConnectionPool(host='api.travelpayouts.com', port=443): Read timed out. (read timeout=30)
+Resultados crudos: 84 — únicos con ≤1 escala: 63
 
   RIO  Río de Janeiro           ida y vuelta  n=  4  min USD 441
-  PUJ  Punta Cana               ida y vuelta  n=  3  min USD 697
   BUE  Buenos Aires             ida y vuelta  n=  2  min USD 82
   MDZ  Mendoza                  ida y vuelta  n=  2  min USD 148
   ASU  Asunción                 ida y vuelta  n=  2  min USD 290
   FLN  Florianópolis            ida y vuelta  n=  2  min USD 281
-  SDQ  Santo Domingo            ida y vuelta  n=  2  min USD 736
   IGR  Puerto Iguazú            ida y vuelta  n=  1  min USD 207
   SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 406
   AUA  Oranjestad               ida y vuelta  n=  1  min USD 679
   CRD  Comodoro Rivadavia       ida y vuelta  n=  1  min USD 287
   PDP  Punta del Este           ida y vuelta  n=  1  min USD 510
   NAT  Natal                    ida y vuelta  n=  1  min USD 634
+  PUJ  Punta Cana               ida y vuelta  n=  1  min USD 697
   SAO  São Paulo                ida y vuelta  n=  1  min USD 473
   GUA  Guatemala                ida y vuelta  n=  1  min USD 669
   USH  Ushuaia                  ida y vuelta  n=  1  min USD 252
   REC  Recife                   ida y vuelta  n=  1  min USD 597
-  MIA  Miami                    ida y vuelta  n=  1  min USD 1,034
-  HAV  La Habana                ida y vuelta  n=  1  min USD 1,172
-  BCN  Barcelona                ida y vuelta  n=  1  min USD 1,623
   BRC  Bariloche                solo ida      n= 12  min USD 76
   BUE  Buenos Aires             solo ida      n= 10  min USD 33
   FTE  El Calafate              solo ida      n=  5  min USD 128
@@ -30,6 +28,4 @@ Resultados crudos: 147 — únicos con ≤1 escala: 70
   PRA  Paraná                   solo ida      n=  1  min USD 128
   SLA  Salta                    solo ida      n=  1  min USD 92
 
-Rutas nuevas: COR-PDP
-
-Listo: 15 requests, 0 errores — 70 precios nuevos guardados
+Listo: 15 requests, 2 errores — 0 precios nuevos guardados
