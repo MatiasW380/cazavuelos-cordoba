@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-18T15:53:27+00:00",
+ "actualizado": "2026-10-18T20:45:33+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -341,13 +341,13 @@
    "destino": "Barcelona",
    "region": "europa",
    "tipo": "ida_vuelta",
-   "precio_actual": 1623.0,
-   "fecha_salida": "2026-11-07",
-   "fecha_retorno": "2026-11-08",
-   "aerolinea": "Aerolíneas Argentinas",
+   "precio_actual": 1494.0,
+   "fecha_salida": "2026-11-14",
+   "fecha_retorno": "2026-11-15",
+   "aerolinea": "Air Europa",
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0711BCN08111?locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR1411BCN15111?locale=es&currency=usd&marker=784835.web"
   }
  ]
 }
