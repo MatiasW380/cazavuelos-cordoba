@@ -1,34 +1,36 @@
-Resultados crudos: 138 — únicos con ≤1 escala: 67
+Resultados crudos: 141 — únicos con ≤1 escala: 69
 
   RIO  Río de Janeiro           ida y vuelta  n=  5  min USD 441
   USH  Ushuaia                  ida y vuelta  n=  3  min USD 252
+  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 697
   MDZ  Mendoza                  ida y vuelta  n=  2  min USD 148
   ASU  Asunción                 ida y vuelta  n=  2  min USD 289
-  FLN  Florianópolis            ida y vuelta  n=  2  min USD 281
+  AUA  Oranjestad               ida y vuelta  n=  2  min USD 654
   IGR  Puerto Iguazú            ida y vuelta  n=  1  min USD 207
   SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 406
-  AUA  Oranjestad               ida y vuelta  n=  1  min USD 679
   BUE  Buenos Aires             ida y vuelta  n=  1  min USD 82
   CRD  Comodoro Rivadavia       ida y vuelta  n=  1  min USD 287
   PDP  Punta del Este           ida y vuelta  n=  1  min USD 510
   NAT  Natal                    ida y vuelta  n=  1  min USD 634
-  PUJ  Punta Cana               ida y vuelta  n=  1  min USD 697
   HAV  La Habana                ida y vuelta  n=  1  min USD 1,172
+  FLN  Florianópolis            ida y vuelta  n=  1  min USD 437
   GUA  Guatemala                ida y vuelta  n=  1  min USD 644
   REC  Recife                   ida y vuelta  n=  1  min USD 597
   MIA  Miami                    ida y vuelta  n=  1  min USD 726
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 927
-  BRC  Bariloche                solo ida      n= 12  min USD 76
-  RIO  Río de Janeiro           solo ida      n=  6  min USD 217
-  BUE  Buenos Aires             solo ida      n=  5  min USD 37
-  FTE  El Calafate              solo ida      n=  5  min USD 128
+  BRC  Bariloche                solo ida      n= 13  min USD 76
+  BUE  Buenos Aires             solo ida      n=  5  min USD 46
+  RIO  Río de Janeiro           solo ida      n=  5  min USD 217
   IGR  Puerto Iguazú            solo ida      n=  4  min USD 73
+  FTE  El Calafate              solo ida      n=  4  min USD 142
   LIM  Lima                     solo ida      n=  3  min USD 37
   MAD  Ciudad de Madrid         solo ida      n=  2  min USD 762
   PRA  Paraná                   solo ida      n=  1  min USD 128
   MDZ  Mendoza                  solo ida      n=  1  min USD 69
+  VDM  Viedma                   solo ida      n=  1  min USD 116
   ASU  Asunción                 solo ida      n=  1  min USD 148
+  AUA  Oranjestad               solo ida      n=  1  min USD 342
 
-Rutas nuevas: COR-ASU-IDA
+Rutas nuevas: COR-VDM-IDA
 
-Listo: 15 requests, 0 errores — 5 precios nuevos guardados
+Listo: 15 requests, 0 errores — 7 precios nuevos guardados
