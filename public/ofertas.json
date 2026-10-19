@@ -1,17 +1,17 @@
 {
- "actualizado": "2026-10-18T20:45:33+00:00",
+ "actualizado": "2026-10-19T04:42:59+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
    "region": "argentina",
    "tipo": "solo_ida",
-   "precio_actual": 33.0,
-   "fecha_salida": "2026-11-16",
+   "precio_actual": 37.0,
+   "fecha_salida": "2026-10-25",
    "fecha_retorno": null,
    "aerolinea": "Aerolíneas Argentinas",
    "escalas": 0,
    "oferta": "normal",
-   "url": "https://www.aviasales.com/search/COR1611BUE1?t=AR17948301001794834900000080COREZE_7c64edd27bc2a4f14613ca8a3b41ace7_2826&search_date=11102026&expected_price_uuid=01a12b41-a8b6-8040-a0a1-24ad3909b87a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=xNzo0CFx6JQRkgJ8Bnm7-g&expected_price_source=share&expected_price_currency=usd&expected_price=33&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR2510BUE1?t=AR17929098001792914600000080CORAEP_b2ab8555526826b4812ec72c6e4e68ef_3106&search_date=12102026&expected_price_uuid=01a13136-4d92-8040-a8cd-58f7f612b265&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Tq86EO31Jgkc1YPVPbdr6g&expected_price_source=share&expected_price_currency=usd&expected_price=37&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Lima",
@@ -206,18 +206,6 @@
    "url": "https://www.aviasales.com/search/COR2412RIO01011?t=AR17981047201798116300000193CORGIG17988015001798814100000210GIGCOR_de72560032126d628841c95c7dba06d1_37189&search_date=13102026&expected_price_uuid=01a136e7-a443-8040-2855-a57ac156fb6f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=hT1XGtGM2KfKZduEvSZt3g&expected_price_source=share&expected_price_currency=usd&expected_price=441&locale=es&currency=usd&marker=784835.web"
   },
   {
-   "destino": "San Pablo",
-   "region": "sudamerica",
-   "tipo": "ida_vuelta",
-   "precio_actual": 473.0,
-   "fecha_salida": "2026-12-27",
-   "fecha_retorno": "2027-01-05",
-   "aerolinea": "Aerolíneas Argentinas",
-   "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR2712SAO05011?t=AR17984082001798449000000680CORAEPGRU17991702001799226900000945GRUAEPCOR_70c233399f2e0790ec02a4ac0d13026d_40239&search_date=11102026&expected_price_uuid=01a12b78-bd52-8040-a778-d478747303d0&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=2-ZitXaje-WwfhQkmURI8w&expected_price_source=share&expected_price_currency=usd&expected_price=473&locale=es&currency=usd&marker=784835.web"
-  },
-  {
    "destino": "Punta del Este",
    "region": "sudamerica",
    "tipo": "ida_vuelta",
@@ -257,13 +245,13 @@
    "destino": "Guatemala",
    "region": "centroamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 669.0,
+   "precio_actual": 644.0,
    "fecha_salida": "2027-01-02",
    "fecha_retorno": "2027-01-12",
    "aerolinea": "Copa Airlines",
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0201GUA12011?t=CM17988617401798890660000662CORPTYGUA17997350401799811960001102GUAPTYCOR_619eeba06f9e818fa26b0f30eea1c802_56146&search_date=12102026&expected_price_uuid=01a13244-9c8c-8030-e8bb-254d57165f10&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=tPw3MBQ8mLxzlh4DYVgfqA&expected_price_source=share&expected_price_currency=usd&expected_price=669&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR0201GUA12011?t=CM17988553801798879380000580CORPTYGUA17997593401799808420000638GUAPTYCOR_18c4638efd413ea282797417de5d3b1b_54257&search_date=19102026&expected_price_uuid=01a151a3-e0fd-8031-221d-d783814766c8&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=gB-R7ZYnnxoxdgRWopzubw&expected_price_source=share&expected_price_currency=usd&expected_price=644&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Aruba",
@@ -290,16 +278,16 @@
    "url": "https://www.aviasales.com/search/COR0111PUJ09111?t=AV17935188001793619300001735CORBOGPUJ17942475001794291600000675PUJBOGCOR_43b719fb9997d80d6bc6b30ca0574c11_58338&search_date=16102026&expected_price_uuid=01a14445-1ac3-8031-6e76-ee52326fa2b0&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=FlYWuV6vUmnngWVN6RJuWA&expected_price_source=share&expected_price_currency=usd&expected_price=697&locale=es&currency=usd&marker=784835.web"
   },
   {
-   "destino": "Santo Domingo",
-   "region": "caribe",
+   "destino": "Miami",
+   "region": "norteamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 736.0,
-   "fecha_salida": "2027-03-01",
-   "fecha_retorno": "2027-03-08",
-   "aerolinea": "Aerolíneas Argentinas",
+   "precio_actual": 739.0,
+   "fecha_salida": "2027-10-02",
+   "fecha_retorno": "2027-10-09",
+   "aerolinea": null,
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0103SDQ08031?t=DM18039378001803991380000953CORAEPEZESDQ18045337801804609200001197SDQEZEAEPCOR_23e10e8a7bded0fdbe63170257d77aea_62663&search_date=11102026&expected_price_uuid=01a12a6e-c828-8030-aaab-23887b66af32&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=QGYbHEr0_VmtR7z-EFiBlw&expected_price_source=share&expected_price_currency=usd&expected_price=736&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR0210MIA09101?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Madrid",
@@ -314,16 +302,16 @@
    "url": "https://www.aviasales.com/search/COR2002MAD1?t=AR18031464001803280800002000CORAEPEZEMAD_1956aee2c08d538978e2332d7d69d0b2_63750&search_date=15102026&expected_price_uuid=01a13ef2-032c-8030-e240-23d600abbf59&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=E7jf3D9aqPGUqs9dfF_X7A&expected_price_source=share&expected_price_currency=usd&expected_price=762&locale=es&currency=usd&marker=784835.web"
   },
   {
-   "destino": "Miami",
+   "destino": "Fort Lauderdale",
    "region": "norteamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 1034.0,
+   "precio_actual": 944.0,
    "fecha_salida": "2027-10-02",
    "fecha_retorno": "2027-10-09",
    "aerolinea": null,
    "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0210MIA09101?locale=es&currency=usd&marker=784835.web"
+   "oferta": "minimo",
+   "url": "https://www.aviasales.com/search/COR0210FLL09101?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "La Habana",
@@ -335,7 +323,7 @@
    "aerolinea": "Copa Airlines",
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR2512HAV03011?locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR2512HAV03011?t=CM17981638201798194360000629CORPTYHAV17989463401799030820001288HAVPTYCOR_99e09c7c28dbafa60daf2359d9a8f967_98815&search_date=13102026&expected_price_uuid=01a136d3-9d2f-8040-63cf-3b66f4e80b59&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=-XNP2DMGfDDOSP2XyYIB-w&expected_price_source=share&expected_price_currency=usd&expected_price=1172&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Barcelona",

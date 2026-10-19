@@ -1,4 +1,4 @@
-Resultados crudos: 130 — únicos con ≤1 escala: 65
+Resultados crudos: 133 — únicos con ≤1 escala: 64
 
   RIO  Río de Janeiro           ida y vuelta  n=  5  min USD 441
   USH  Ushuaia                  ida y vuelta  n=  3  min USD 252
@@ -14,13 +14,14 @@ Resultados crudos: 130 — únicos con ≤1 escala: 65
   NAT  Natal                    ida y vuelta  n=  1  min USD 634
   PUJ  Punta Cana               ida y vuelta  n=  1  min USD 697
   HAV  La Habana                ida y vuelta  n=  1  min USD 1,172
-  GUA  Guatemala                ida y vuelta  n=  1  min USD 669
+  GUA  Guatemala                ida y vuelta  n=  1  min USD 644
   REC  Recife                   ida y vuelta  n=  1  min USD 597
-  MIA  Miami                    ida y vuelta  n=  1  min USD 1,053
+  MIA  Miami                    ida y vuelta  n=  1  min USD 739
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 944
   BCN  Barcelona                ida y vuelta  n=  1  min USD 1,494
   BRC  Bariloche                solo ida      n= 12  min USD 76
-  BUE  Buenos Aires             solo ida      n=  7  min USD 37
   RIO  Río de Janeiro           solo ida      n=  6  min USD 217
+  BUE  Buenos Aires             solo ida      n=  5  min USD 37
   FTE  El Calafate              solo ida      n=  5  min USD 128
   LIM  Lima                     solo ida      n=  3  min USD 37
   MAD  Ciudad de Madrid         solo ida      n=  2  min USD 762
@@ -28,4 +29,4 @@ Resultados crudos: 130 — únicos con ≤1 escala: 65
   PRA  Paraná                   solo ida      n=  1  min USD 128
   SLA  Salta                    solo ida      n=  1  min USD 92
 
-Listo: 15 requests, 0 errores — 4 precios nuevos guardados
+Listo: 15 requests, 0 errores — 64 precios nuevos guardados
