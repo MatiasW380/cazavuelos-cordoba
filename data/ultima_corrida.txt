@@ -1,9 +1,9 @@
-Resultados crudos: 137 — únicos con ≤1 escala: 72
+Resultados crudos: 125 — únicos con ≤1 escala: 67
 
-  RIO  Río de Janeiro           ida y vuelta  n=  5  min USD 433
+  PUJ  Punta Cana               ida y vuelta  n=  3  min USD 685
+  RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 458
   MAD  Ciudad de Madrid         ida y vuelta  n=  3  min USD 960
   IGR  Puerto Iguazú            ida y vuelta  n=  2  min USD 177
-  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 685
   BUE  Buenos Aires             ida y vuelta  n=  2  min USD 81
   MDZ  Mendoza                  ida y vuelta  n=  2  min USD 145
   USH  Ushuaia                  ida y vuelta  n=  2  min USD 254
@@ -13,8 +13,7 @@ Resultados crudos: 137 — únicos con ≤1 escala: 72
   CRD  Comodoro Rivadavia       ida y vuelta  n=  1  min USD 282
   PDP  Punta del Este           ida y vuelta  n=  1  min USD 502
   NAT  Natal                    ida y vuelta  n=  1  min USD 624
-  HAV  La Habana                ida y vuelta  n=  1  min USD 1,152
-  FLN  Florianópolis            ida y vuelta  n=  1  min USD 430
+  FLN  Florianópolis            ida y vuelta  n=  1  min USD 429
   GUA  Guatemala                ida y vuelta  n=  1  min USD 633
   REC  Recife                   ida y vuelta  n=  1  min USD 586
   MIA  Miami                    ida y vuelta  n=  1  min USD 712
@@ -22,10 +21,10 @@ Resultados crudos: 137 — únicos con ≤1 escala: 72
   IGR  Puerto Iguazú            solo ida      n=  7  min USD 73
   BRC  Bariloche                solo ida      n=  7  min USD 76
   BUE  Buenos Aires             solo ida      n=  5  min USD 36
-  RIO  Río de Janeiro           solo ida      n=  4  min USD 226
   MDE  Medellín                 solo ida      n=  3  min USD 306
   LIM  Lima                     solo ida      n=  3  min USD 37
-  FTE  El Calafate              solo ida      n=  3  min USD 142
+  RIO  Río de Janeiro           solo ida      n=  2  min USD 226
+  FTE  El Calafate              solo ida      n=  2  min USD 175
   MAD  Ciudad de Madrid         solo ida      n=  2  min USD 762
   PRA  Paraná                   solo ida      n=  1  min USD 128
   MDZ  Mendoza                  solo ida      n=  1  min USD 69
@@ -34,6 +33,4 @@ Resultados crudos: 137 — únicos con ≤1 escala: 72
   CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 161
   AUA  Oranjestad               solo ida      n=  1  min USD 342
 
-Rutas nuevas: COR-MDE-IDA
-
-Listo: 15 requests, 0 errores — 9 precios nuevos guardados
+Listo: 15 requests, 0 errores — 1 precios nuevos guardados

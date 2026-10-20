@@ -1,12 +1,12 @@
 {
- "generado": "2026-10-20T17:09:26+00:00",
+ "generado": "2026-10-20T21:38:51+00:00",
  "estado": {
-  "ultima_corrida": "2026-10-20T17:09:26+00:00",
+  "ultima_corrida": "2026-10-20T21:38:50+00:00",
   "requests": 15,
   "errores": 0,
   "rutas_activas": 66,
   "rutas_con_datos": 59,
-  "precios_en_historial": 1438
+  "precios_en_historial": 1439
  },
  "rutas": [
   {
@@ -259,7 +259,7 @@
    "region": "caribe",
    "tipo": "ida_vuelta",
    "activa": true,
-   "registros_90d": 61,
+   "registros_90d": 62,
    "precio_actual": 685.0,
    "aerolinea": null,
    "escalas": 1,
@@ -267,14 +267,14 @@
    "fecha_retorno": "2026-11-09",
    "url": "https://www.aviasales.com/search/COR0111PUJ09111?locale=es&currency=usd&marker=784835.panel",
    "url_web": "https://www.aviasales.com/search/COR0111PUJ09111?locale=es&currency=usd&marker=784835.web",
-   "promedio_90d": 715.62,
+   "promedio_90d": 717.08,
    "minimo_90d": 642.0,
    "promedio_previo": 715.83,
    "registros_previos": 59,
    "descuento_pct": 4.3,
    "oferta": null,
    "url_x": "https://www.aviasales.com/search/COR0111PUJ09111?locale=es&currency=usd&marker=784835.x",
-   "ultima_actualizacion": "2026-10-20T04:53:16+00:00",
+   "ultima_actualizacion": "2026-10-20T21:38:42+00:00",
    "texto_x": "✈️ Córdoba → Punta Cana\n💵 USD 685 ida y vuelta · 1 escala\n🗓️ 1 nov – 9 nov (8 días)\n\nhttps://www.aviasales.com/search/COR0111PUJ09111?locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #PuntaCana",
    "texto_instagram": "✈️ Córdoba → Punta Cana por USD 685 ida y vuelta\n\n🗓️ Salida el 1 de noviembre, regreso el 9 de noviembre (8 días)\n🛫 1 escala\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #PuntaCana"
   },
@@ -908,14 +908,14 @@
    "fecha_retorno": "2027-01-01",
    "url": "https://www.aviasales.com/search/COR2412RIO01011?locale=es&currency=usd&marker=784835.panel",
    "url_web": "https://www.aviasales.com/search/COR2412RIO01011?locale=es&currency=usd&marker=784835.web",
-   "promedio_90d": 473.85,
+   "promedio_90d": 473.73,
    "minimo_90d": 346.0,
    "promedio_previo": 473.3,
    "registros_previos": 57,
    "descuento_pct": 8.5,
    "oferta": null,
    "url_x": "https://www.aviasales.com/search/COR2412RIO01011?locale=es&currency=usd&marker=784835.x",
-   "ultima_actualizacion": "2026-10-20T04:53:16+00:00",
+   "ultima_actualizacion": "2026-10-20T21:38:42+00:00",
    "texto_x": "✈️ Córdoba → Río de Janeiro\n💵 USD 433 ida y vuelta · directo\n🗓️ 24 dic – 1 ene (8 días)\n\nhttps://www.aviasales.com/search/COR2412RIO01011?locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #RioDeJaneiro",
    "texto_instagram": "✈️ Córdoba → Río de Janeiro por USD 433 ida y vuelta\n\n🗓️ Salida el 24 de diciembre, regreso el 1 de enero (8 días)\n🛫 Directo\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #RioDeJaneiro"
   },
