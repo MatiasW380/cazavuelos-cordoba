@@ -1,39 +1,39 @@
-Resultados crudos: 136 — únicos con ≤1 escala: 69
+Resultados crudos: 137 — únicos con ≤1 escala: 72
 
-  RIO  Río de Janeiro           ida y vuelta  n=  5  min USD 435
-  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 688
+  RIO  Río de Janeiro           ida y vuelta  n=  5  min USD 433
+  MAD  Ciudad de Madrid         ida y vuelta  n=  3  min USD 960
+  IGR  Puerto Iguazú            ida y vuelta  n=  2  min USD 177
+  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 685
   BUE  Buenos Aires             ida y vuelta  n=  2  min USD 81
-  MDZ  Mendoza                  ida y vuelta  n=  2  min USD 146
-  USH  Ushuaia                  ida y vuelta  n=  2  min USD 255
-  ASU  Asunción                 ida y vuelta  n=  2  min USD 285
-  AUA  Oranjestad               ida y vuelta  n=  2  min USD 646
-  IGR  Puerto Iguazú            ida y vuelta  n=  1  min USD 205
-  SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 400
-  CRD  Comodoro Rivadavia       ida y vuelta  n=  1  min USD 283
-  PDP  Punta del Este           ida y vuelta  n=  1  min USD 504
-  NAT  Natal                    ida y vuelta  n=  1  min USD 626
-  HAV  La Habana                ida y vuelta  n=  1  min USD 1,157
-  MAD  Ciudad de Madrid         ida y vuelta  n=  1  min USD 1,381
-  FLN  Florianópolis            ida y vuelta  n=  1  min USD 431
-  GUA  Guatemala                ida y vuelta  n=  1  min USD 636
-  REC  Recife                   ida y vuelta  n=  1  min USD 589
-  MIA  Miami                    ida y vuelta  n=  1  min USD 715
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 914
-  BRC  Bariloche                solo ida      n= 10  min USD 76
+  MDZ  Mendoza                  ida y vuelta  n=  2  min USD 145
+  USH  Ushuaia                  ida y vuelta  n=  2  min USD 254
+  ASU  Asunción                 ida y vuelta  n=  2  min USD 284
+  AUA  Oranjestad               ida y vuelta  n=  2  min USD 643
+  SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 399
+  CRD  Comodoro Rivadavia       ida y vuelta  n=  1  min USD 282
+  PDP  Punta del Este           ida y vuelta  n=  1  min USD 502
+  NAT  Natal                    ida y vuelta  n=  1  min USD 624
+  HAV  La Habana                ida y vuelta  n=  1  min USD 1,152
+  FLN  Florianópolis            ida y vuelta  n=  1  min USD 430
+  GUA  Guatemala                ida y vuelta  n=  1  min USD 633
+  REC  Recife                   ida y vuelta  n=  1  min USD 586
+  MIA  Miami                    ida y vuelta  n=  1  min USD 712
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 910
+  IGR  Puerto Iguazú            solo ida      n=  7  min USD 73
+  BRC  Bariloche                solo ida      n=  7  min USD 76
   BUE  Buenos Aires             solo ida      n=  5  min USD 36
-  RIO  Río de Janeiro           solo ida      n=  5  min USD 217
-  IGR  Puerto Iguazú            solo ida      n=  4  min USD 73
-  FTE  El Calafate              solo ida      n=  4  min USD 142
+  RIO  Río de Janeiro           solo ida      n=  4  min USD 226
+  MDE  Medellín                 solo ida      n=  3  min USD 306
   LIM  Lima                     solo ida      n=  3  min USD 37
+  FTE  El Calafate              solo ida      n=  3  min USD 142
   MAD  Ciudad de Madrid         solo ida      n=  2  min USD 762
   PRA  Paraná                   solo ida      n=  1  min USD 128
-  TUC  TUC                      solo ida      n=  1  min USD 128
   MDZ  Mendoza                  solo ida      n=  1  min USD 69
   VDM  Viedma                   solo ida      n=  1  min USD 116
   ASU  Asunción                 solo ida      n=  1  min USD 148
   CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 161
   AUA  Oranjestad               solo ida      n=  1  min USD 342
 
-Rutas nuevas: COR-CPC-IDA
+Rutas nuevas: COR-MDE-IDA
 
-Listo: 15 requests, 0 errores — 2 precios nuevos guardados
+Listo: 15 requests, 0 errores — 9 precios nuevos guardados

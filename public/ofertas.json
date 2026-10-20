@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20T11:39:50+00:00",
+ "actualizado": "2026-10-20T17:09:26+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -161,13 +161,13 @@
    "destino": "Iguazú",
    "region": "argentina",
    "tipo": "ida_vuelta",
-   "precio_actual": 204.0,
-   "fecha_salida": "2026-10-29",
-   "fecha_retorno": "2026-10-31",
+   "precio_actual": 177.0,
+   "fecha_salida": "2026-12-31",
+   "fecha_retorno": "2027-01-01",
    "aerolinea": null,
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR2910IGR31101?locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR3112IGR01011?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Río de Janeiro",
@@ -216,6 +216,18 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR1711ASU22111?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Medellín",
+   "region": "sudamerica",
+   "tipo": "solo_ida",
+   "precio_actual": 306.0,
+   "fecha_salida": "2026-10-30",
+   "fecha_retorno": null,
+   "aerolinea": "Copa Airlines",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR3010MDE1?t=CM17933323801793357700000542CORPTYMDE_434bba217b9ae1ecfb6a36b84ea0619b_25340&search_date=20102026&expected_price_uuid=01a15a3a-d585-8040-2301-fd4a88144e9c&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=-zbB1nAuQtrf_4VWuaReuA&expected_price_source=share&expected_price_currency=usd&expected_price=306&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Aruba",
@@ -374,6 +386,18 @@
    "url": "https://www.aviasales.com/search/COR0210FLL09101?locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Madrid",
+   "region": "europa",
+   "tipo": "ida_vuelta",
+   "precio_actual": 960.0,
+   "fecha_salida": "2026-12-02",
+   "fecha_retorno": "2027-01-14",
+   "aerolinea": "LATAM",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR0212MAD14011?t=LA17962116001796288400001040CORSCLMAD17999253001800038700002130MADSCLCOR_ac7b651c2c3e8c471c8156963330021f_79513&search_date=20102026&expected_price_uuid=01a15a16-c2b2-8040-2794-5c0b54370a22&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Om3cjAi4SKL3PQgCtW7N8Q&expected_price_source=share&expected_price_currency=usd&expected_price=960&locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "La Habana",
    "region": "caribe",
    "tipo": "ida_vuelta",
@@ -384,18 +408,6 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR2512HAV03011?locale=es&currency=usd&marker=784835.web"
-  },
-  {
-   "destino": "Madrid",
-   "region": "europa",
-   "tipo": "ida_vuelta",
-   "precio_actual": 1381.0,
-   "fecha_salida": "2026-12-28",
-   "fecha_retorno": "2027-01-15",
-   "aerolinea": "LATAM",
-   "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR2812MAD15011?t=LA17984442001798562100001725CORLIMMAD17999718001800078600002020MADLIMCOR_92532ba603eabad17ce22d6f1972751c_114276&search_date=20102026&expected_price_uuid=01a156b5-647e-8040-a7f1-b855ea767f0a&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=w4oZDVkhER4uUKjKUVuD9A&expected_price_source=share&expected_price_currency=usd&expected_price=1381&locale=es&currency=usd&marker=784835.web"
   }
  ]
 }
