@@ -1,36 +1,40 @@
-Resultados crudos: 125 — únicos con ≤1 escala: 67
+Resultados crudos: 129 — únicos con ≤1 escala: 70
 
-  PUJ  Punta Cana               ida y vuelta  n=  3  min USD 685
-  RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 458
+  BUE  Buenos Aires             ida y vuelta  n=  3  min USD 82
+  RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 465
   MAD  Ciudad de Madrid         ida y vuelta  n=  3  min USD 960
-  IGR  Puerto Iguazú            ida y vuelta  n=  2  min USD 177
-  BUE  Buenos Aires             ida y vuelta  n=  2  min USD 81
-  MDZ  Mendoza                  ida y vuelta  n=  2  min USD 145
-  USH  Ushuaia                  ida y vuelta  n=  2  min USD 254
-  ASU  Asunción                 ida y vuelta  n=  2  min USD 284
-  AUA  Oranjestad               ida y vuelta  n=  2  min USD 643
-  SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 399
-  CRD  Comodoro Rivadavia       ida y vuelta  n=  1  min USD 282
-  PDP  Punta del Este           ida y vuelta  n=  1  min USD 502
-  NAT  Natal                    ida y vuelta  n=  1  min USD 624
-  FLN  Florianópolis            ida y vuelta  n=  1  min USD 429
-  GUA  Guatemala                ida y vuelta  n=  1  min USD 633
-  REC  Recife                   ida y vuelta  n=  1  min USD 586
-  MIA  Miami                    ida y vuelta  n=  1  min USD 712
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 910
+  MDZ  Mendoza                  ida y vuelta  n=  2  min USD 147
+  USH  Ushuaia                  ida y vuelta  n=  2  min USD 257
+  ASU  Asunción                 ida y vuelta  n=  2  min USD 288
+  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 695
+  AUA  Oranjestad               ida y vuelta  n=  2  min USD 652
+  SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 404
+  CRD  Comodoro Rivadavia       ida y vuelta  n=  1  min USD 286
+  PDP  Punta del Este           ida y vuelta  n=  1  min USD 509
+  NAT  Natal                    ida y vuelta  n=  1  min USD 633
+  IGR  Puerto Iguazú            ida y vuelta  n=  1  min USD 180
+  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 254
+  FLN  Florianópolis            ida y vuelta  n=  1  min USD 436
+  GUA  Guatemala                ida y vuelta  n=  1  min USD 642
+  REC  Recife                   ida y vuelta  n=  1  min USD 595
+  MIA  Miami                    ida y vuelta  n=  1  min USD 723
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 923
   IGR  Puerto Iguazú            solo ida      n=  7  min USD 73
   BRC  Bariloche                solo ida      n=  7  min USD 76
-  BUE  Buenos Aires             solo ida      n=  5  min USD 36
+  BUE  Buenos Aires             solo ida      n=  4  min USD 36
   MDE  Medellín                 solo ida      n=  3  min USD 306
   LIM  Lima                     solo ida      n=  3  min USD 37
+  FTE  El Calafate              solo ida      n=  3  min USD 152
   RIO  Río de Janeiro           solo ida      n=  2  min USD 226
-  FTE  El Calafate              solo ida      n=  2  min USD 175
   MAD  Ciudad de Madrid         solo ida      n=  2  min USD 762
   PRA  Paraná                   solo ida      n=  1  min USD 128
+  EQS  Esquel                   solo ida      n=  1  min USD 246
   MDZ  Mendoza                  solo ida      n=  1  min USD 69
   VDM  Viedma                   solo ida      n=  1  min USD 116
   ASU  Asunción                 solo ida      n=  1  min USD 148
   CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 161
+  SAO  São Paulo                solo ida      n=  1  min USD 213
+  SCL  Santiago de Chile        solo ida      n=  1  min USD 184
   AUA  Oranjestad               solo ida      n=  1  min USD 342
 
-Listo: 15 requests, 0 errores — 1 precios nuevos guardados
+Listo: 15 requests, 0 errores — 70 precios nuevos guardados
