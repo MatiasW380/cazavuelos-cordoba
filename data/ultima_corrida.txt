@@ -1,31 +1,32 @@
-Resultados crudos: 133 — únicos con ≤1 escala: 72
+Resultados crudos: 135 — únicos con ≤1 escala: 73
 
-  BUE  Buenos Aires             ida y vuelta  n=  3  min USD 82
+  BUE  Buenos Aires             ida y vuelta  n=  3  min USD 81
   RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 461
+  AUA  Oranjestad               ida y vuelta  n=  3  min USD 647
   MAD  Ciudad de Madrid         ida y vuelta  n=  3  min USD 960
   MDZ  Mendoza                  ida y vuelta  n=  2  min USD 146
   USH  Ushuaia                  ida y vuelta  n=  2  min USD 255
-  ASU  Asunción                 ida y vuelta  n=  2  min USD 286
+  ASU  Asunción                 ida y vuelta  n=  2  min USD 285
   PUJ  Punta Cana               ida y vuelta  n=  2  min USD 689
-  AUA  Oranjestad               ida y vuelta  n=  2  min USD 647
   SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 401
   CRD  Comodoro Rivadavia       ida y vuelta  n=  1  min USD 284
   PDP  Punta del Este           ida y vuelta  n=  1  min USD 505
-  NAT  Natal                    ida y vuelta  n=  1  min USD 628
+  NAT  Natal                    ida y vuelta  n=  1  min USD 627
   IGR  Puerto Iguazú            ida y vuelta  n=  1  min USD 178
-  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 252
+  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 251
   FLN  Florianópolis            ida y vuelta  n=  1  min USD 432
   GUA  Guatemala                ida y vuelta  n=  1  min USD 637
   REC  Recife                   ida y vuelta  n=  1  min USD 590
   MIA  Miami                    ida y vuelta  n=  1  min USD 717
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 916
-  BUE  Buenos Aires             solo ida      n=  7  min USD 36
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 915
   IGR  Puerto Iguazú            solo ida      n=  7  min USD 73
   BRC  Bariloche                solo ida      n=  7  min USD 76
+  BUE  Buenos Aires             solo ida      n=  6  min USD 36
   MDE  Medellín                 solo ida      n=  3  min USD 306
   LIM  Lima                     solo ida      n=  3  min USD 37
   FTE  El Calafate              solo ida      n=  3  min USD 156
   PRA  Paraná                   solo ida      n=  2  min USD 100
+  AUA  Oranjestad               solo ida      n=  2  min USD 337
   MAD  Ciudad de Madrid         solo ida      n=  2  min USD 762
   EQS  Esquel                   solo ida      n=  1  min USD 246
   VDM  Viedma                   solo ida      n=  1  min USD 116
@@ -34,6 +35,5 @@ Resultados crudos: 133 — únicos con ≤1 escala: 72
   SAO  São Paulo                solo ida      n=  1  min USD 213
   RIO  Río de Janeiro           solo ida      n=  1  min USD 232
   SCL  Santiago de Chile        solo ida      n=  1  min USD 184
-  AUA  Oranjestad               solo ida      n=  1  min USD 342
 
-Listo: 15 requests, 0 errores — 4 precios nuevos guardados
+Listo: 15 requests, 0 errores — 2 precios nuevos guardados
