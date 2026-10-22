@@ -1,12 +1,12 @@
 {
- "generado": "2026-10-22T04:50:01+00:00",
+ "generado": "2026-10-22T11:55:21+00:00",
  "estado": {
-  "ultima_corrida": "2026-10-22T04:50:01+00:00",
+  "ultima_corrida": "2026-10-22T11:55:21+00:00",
   "requests": 15,
   "errores": 0,
   "rutas_activas": 67,
   "rutas_con_datos": 60,
-  "precios_en_historial": 1593
+  "precios_en_historial": 1594
  },
  "rutas": [
   {
@@ -710,24 +710,24 @@
    "region": "sudamerica",
    "tipo": "ida_vuelta",
    "activa": true,
-   "registros_90d": 39,
-   "precio_actual": 430.0,
+   "registros_90d": 40,
+   "precio_actual": 282.0,
    "aerolinea": null,
-   "escalas": 1,
-   "fecha_salida": "2027-01-04",
-   "fecha_retorno": "2027-01-11",
-   "url": "https://www.aviasales.com/search/COR0401FLN11011?locale=es&currency=usd&marker=784835.panel",
-   "url_web": "https://www.aviasales.com/search/COR0401FLN11011?locale=es&currency=usd&marker=784835.web",
-   "promedio_90d": 394.92,
+   "escalas": 0,
+   "fecha_salida": "2026-12-21",
+   "fecha_retorno": "2027-01-02",
+   "url": "https://www.aviasales.com/search/COR2112FLN02011?locale=es&currency=usd&marker=784835.panel",
+   "url_web": "https://www.aviasales.com/search/COR2112FLN02011?locale=es&currency=usd&marker=784835.web",
+   "promedio_90d": 392.1,
    "minimo_90d": 277.0,
    "promedio_previo": 394.0,
    "registros_previos": 38,
-   "descuento_pct": -9.1,
-   "oferta": null,
-   "url_x": "https://www.aviasales.com/search/COR0401FLN11011?locale=es&currency=usd&marker=784835.x",
-   "ultima_actualizacion": "2026-10-22T04:49:52+00:00",
-   "texto_x": "✈️ Córdoba → Florianópolis\n💵 USD 430 ida y vuelta · 1 escala\n🗓️ 4 ene – 11 ene (7 días)\n\nhttps://www.aviasales.com/search/COR0401FLN11011?locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #Florianopolis",
-   "texto_instagram": "✈️ Córdoba → Florianópolis por USD 430 ida y vuelta\n\n🗓️ Salida el 4 de enero, regreso el 11 de enero (7 días)\n🛫 1 escala\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #Florianopolis"
+   "descuento_pct": 28.4,
+   "oferta": "normal",
+   "url_x": "https://www.aviasales.com/search/COR2112FLN02011?locale=es&currency=usd&marker=784835.x",
+   "ultima_actualizacion": "2026-10-22T11:55:12+00:00",
+   "texto_x": "🔥 OFERTA desde Córdoba\n✈️ Córdoba → Florianópolis\n💵 USD 282 ida y vuelta · directo\n🗓️ 21 dic – 2 ene (12 días)\n📉 28% menos que el promedio (USD 394)\n\nhttps://www.aviasales.com/search/COR2112FLN02011?locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #Florianopolis",
+   "texto_instagram": "🔥 ¡Oferta! Córdoba → Florianópolis por USD 282 ida y vuelta\n\n🗓️ Salida el 21 de diciembre, regreso el 2 de enero (12 días)\n🛫 Directo\n📉 28% menos que el precio promedio de esta ruta (USD 394)\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #Florianopolis"
   },
   {
    "id": "COR-GYE",
