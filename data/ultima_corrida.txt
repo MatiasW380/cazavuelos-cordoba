@@ -1,4 +1,4 @@
-Resultados crudos: 155 — únicos con ≤1 escala: 72
+Resultados crudos: 154 — únicos con ≤1 escala: 72
 
   BUE  Buenos Aires             ida y vuelta  n=  6  min USD 54
   RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 461
@@ -6,7 +6,7 @@ Resultados crudos: 155 — únicos con ≤1 escala: 72
   MAD  Ciudad de Madrid         ida y vuelta  n=  3  min USD 960
   USH  Ushuaia                  ida y vuelta  n=  2  min USD 255
   ASU  Asunción                 ida y vuelta  n=  2  min USD 286
-  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 689
+  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 720
   FLN  Florianópolis            ida y vuelta  n=  2  min USD 282
   SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 401
   MDZ  Mendoza                  ida y vuelta  n=  1  min USD 146
@@ -37,4 +37,4 @@ Resultados crudos: 155 — únicos con ≤1 escala: 72
   RIO  Río de Janeiro           solo ida      n=  1  min USD 232
   SCL  Santiago de Chile        solo ida      n=  1  min USD 184
 
-Listo: 15 requests, 0 errores — 1 precios nuevos guardados
+Listo: 15 requests, 0 errores — 0 precios nuevos guardados
