@@ -1,12 +1,12 @@
 {
- "generado": "2026-10-23T17:09:43+00:00",
+ "generado": "2026-10-23T21:26:04+00:00",
  "estado": {
-  "ultima_corrida": "2026-10-23T17:09:42+00:00",
+  "ultima_corrida": "2026-10-23T21:26:04+00:00",
   "requests": 15,
   "errores": 0,
-  "rutas_activas": 69,
-  "rutas_con_datos": 64,
-  "precios_en_historial": 1682
+  "rutas_activas": 70,
+  "rutas_con_datos": 65,
+  "precios_en_historial": 1683
  },
  "rutas": [
   {
@@ -1241,6 +1241,31 @@
    "ultima_actualizacion": "2026-10-23T04:52:18+00:00",
    "texto_x": "✈️ Córdoba → Paraná\n💵 USD 100 solo ida · Aerolíneas Argentinas, 1 escala\n🗓️ Salida 5 nov\n\nhttps://www.aviasales.com/search/COR0511PRA1?t=AR17939127001793977200001075CORAEPPRA_b7f079eceed45c7fc7b3be6ad5f28378_8217&search_date=21102026&expected_price_uuid=01a15d29-6349-8030-24fd-478d5f16e96d&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=DAyfj1ZKsI-wRoLesul9TA&expected_price_source=share&expected_price_currency=usd&expected_price=100&locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #Parana",
    "texto_instagram": "✈️ Córdoba → Paraná por USD 100 solo ida\n\n🗓️ Salida el 5 de noviembre\n🛫 Aerolíneas Argentinas, 1 escala\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #Parana"
+  },
+  {
+   "id": "COR-PMY-IDA",
+   "destino": "Puerto Madryn",
+   "region": "argentina",
+   "tipo": "solo_ida",
+   "activa": true,
+   "registros_90d": 1,
+   "precio_actual": 112.0,
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 1,
+   "fecha_salida": "2026-11-07",
+   "fecha_retorno": null,
+   "url": "https://www.aviasales.com/search/COR0711PMY1?t=AR17940774001794159600001370CORAEPEZEPMY_9c57e042a4d00e6cdfebc31d133e2146_9047&search_date=23102026&expected_price_uuid=01a169be-aa64-8030-276d-22d461de7d0b&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=bSW5mw1uj4tt9BkdhVUajQ&expected_price_source=share&expected_price_currency=usd&expected_price=112&locale=es&currency=usd&marker=784835.panel",
+   "url_web": "https://www.aviasales.com/search/COR0711PMY1?t=AR17940774001794159600001370CORAEPEZEPMY_9c57e042a4d00e6cdfebc31d133e2146_9047&search_date=23102026&expected_price_uuid=01a169be-aa64-8030-276d-22d461de7d0b&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=bSW5mw1uj4tt9BkdhVUajQ&expected_price_source=share&expected_price_currency=usd&expected_price=112&locale=es&currency=usd&marker=784835.web",
+   "promedio_90d": 112.0,
+   "minimo_90d": 112.0,
+   "promedio_previo": null,
+   "registros_previos": 0,
+   "descuento_pct": null,
+   "oferta": null,
+   "url_x": "https://www.aviasales.com/search/COR0711PMY1?t=AR17940774001794159600001370CORAEPEZEPMY_9c57e042a4d00e6cdfebc31d133e2146_9047&search_date=23102026&expected_price_uuid=01a169be-aa64-8030-276d-22d461de7d0b&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=bSW5mw1uj4tt9BkdhVUajQ&expected_price_source=share&expected_price_currency=usd&expected_price=112&locale=es&currency=usd&marker=784835.x",
+   "ultima_actualizacion": "2026-10-23T21:25:55+00:00",
+   "texto_x": "✈️ Córdoba → Puerto Madryn\n💵 USD 112 solo ida · Aerolíneas Argentinas, 1 escala\n🗓️ Salida 7 nov\n\nhttps://www.aviasales.com/search/COR0711PMY1?t=AR17940774001794159600001370CORAEPEZEPMY_9c57e042a4d00e6cdfebc31d133e2146_9047&search_date=23102026&expected_price_uuid=01a169be-aa64-8030-276d-22d461de7d0b&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=bSW5mw1uj4tt9BkdhVUajQ&expected_price_source=share&expected_price_currency=usd&expected_price=112&locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #PuertoMadryn",
+   "texto_instagram": "✈️ Córdoba → Puerto Madryn por USD 112 solo ida\n\n🗓️ Salida el 7 de noviembre\n🛫 Aerolíneas Argentinas, 1 escala\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #PuertoMadryn"
   },
   {
    "id": "COR-SLA-IDA",

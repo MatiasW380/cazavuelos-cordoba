@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T17:09:42+00:00",
+ "actualizado": "2026-10-23T21:26:04+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -72,6 +72,18 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR0511PRA1?t=AR17939127001793977200001075CORAEPPRA_b7f079eceed45c7fc7b3be6ad5f28378_8217&search_date=21102026&expected_price_uuid=01a15d29-6349-8030-24fd-478d5f16e96d&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=DAyfj1ZKsI-wRoLesul9TA&expected_price_source=share&expected_price_currency=usd&expected_price=100&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Puerto Madryn",
+   "region": "argentina",
+   "tipo": "solo_ida",
+   "precio_actual": 112.0,
+   "fecha_salida": "2026-11-07",
+   "fecha_retorno": null,
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR0711PMY1?t=AR17940774001794159600001370CORAEPEZEPMY_9c57e042a4d00e6cdfebc31d133e2146_9047&search_date=23102026&expected_price_uuid=01a169be-aa64-8030-276d-22d461de7d0b&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=bSW5mw1uj4tt9BkdhVUajQ&expected_price_source=share&expected_price_currency=usd&expected_price=112&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Viedma",

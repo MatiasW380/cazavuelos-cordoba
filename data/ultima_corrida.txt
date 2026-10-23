@@ -1,4 +1,4 @@
-Resultados crudos: 168 — únicos con ≤1 escala: 85
+Resultados crudos: 168 — únicos con ≤1 escala: 82
 
   BUE  Buenos Aires             ida y vuelta  n=  8  min USD 54
   RIO  Río de Janeiro           ida y vuelta  n=  4  min USD 363
@@ -20,25 +20,26 @@ Resultados crudos: 168 — únicos con ≤1 escala: 85
   NYC  Nueva York               ida y vuelta  n=  1  min USD 1,151
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,291
   MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 250
-  REC  Recife                   ida y vuelta  n=  1  min USD 586
   MIA  Miami                    ida y vuelta  n=  1  min USD 712
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 755
   BCN  Barcelona                ida y vuelta  n=  1  min USD 951
   BUE  Buenos Aires             solo ida      n=  9  min USD 36
   IGR  Puerto Iguazú            solo ida      n=  7  min USD 73
   MDE  Medellín                 solo ida      n=  3  min USD 306
-  LIM  Lima                     solo ida      n=  3  min USD 37
   PRA  Paraná                   solo ida      n=  2  min USD 100
   FTE  El Calafate              solo ida      n=  2  min USD 156
   FLN  Florianópolis            solo ida      n=  2  min USD 200
   AUA  Oranjestad               solo ida      n=  2  min USD 337
   EQS  Esquel                   solo ida      n=  1  min USD 246
+  LIM  Lima                     solo ida      n=  1  min USD 45
   BRC  Bariloche                solo ida      n=  1  min USD 80
+  PMY  Puerto Madryn            solo ida      n=  1  min USD 112
   VDM  Viedma                   solo ida      n=  1  min USD 116
   ASU  Asunción                 solo ida      n=  1  min USD 148
   CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 161
   SAO  São Paulo                solo ida      n=  1  min USD 214
-  CTC  San Fernando del Valle de Catamarca solo ida      n=  1  min USD 263
   SCL  Santiago de Chile        solo ida      n=  1  min USD 184
 
-Listo: 15 requests, 0 errores — 2 precios nuevos guardados
+Rutas nuevas: COR-PMY-IDA
+
+Listo: 15 requests, 0 errores — 1 precios nuevos guardados
