@@ -1,26 +1,26 @@
-Resultados crudos: 154 — únicos con ≤1 escala: 72
+Resultados crudos: 154 — únicos con ≤1 escala: 74
 
-  BUE  Buenos Aires             ida y vuelta  n=  6  min USD 54
-  RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 461
-  AUA  Oranjestad               ida y vuelta  n=  3  min USD 647
+  BUE  Buenos Aires             ida y vuelta  n=  6  min USD 55
+  RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 465
+  AUA  Oranjestad               ida y vuelta  n=  3  min USD 653
   MAD  Ciudad de Madrid         ida y vuelta  n=  3  min USD 960
-  USH  Ushuaia                  ida y vuelta  n=  2  min USD 255
-  ASU  Asunción                 ida y vuelta  n=  2  min USD 286
-  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 720
-  FLN  Florianópolis            ida y vuelta  n=  2  min USD 282
-  SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 401
-  MDZ  Mendoza                  ida y vuelta  n=  1  min USD 146
-  CRD  Comodoro Rivadavia       ida y vuelta  n=  1  min USD 284
-  PDP  Punta del Este           ida y vuelta  n=  1  min USD 505
-  NAT  Natal                    ida y vuelta  n=  1  min USD 628
-  IGR  Puerto Iguazú            ida y vuelta  n=  1  min USD 178
+  USH  Ushuaia                  ida y vuelta  n=  2  min USD 258
+  ASU  Asunción                 ida y vuelta  n=  2  min USD 288
+  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 726
+  FLN  Florianópolis            ida y vuelta  n=  2  min USD 285
+  SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 405
+  CRD  Comodoro Rivadavia       ida y vuelta  n=  1  min USD 286
+  PDP  Punta del Este           ida y vuelta  n=  1  min USD 509
+  NAT  Natal                    ida y vuelta  n=  1  min USD 633
+  IGR  Puerto Iguazú            ida y vuelta  n=  1  min USD 180
+  NYC  Nueva York               ida y vuelta  n=  1  min USD 1,169
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,291
-  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 252
-  GUA  Guatemala                ida y vuelta  n=  1  min USD 889
-  REC  Recife                   ida y vuelta  n=  1  min USD 590
-  MIA  Miami                    ida y vuelta  n=  1  min USD 717
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 916
-  BUE  Buenos Aires             solo ida      n=  7  min USD 36
+  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 254
+  GUA  Guatemala                ida y vuelta  n=  1  min USD 897
+  REC  Recife                   ida y vuelta  n=  1  min USD 595
+  MIA  Miami                    ida y vuelta  n=  1  min USD 723
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 767
+  BUE  Buenos Aires             solo ida      n=  9  min USD 36
   IGR  Puerto Iguazú            solo ida      n=  7  min USD 73
   MDE  Medellín                 solo ida      n=  3  min USD 306
   LIM  Lima                     solo ida      n=  3  min USD 37
@@ -33,8 +33,10 @@ Resultados crudos: 154 — únicos con ≤1 escala: 72
   VDM  Viedma                   solo ida      n=  1  min USD 116
   ASU  Asunción                 solo ida      n=  1  min USD 148
   CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 161
-  SAO  São Paulo                solo ida      n=  1  min USD 213
-  RIO  Río de Janeiro           solo ida      n=  1  min USD 232
+  SAO  São Paulo                solo ida      n=  1  min USD 214
+  CTC  San Fernando del Valle de Catamarca solo ida      n=  1  min USD 263
   SCL  Santiago de Chile        solo ida      n=  1  min USD 184
 
-Listo: 15 requests, 0 errores — 0 precios nuevos guardados
+Rutas nuevas: COR-CTC-IDA
+
+Listo: 15 requests, 0 errores — 74 precios nuevos guardados
