@@ -1,6 +1,6 @@
-Resultados crudos: 167 — únicos con ≤1 escala: 84
+Resultados crudos: 168 — únicos con ≤1 escala: 85
 
-  BUE  Buenos Aires             ida y vuelta  n=  7  min USD 54
+  BUE  Buenos Aires             ida y vuelta  n=  8  min USD 54
   RIO  Río de Janeiro           ida y vuelta  n=  4  min USD 363
   MAD  Ciudad de Madrid         ida y vuelta  n=  4  min USD 960
   USH  Ushuaia                  ida y vuelta  n=  3  min USD 224
@@ -9,6 +9,7 @@ Resultados crudos: 167 — únicos con ≤1 escala: 84
   SCL  Santiago de Chile        ida y vuelta  n=  2  min USD 283
   PUJ  Punta Cana               ida y vuelta  n=  2  min USD 715
   IGR  Puerto Iguazú            ida y vuelta  n=  2  min USD 132
+  GUA  Guatemala                ida y vuelta  n=  2  min USD 488
   MDZ  Mendoza                  ida y vuelta  n=  1  min USD 139
   BRC  Bariloche                ida y vuelta  n=  1  min USD 145
   CRD  Comodoro Rivadavia       ida y vuelta  n=  1  min USD 282
@@ -19,7 +20,6 @@ Resultados crudos: 167 — únicos con ≤1 escala: 84
   NYC  Nueva York               ida y vuelta  n=  1  min USD 1,151
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,291
   MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 250
-  GUA  Guatemala                ida y vuelta  n=  1  min USD 883
   REC  Recife                   ida y vuelta  n=  1  min USD 586
   MIA  Miami                    ida y vuelta  n=  1  min USD 712
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 755
@@ -28,8 +28,8 @@ Resultados crudos: 167 — únicos con ≤1 escala: 84
   IGR  Puerto Iguazú            solo ida      n=  7  min USD 73
   MDE  Medellín                 solo ida      n=  3  min USD 306
   LIM  Lima                     solo ida      n=  3  min USD 37
-  FTE  El Calafate              solo ida      n=  3  min USD 156
   PRA  Paraná                   solo ida      n=  2  min USD 100
+  FTE  El Calafate              solo ida      n=  2  min USD 156
   FLN  Florianópolis            solo ida      n=  2  min USD 200
   AUA  Oranjestad               solo ida      n=  2  min USD 337
   EQS  Esquel                   solo ida      n=  1  min USD 246
@@ -41,6 +41,4 @@ Resultados crudos: 167 — únicos con ≤1 escala: 84
   CTC  San Fernando del Valle de Catamarca solo ida      n=  1  min USD 263
   SCL  Santiago de Chile        solo ida      n=  1  min USD 184
 
-Rutas nuevas: COR-BRC
-
-Listo: 15 requests, 0 errores — 11 precios nuevos guardados
+Listo: 15 requests, 0 errores — 2 precios nuevos guardados

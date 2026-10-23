@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T11:41:35+00:00",
+ "actualizado": "2026-10-23T17:09:42+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -338,6 +338,18 @@
    "url": "https://www.aviasales.com/search/COR2211LIM29111?locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Guatemala",
+   "region": "centroamerica",
+   "tipo": "ida_vuelta",
+   "precio_actual": 488.0,
+   "fecha_salida": "2026-11-06",
+   "fecha_retorno": "2026-11-13",
+   "aerolinea": null,
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR0611GUA13111?locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Punta del Este",
    "region": "sudamerica",
    "tipo": "ida_vuelta",
@@ -420,18 +432,6 @@
    "escalas": 1,
    "oferta": "minimo",
    "url": "https://www.aviasales.com/search/COR0210FLL09101?locale=es&currency=usd&marker=784835.web"
-  },
-  {
-   "destino": "Guatemala",
-   "region": "centroamerica",
-   "tipo": "ida_vuelta",
-   "precio_actual": 883.0,
-   "fecha_salida": "2027-01-02",
-   "fecha_retorno": "2027-01-12",
-   "aerolinea": null,
-   "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0201GUA12011?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Barcelona",
