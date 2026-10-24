@@ -1,45 +1,44 @@
-Resultados crudos: 168 — únicos con ≤1 escala: 82
+Resultados crudos: 166 — únicos con ≤1 escala: 81
 
-  BUE  Buenos Aires             ida y vuelta  n=  8  min USD 54
-  RIO  Río de Janeiro           ida y vuelta  n=  4  min USD 363
+  BUE  Buenos Aires             ida y vuelta  n=  6  min USD 54
+  USH  Ushuaia                  ida y vuelta  n=  6  min USD 204
   MAD  Ciudad de Madrid         ida y vuelta  n=  4  min USD 960
-  USH  Ushuaia                  ida y vuelta  n=  3  min USD 224
+  RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 362
   FLN  Florianópolis            ida y vuelta  n=  3  min USD 260
-  AUA  Oranjestad               ida y vuelta  n=  3  min USD 643
-  SCL  Santiago de Chile        ida y vuelta  n=  2  min USD 283
-  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 715
-  IGR  Puerto Iguazú            ida y vuelta  n=  2  min USD 132
-  GUA  Guatemala                ida y vuelta  n=  2  min USD 488
+  AUA  Oranjestad               ida y vuelta  n=  3  min USD 642
+  SCL  Santiago de Chile        ida y vuelta  n=  2  min USD 282
+  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 714
+  IGR  Puerto Iguazú            ida y vuelta  n=  2  min USD 131
+  GUA  Guatemala                ida y vuelta  n=  2  min USD 487
   MDZ  Mendoza                  ida y vuelta  n=  1  min USD 139
   BRC  Bariloche                ida y vuelta  n=  1  min USD 145
-  CRD  Comodoro Rivadavia       ida y vuelta  n=  1  min USD 282
-  ASU  Asunción                 ida y vuelta  n=  1  min USD 284
-  LIM  Lima                     ida y vuelta  n=  1  min USD 415
+  ASU  Asunción                 ida y vuelta  n=  1  min USD 283
+  LIM  Lima                     ida y vuelta  n=  1  min USD 414
   PDP  Punta del Este           ida y vuelta  n=  1  min USD 501
-  NAT  Natal                    ida y vuelta  n=  1  min USD 623
-  NYC  Nueva York               ida y vuelta  n=  1  min USD 1,151
+  NAT  Natal                    ida y vuelta  n=  1  min USD 622
+  NYC  Nueva York               ida y vuelta  n=  1  min USD 1,150
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,291
-  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 250
-  MIA  Miami                    ida y vuelta  n=  1  min USD 712
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 755
-  BCN  Barcelona                ida y vuelta  n=  1  min USD 951
-  BUE  Buenos Aires             solo ida      n=  9  min USD 36
+  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 249
+  MIA  Miami                    ida y vuelta  n=  1  min USD 711
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 754
+  BCN  Barcelona                ida y vuelta  n=  1  min USD 950
+  HAV  La Habana                ida y vuelta  n=  1  min USD 962
+  BUE  Buenos Aires             solo ida      n= 11  min USD 36
   IGR  Puerto Iguazú            solo ida      n=  7  min USD 73
-  MDE  Medellín                 solo ida      n=  3  min USD 306
   PRA  Paraná                   solo ida      n=  2  min USD 100
-  FTE  El Calafate              solo ida      n=  2  min USD 156
+  FTE  El Calafate              solo ida      n=  2  min USD 129
   FLN  Florianópolis            solo ida      n=  2  min USD 200
   AUA  Oranjestad               solo ida      n=  2  min USD 337
-  EQS  Esquel                   solo ida      n=  1  min USD 246
-  LIM  Lima                     solo ida      n=  1  min USD 45
+  MDE  Medellín                 solo ida      n=  1  min USD 393
   BRC  Bariloche                solo ida      n=  1  min USD 80
+  USH  Ushuaia                  solo ida      n=  1  min USD 89
   PMY  Puerto Madryn            solo ida      n=  1  min USD 112
   VDM  Viedma                   solo ida      n=  1  min USD 116
   ASU  Asunción                 solo ida      n=  1  min USD 148
   CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 161
   SAO  São Paulo                solo ida      n=  1  min USD 214
-  SCL  Santiago de Chile        solo ida      n=  1  min USD 184
+  SCL  Santiago de Chile        solo ida      n=  1  min USD 181
 
-Rutas nuevas: COR-PMY-IDA
+Rutas nuevas: COR-USH-IDA
 
-Listo: 15 requests, 0 errores — 1 precios nuevos guardados
+Listo: 15 requests, 0 errores — 81 precios nuevos guardados
