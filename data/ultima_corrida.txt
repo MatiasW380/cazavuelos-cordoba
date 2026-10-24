@@ -1,4 +1,4 @@
-Resultados crudos: 166 — únicos con ≤1 escala: 81
+Resultados crudos: 173 — únicos con ≤1 escala: 87
 
   BUE  Buenos Aires             ida y vuelta  n=  6  min USD 54
   USH  Ushuaia                  ida y vuelta  n=  6  min USD 204
@@ -25,9 +25,11 @@ Resultados crudos: 166 — únicos con ≤1 escala: 81
   HAV  La Habana                ida y vuelta  n=  1  min USD 962
   BUE  Buenos Aires             solo ida      n= 11  min USD 36
   IGR  Puerto Iguazú            solo ida      n=  7  min USD 73
+  LIS  Lisboa                   solo ida      n=  3  min USD 766
   PRA  Paraná                   solo ida      n=  2  min USD 100
   FTE  El Calafate              solo ida      n=  2  min USD 129
   FLN  Florianópolis            solo ida      n=  2  min USD 200
+  LIM  Lima                     solo ida      n=  2  min USD 245
   AUA  Oranjestad               solo ida      n=  2  min USD 337
   MDE  Medellín                 solo ida      n=  1  min USD 393
   BRC  Bariloche                solo ida      n=  1  min USD 80
@@ -38,7 +40,8 @@ Resultados crudos: 166 — únicos con ≤1 escala: 81
   CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 161
   SAO  São Paulo                solo ida      n=  1  min USD 214
   SCL  Santiago de Chile        solo ida      n=  1  min USD 181
+  MAD  Ciudad de Madrid         solo ida      n=  1  min USD 930
 
-Rutas nuevas: COR-USH-IDA
+Rutas nuevas: COR-LIS-IDA
 
-Listo: 15 requests, 0 errores — 81 precios nuevos guardados
+Listo: 15 requests, 0 errores — 6 precios nuevos guardados

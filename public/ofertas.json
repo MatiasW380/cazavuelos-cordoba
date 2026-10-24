@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T04:39:00+00:00",
+ "actualizado": "2026-10-24T11:03:55+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -218,6 +218,18 @@
    "url": "https://www.aviasales.com/search/COR1811SAO1?t=AC17950425001795202700002670CORAEPEZEGRU_c0bcadbd7f28eabd941677d940f7f42b_17547&search_date=22102026&expected_price_uuid=01a165df-7a62-8031-63c1-c3fdf9d6aefe&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=gQNFh_B6mqH_H-0kU56PGA&expected_price_source=share&expected_price_currency=usd&expected_price=214&locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Lima",
+   "region": "sudamerica",
+   "tipo": "solo_ida",
+   "precio_actual": 245.0,
+   "fecha_salida": "2026-11-22",
+   "fecha_retorno": null,
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2211LIM1?t=AR17953773001795470300001670COREZEAEPLIM_76ba844cf7cf1f292965a95049d56476_19705&search_date=24102026&expected_price_uuid=01a16c64-d895-8031-2613-3446ce8c8c93&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ALrXoO00eEoAEpWf_3ANXA&expected_price_source=share&expected_price_currency=usd&expected_price=245&locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Mar del Plata",
    "region": "argentina",
    "tipo": "ida_vuelta",
@@ -396,6 +408,30 @@
    "escalas": 1,
    "oferta": "minimo",
    "url": "https://www.aviasales.com/search/COR0210FLL09101?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Lisboa",
+   "region": "europa",
+   "tipo": "solo_ida",
+   "precio_actual": 766.0,
+   "fecha_salida": "2027-01-19",
+   "fecha_retorno": null,
+   "aerolinea": "JetSMART",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR1901LIS1?t=G318003511201800440100001303CORGIGLIS_00755e8d57da83f1a603ff705e73b67e_61563&search_date=24102026&expected_price_uuid=01a16cfe-f46d-8031-2887-6f6de8137bbd&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=_pi5wWFiw80w94NYmp5AAA&expected_price_source=share&expected_price_currency=usd&expected_price=766&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Madrid",
+   "region": "europa",
+   "tipo": "solo_ida",
+   "precio_actual": 930.0,
+   "fecha_salida": "2027-01-12",
+   "fecha_retorno": null,
+   "aerolinea": "Avianca",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR1201MAD1?t=AV17997396001799820600001110CORBOGMAD_dec9e395a3c9ee0170a83ad551b40bde_74700&search_date=24102026&expected_price_uuid=01a16d10-5d97-8030-efa5-46da763c4762&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=5H0M3oEaGRIHLghJXKQB6A&expected_price_source=share&expected_price_currency=usd&expected_price=930&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Barcelona",
