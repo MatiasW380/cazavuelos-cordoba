@@ -1,8 +1,8 @@
 Resultados crudos: 164 — únicos con ≤1 escala: 87
 
   IGR  Puerto Iguazú            ida y vuelta  n=  6  min USD 134
-  BUE  Buenos Aires             ida y vuelta  n=  6  min USD 55
   USH  Ushuaia                  ida y vuelta  n=  6  min USD 208
+  BUE  Buenos Aires             ida y vuelta  n=  5  min USD 55
   MAD  Ciudad de Madrid         ida y vuelta  n=  4  min USD 960
   AUA  Oranjestad               ida y vuelta  n=  3  min USD 654
   RIO  Río de Janeiro           ida y vuelta  n=  2  min USD 369
@@ -21,7 +21,7 @@ Resultados crudos: 164 — únicos con ≤1 escala: 87
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 768
   BCN  Barcelona                ida y vuelta  n=  1  min USD 968
   HAV  La Habana                ida y vuelta  n=  1  min USD 981
-  BUE  Buenos Aires             solo ida      n= 12  min USD 36
+  BUE  Buenos Aires             solo ida      n= 13  min USD 37
   IGR  Puerto Iguazú            solo ida      n=  7  min USD 73
   SCL  Santiago de Chile        solo ida      n=  4  min USD 152
   FTE  El Calafate              solo ida      n=  2  min USD 105
@@ -29,14 +29,16 @@ Resultados crudos: 164 — únicos con ≤1 escala: 87
   LIM  Lima                     solo ida      n=  2  min USD 245
   AUA  Oranjestad               solo ida      n=  2  min USD 337
   MDE  Medellín                 solo ida      n=  1  min USD 393
+  BCN  Barcelona                solo ida      n=  1  min USD 665
   BRC  Bariloche                solo ida      n=  1  min USD 80
   USH  Ushuaia                  solo ida      n=  1  min USD 89
   PRA  Paraná                   solo ida      n=  1  min USD 100
   PMY  Puerto Madryn            solo ida      n=  1  min USD 112
   ASU  Asunción                 solo ida      n=  1  min USD 148
   CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 161
-  FLN  Florianópolis            solo ida      n=  1  min USD 263
   MAD  Ciudad de Madrid         solo ida      n=  1  min USD 930
   LIS  Lisboa                   solo ida      n=  1  min USD 1,029
 
-Listo: 15 requests, 0 errores — 87 precios nuevos guardados
+Rutas nuevas: COR-BCN-IDA
+
+Listo: 15 requests, 0 errores — 2 precios nuevos guardados

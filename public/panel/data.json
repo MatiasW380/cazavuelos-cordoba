@@ -1,12 +1,12 @@
 {
- "generado": "2026-10-25T04:43:40+00:00",
+ "generado": "2026-10-25T11:32:39+00:00",
  "estado": {
-  "ultima_corrida": "2026-10-25T04:43:40+00:00",
+  "ultima_corrida": "2026-10-25T11:32:39+00:00",
   "requests": 15,
   "errores": 0,
-  "rutas_activas": 72,
-  "rutas_con_datos": 67,
-  "precios_en_historial": 1868
+  "rutas_activas": 73,
+  "rutas_con_datos": 68,
+  "precios_en_historial": 1870
  },
  "rutas": [
   {
@@ -1025,7 +1025,7 @@
    "region": "argentina",
    "tipo": "solo_ida",
    "activa": true,
-   "registros_90d": 311,
+   "registros_90d": 312,
    "precio_actual": 36.0,
    "aerolinea": "JetSMART",
    "escalas": 0,
@@ -1033,14 +1033,14 @@
    "fecha_retorno": null,
    "url": "https://www.aviasales.com/search/COR1611BUE1?t=JA17948563201794861060000079CORAEP_2302b0d05a8b665d8f70a477ea9423a6_2980&search_date=20102026&expected_price_uuid=01a156b2-e6ee-8030-2073-193aee4ed8e9&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CRDO71_SOrYbfcvavU2NJQ&expected_price_source=share&expected_price_currency=usd&expected_price=36&locale=es&currency=usd&marker=784835.panel",
    "url_web": "https://www.aviasales.com/search/COR1611BUE1?t=JA17948563201794861060000079CORAEP_2302b0d05a8b665d8f70a477ea9423a6_2980&search_date=20102026&expected_price_uuid=01a156b2-e6ee-8030-2073-193aee4ed8e9&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CRDO71_SOrYbfcvavU2NJQ&expected_price_source=share&expected_price_currency=usd&expected_price=36&locale=es&currency=usd&marker=784835.web",
-   "promedio_90d": 52.73,
+   "promedio_90d": 52.77,
    "minimo_90d": 19.0,
    "promedio_previo": 52.69,
    "registros_previos": 299,
    "descuento_pct": 31.7,
    "oferta": "normal",
    "url_x": "https://www.aviasales.com/search/COR1611BUE1?t=JA17948563201794861060000079CORAEP_2302b0d05a8b665d8f70a477ea9423a6_2980&search_date=20102026&expected_price_uuid=01a156b2-e6ee-8030-2073-193aee4ed8e9&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CRDO71_SOrYbfcvavU2NJQ&expected_price_source=share&expected_price_currency=usd&expected_price=36&locale=es&currency=usd&marker=784835.x",
-   "ultima_actualizacion": "2026-10-25T04:43:31+00:00",
+   "ultima_actualizacion": "2026-10-25T11:32:30+00:00",
    "texto_x": "🔥 OFERTA desde Córdoba\n✈️ Córdoba → Buenos Aires\n💵 USD 36 solo ida · JetSMART, directo\n🗓️ Salida 16 nov\n📉 32% menos que el promedio (USD 53)\n\nhttps://www.aviasales.com/search/COR1611BUE1?t=JA17948563201794861060000079CORAEP_2302b0d05a8b665d8f70a477ea9423a6_2980&search_date=20102026&expected_price_uuid=01a156b2-e6ee-8030-2073-193aee4ed8e9&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CRDO71_SOrYbfcvavU2NJQ&expected_price_source=share&expected_price_currency=usd&expected_price=36&locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #BuenosAires",
    "texto_instagram": "🔥 ¡Oferta! Córdoba → Buenos Aires por USD 36 solo ida\n\n🗓️ Salida el 16 de noviembre\n🛫 JetSMART, directo\n📉 32% menos que el precio promedio de esta ruta (USD 53)\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #BuenosAires"
   },
@@ -1494,6 +1494,31 @@
    "oferta": null,
    "url_x": null,
    "ultima_actualizacion": "2026-10-09T06:11:12+00:00"
+  },
+  {
+   "id": "COR-BCN-IDA",
+   "destino": "Barcelona",
+   "region": "europa",
+   "tipo": "solo_ida",
+   "activa": true,
+   "registros_90d": 1,
+   "precio_actual": 665.0,
+   "aerolinea": "JetSMART",
+   "escalas": 1,
+   "fecha_salida": "2026-10-27",
+   "fecha_retorno": null,
+   "url": "https://www.aviasales.com/search/COR2710BCN1?t=IB17931451801793297700002302CORAEPEZEBCN_a66ce1d3b907d040a3f7d634613ae03c_53433&search_date=25102026&expected_price_uuid=01a17220-a6da-8031-6759-950acc526e9e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=1YTOrY1O4jheNSP5kOYwKw&expected_price_source=share&expected_price_currency=usd&expected_price=665&locale=es&currency=usd&marker=784835.panel",
+   "url_web": "https://www.aviasales.com/search/COR2710BCN1?t=IB17931451801793297700002302CORAEPEZEBCN_a66ce1d3b907d040a3f7d634613ae03c_53433&search_date=25102026&expected_price_uuid=01a17220-a6da-8031-6759-950acc526e9e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=1YTOrY1O4jheNSP5kOYwKw&expected_price_source=share&expected_price_currency=usd&expected_price=665&locale=es&currency=usd&marker=784835.web",
+   "promedio_90d": 665.0,
+   "minimo_90d": 665.0,
+   "promedio_previo": null,
+   "registros_previos": 0,
+   "descuento_pct": null,
+   "oferta": null,
+   "url_x": "https://www.aviasales.com/search/COR2710BCN1?t=IB17931451801793297700002302CORAEPEZEBCN_a66ce1d3b907d040a3f7d634613ae03c_53433&search_date=25102026&expected_price_uuid=01a17220-a6da-8031-6759-950acc526e9e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=1YTOrY1O4jheNSP5kOYwKw&expected_price_source=share&expected_price_currency=usd&expected_price=665&locale=es&currency=usd&marker=784835.x",
+   "ultima_actualizacion": "2026-10-25T11:32:30+00:00",
+   "texto_x": "✈️ Córdoba → Barcelona\n💵 USD 665 solo ida · JetSMART, 1 escala\n🗓️ Salida 27 oct\n\nhttps://www.aviasales.com/search/COR2710BCN1?t=IB17931451801793297700002302CORAEPEZEBCN_a66ce1d3b907d040a3f7d634613ae03c_53433&search_date=25102026&expected_price_uuid=01a17220-a6da-8031-6759-950acc526e9e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=1YTOrY1O4jheNSP5kOYwKw&expected_price_source=share&expected_price_currency=usd&expected_price=665&locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #Barcelona",
+   "texto_instagram": "✈️ Córdoba → Barcelona por USD 665 solo ida\n\n🗓️ Salida el 27 de octubre\n🛫 JetSMART, 1 escala\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #Barcelona"
   },
   {
    "id": "COR-LIS-IDA",

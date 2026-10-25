@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25T04:43:40+00:00",
+ "actualizado": "2026-10-25T11:32:39+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -336,6 +336,18 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR0512AUA20121?t=CM17964522601796508300000994CORPTYAUA17977506001797812700000975AUAPTYCOR_452d4da589284e0bfea481403e115d5d_54131&search_date=19102026&expected_price_uuid=01a15624-2311-8040-60b2-7135fd53d760&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=OCKKUam0Dc4-wCc4x9Zz9g&expected_price_source=share&expected_price_currency=usd&expected_price=654&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Barcelona",
+   "region": "europa",
+   "tipo": "solo_ida",
+   "precio_actual": 665.0,
+   "fecha_salida": "2026-10-27",
+   "fecha_retorno": null,
+   "aerolinea": "JetSMART",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2710BCN1?t=IB17931451801793297700002302CORAEPEZEBCN_a66ce1d3b907d040a3f7d634613ae03c_53433&search_date=25102026&expected_price_uuid=01a17220-a6da-8031-6759-950acc526e9e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=1YTOrY1O4jheNSP5kOYwKw&expected_price_source=share&expected_price_currency=usd&expected_price=665&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Miami",
