@@ -1,4 +1,4 @@
-Resultados crudos: 164 — únicos con ≤1 escala: 87
+Resultados crudos: 165 — únicos con ≤1 escala: 89
 
   IGR  Puerto Iguazú            ida y vuelta  n=  6  min USD 134
   USH  Ushuaia                  ida y vuelta  n=  6  min USD 208
@@ -6,7 +6,7 @@ Resultados crudos: 164 — únicos con ≤1 escala: 87
   MAD  Ciudad de Madrid         ida y vuelta  n=  4  min USD 960
   AUA  Oranjestad               ida y vuelta  n=  3  min USD 654
   RIO  Río de Janeiro           ida y vuelta  n=  2  min USD 369
-  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 728
+  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 733
   FLN  Florianópolis            ida y vuelta  n=  2  min USD 265
   ROM  Roma                     ida y vuelta  n=  2  min USD 1,291
   GUA  Guatemala                ida y vuelta  n=  2  min USD 497
@@ -17,8 +17,8 @@ Resultados crudos: 164 — únicos con ≤1 escala: 87
   SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 288
   NYC  Nueva York               ida y vuelta  n=  1  min USD 1,172
   MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 260
-  MIA  Miami                    ida y vuelta  n=  1  min USD 725
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 768
+  MIA  Miami                    ida y vuelta  n=  1  min USD 736
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 781
   BCN  Barcelona                ida y vuelta  n=  1  min USD 968
   HAV  La Habana                ida y vuelta  n=  1  min USD 981
   BUE  Buenos Aires             solo ida      n= 13  min USD 37
@@ -28,17 +28,16 @@ Resultados crudos: 164 — únicos con ≤1 escala: 87
   SAO  São Paulo                solo ida      n=  2  min USD 214
   LIM  Lima                     solo ida      n=  2  min USD 245
   AUA  Oranjestad               solo ida      n=  2  min USD 337
+  MAD  Ciudad de Madrid         solo ida      n=  2  min USD 930
   MDE  Medellín                 solo ida      n=  1  min USD 393
   BCN  Barcelona                solo ida      n=  1  min USD 665
+  JUJ  Jujuy                    solo ida      n=  1  min USD 50
   BRC  Bariloche                solo ida      n=  1  min USD 80
   USH  Ushuaia                  solo ida      n=  1  min USD 89
   PRA  Paraná                   solo ida      n=  1  min USD 100
   PMY  Puerto Madryn            solo ida      n=  1  min USD 112
   ASU  Asunción                 solo ida      n=  1  min USD 148
   CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 161
-  MAD  Ciudad de Madrid         solo ida      n=  1  min USD 930
   LIS  Lisboa                   solo ida      n=  1  min USD 1,029
-
-Rutas nuevas: COR-BCN-IDA
 
 Listo: 15 requests, 0 errores — 2 precios nuevos guardados
