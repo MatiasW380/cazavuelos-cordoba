@@ -1,4 +1,4 @@
-Resultados crudos: 165 — únicos con ≤1 escala: 89
+Resultados crudos: 164 — únicos con ≤1 escala: 88
 
   IGR  Puerto Iguazú            ida y vuelta  n=  6  min USD 134
   USH  Ushuaia                  ida y vuelta  n=  6  min USD 208
@@ -24,7 +24,6 @@ Resultados crudos: 165 — únicos con ≤1 escala: 89
   BUE  Buenos Aires             solo ida      n= 13  min USD 37
   IGR  Puerto Iguazú            solo ida      n=  7  min USD 73
   SCL  Santiago de Chile        solo ida      n=  4  min USD 152
-  FTE  El Calafate              solo ida      n=  2  min USD 105
   SAO  São Paulo                solo ida      n=  2  min USD 214
   LIM  Lima                     solo ida      n=  2  min USD 245
   AUA  Oranjestad               solo ida      n=  2  min USD 337
@@ -35,9 +34,10 @@ Resultados crudos: 165 — únicos con ≤1 escala: 89
   BRC  Bariloche                solo ida      n=  1  min USD 80
   USH  Ushuaia                  solo ida      n=  1  min USD 89
   PRA  Paraná                   solo ida      n=  1  min USD 100
+  FTE  El Calafate              solo ida      n=  1  min USD 105
   PMY  Puerto Madryn            solo ida      n=  1  min USD 112
   ASU  Asunción                 solo ida      n=  1  min USD 148
   CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 161
   LIS  Lisboa                   solo ida      n=  1  min USD 1,029
 
-Listo: 15 requests, 0 errores — 2 precios nuevos guardados
+Listo: 15 requests, 0 errores — 0 precios nuevos guardados
