@@ -1,33 +1,31 @@
-Resultados crudos: 172 — únicos con ≤1 escala: 91
+Resultados crudos: 164 — únicos con ≤1 escala: 87
 
-  IGR  Puerto Iguazú            ida y vuelta  n=  6  min USD 131
-  BUE  Buenos Aires             ida y vuelta  n=  6  min USD 54
-  USH  Ushuaia                  ida y vuelta  n=  6  min USD 204
+  IGR  Puerto Iguazú            ida y vuelta  n=  6  min USD 134
+  BUE  Buenos Aires             ida y vuelta  n=  6  min USD 55
+  USH  Ushuaia                  ida y vuelta  n=  6  min USD 208
   MAD  Ciudad de Madrid         ida y vuelta  n=  4  min USD 960
-  RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 362
-  FLN  Florianópolis            ida y vuelta  n=  3  min USD 260
-  AUA  Oranjestad               ida y vuelta  n=  3  min USD 642
-  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 714
-  ROM  Roma                     ida y vuelta  n=  2  min USD 1,266
-  GUA  Guatemala                ida y vuelta  n=  2  min USD 487
-  MDZ  Mendoza                  ida y vuelta  n=  1  min USD 139
-  BRC  Bariloche                ida y vuelta  n=  1  min USD 145
-  ASU  Asunción                 ida y vuelta  n=  1  min USD 283
-  LIM  Lima                     ida y vuelta  n=  1  min USD 414
-  PDP  Punta del Este           ida y vuelta  n=  1  min USD 501
-  SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 282
-  NYC  Nueva York               ida y vuelta  n=  1  min USD 1,150
-  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 249
-  MIA  Miami                    ida y vuelta  n=  1  min USD 711
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 754
-  BCN  Barcelona                ida y vuelta  n=  1  min USD 950
-  HAV  La Habana                ida y vuelta  n=  1  min USD 962
+  AUA  Oranjestad               ida y vuelta  n=  3  min USD 654
+  RIO  Río de Janeiro           ida y vuelta  n=  2  min USD 369
+  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 728
+  FLN  Florianópolis            ida y vuelta  n=  2  min USD 265
+  ROM  Roma                     ida y vuelta  n=  2  min USD 1,291
+  GUA  Guatemala                ida y vuelta  n=  2  min USD 497
+  MDZ  Mendoza                  ida y vuelta  n=  1  min USD 141
+  BRC  Bariloche                ida y vuelta  n=  1  min USD 148
+  ASU  Asunción                 ida y vuelta  n=  1  min USD 289
+  LIM  Lima                     ida y vuelta  n=  1  min USD 422
+  SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 288
+  NYC  Nueva York               ida y vuelta  n=  1  min USD 1,172
+  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 260
+  MIA  Miami                    ida y vuelta  n=  1  min USD 725
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 768
+  BCN  Barcelona                ida y vuelta  n=  1  min USD 968
+  HAV  La Habana                ida y vuelta  n=  1  min USD 981
   BUE  Buenos Aires             solo ida      n= 12  min USD 36
   IGR  Puerto Iguazú            solo ida      n=  7  min USD 73
   SCL  Santiago de Chile        solo ida      n=  4  min USD 152
-  FTE  El Calafate              solo ida      n=  2  min USD 129
+  FTE  El Calafate              solo ida      n=  2  min USD 105
   SAO  São Paulo                solo ida      n=  2  min USD 214
-  FLN  Florianópolis            solo ida      n=  2  min USD 200
   LIM  Lima                     solo ida      n=  2  min USD 245
   AUA  Oranjestad               solo ida      n=  2  min USD 337
   MDE  Medellín                 solo ida      n=  1  min USD 393
@@ -37,7 +35,8 @@ Resultados crudos: 172 — únicos con ≤1 escala: 91
   PMY  Puerto Madryn            solo ida      n=  1  min USD 112
   ASU  Asunción                 solo ida      n=  1  min USD 148
   CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 161
+  FLN  Florianópolis            solo ida      n=  1  min USD 263
   MAD  Ciudad de Madrid         solo ida      n=  1  min USD 930
   LIS  Lisboa                   solo ida      n=  1  min USD 1,029
 
-Listo: 15 requests, 0 errores — 10 precios nuevos guardados
+Listo: 15 requests, 0 errores — 87 precios nuevos guardados
