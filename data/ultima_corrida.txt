@@ -1,32 +1,33 @@
-Resultados crudos: 164 — únicos con ≤1 escala: 88
+Resultados crudos: 165 — únicos con ≤1 escala: 90
 
   IGR  Puerto Iguazú            ida y vuelta  n=  6  min USD 134
-  USH  Ushuaia                  ida y vuelta  n=  6  min USD 208
   BUE  Buenos Aires             ida y vuelta  n=  5  min USD 55
-  MAD  Ciudad de Madrid         ida y vuelta  n=  4  min USD 960
-  AUA  Oranjestad               ida y vuelta  n=  3  min USD 654
-  RIO  Río de Janeiro           ida y vuelta  n=  2  min USD 369
-  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 733
+  USH  Ushuaia                  ida y vuelta  n=  4  min USD 208
+  MAD  Ciudad de Madrid         ida y vuelta  n=  4  min USD 959
+  RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 369
+  AUA  Oranjestad               ida y vuelta  n=  3  min USD 653
+  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 732
   FLN  Florianópolis            ida y vuelta  n=  2  min USD 265
-  ROM  Roma                     ida y vuelta  n=  2  min USD 1,291
-  GUA  Guatemala                ida y vuelta  n=  2  min USD 497
+  ROM  Roma                     ida y vuelta  n=  2  min USD 1,289
+  GUA  Guatemala                ida y vuelta  n=  2  min USD 496
   MDZ  Mendoza                  ida y vuelta  n=  1  min USD 141
   BRC  Bariloche                ida y vuelta  n=  1  min USD 148
-  ASU  Asunción                 ida y vuelta  n=  1  min USD 289
+  ASU  Asunción                 ida y vuelta  n=  1  min USD 288
   LIM  Lima                     ida y vuelta  n=  1  min USD 422
-  SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 288
-  NYC  Nueva York               ida y vuelta  n=  1  min USD 1,172
-  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 260
-  MIA  Miami                    ida y vuelta  n=  1  min USD 736
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 781
-  BCN  Barcelona                ida y vuelta  n=  1  min USD 968
-  HAV  La Habana                ida y vuelta  n=  1  min USD 981
-  BUE  Buenos Aires             solo ida      n= 13  min USD 37
+  SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 287
+  NYC  Nueva York               ida y vuelta  n=  1  min USD 1,170
+  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 259
+  MIA  Miami                    ida y vuelta  n=  1  min USD 724
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 767
+  BCN  Barcelona                ida y vuelta  n=  1  min USD 967
+  HAV  La Habana                ida y vuelta  n=  1  min USD 979
+  BUE  Buenos Aires             solo ida      n= 14  min USD 36
   IGR  Puerto Iguazú            solo ida      n=  7  min USD 73
   SCL  Santiago de Chile        solo ida      n=  4  min USD 152
-  SAO  São Paulo                solo ida      n=  2  min USD 214
   LIM  Lima                     solo ida      n=  2  min USD 245
+  SAO  São Paulo                solo ida      n=  2  min USD 230
   AUA  Oranjestad               solo ida      n=  2  min USD 337
+  CUN  Cancún                   solo ida      n=  2  min USD 369
   MAD  Ciudad de Madrid         solo ida      n=  2  min USD 930
   MDE  Medellín                 solo ida      n=  1  min USD 393
   BCN  Barcelona                solo ida      n=  1  min USD 665
@@ -40,4 +41,6 @@ Resultados crudos: 164 — únicos con ≤1 escala: 88
   CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 161
   LIS  Lisboa                   solo ida      n=  1  min USD 1,029
 
-Listo: 15 requests, 0 errores — 0 precios nuevos guardados
+Rutas nuevas: COR-CUN-IDA
+
+Listo: 15 requests, 0 errores — 90 precios nuevos guardados
