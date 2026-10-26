@@ -1,12 +1,12 @@
 {
- "generado": "2026-10-26T04:49:54+00:00",
+ "generado": "2026-10-26T13:06:18+00:00",
  "estado": {
-  "ultima_corrida": "2026-10-26T04:49:54+00:00",
+  "ultima_corrida": "2026-10-26T13:06:18+00:00",
   "requests": 15,
   "errores": 0,
   "rutas_activas": 74,
   "rutas_con_datos": 69,
-  "precios_en_historial": 1962
+  "precios_en_historial": 1963
  },
  "rutas": [
   {
@@ -1659,14 +1659,14 @@
    "fecha_retorno": null,
    "url": "https://www.aviasales.com/search/COR2211LIM1?t=AR17953773001795470300001670COREZEAEPLIM_76ba844cf7cf1f292965a95049d56476_19705&search_date=24102026&expected_price_uuid=01a16c64-d895-8031-2613-3446ce8c8c93&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ALrXoO00eEoAEpWf_3ANXA&expected_price_source=share&expected_price_currency=usd&expected_price=245&locale=es&currency=usd&marker=784835.panel",
    "url_web": "https://www.aviasales.com/search/COR2211LIM1?t=AR17953773001795470300001670COREZEAEPLIM_76ba844cf7cf1f292965a95049d56476_19705&search_date=24102026&expected_price_uuid=01a16c64-d895-8031-2613-3446ce8c8c93&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ALrXoO00eEoAEpWf_3ANXA&expected_price_source=share&expected_price_currency=usd&expected_price=245&locale=es&currency=usd&marker=784835.web",
-   "promedio_90d": 152.92,
+   "promedio_90d": 152.9,
    "minimo_90d": 37.0,
    "promedio_previo": 147.7,
    "registros_previos": 37,
    "descuento_pct": -65.9,
    "oferta": null,
    "url_x": "https://www.aviasales.com/search/COR2211LIM1?t=AR17953773001795470300001670COREZEAEPLIM_76ba844cf7cf1f292965a95049d56476_19705&search_date=24102026&expected_price_uuid=01a16c64-d895-8031-2613-3446ce8c8c93&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ALrXoO00eEoAEpWf_3ANXA&expected_price_source=share&expected_price_currency=usd&expected_price=245&locale=es&currency=usd&marker=784835.x",
-   "ultima_actualizacion": "2026-10-26T04:49:44+00:00",
+   "ultima_actualizacion": "2026-10-26T13:06:09+00:00",
    "texto_x": "✈️ Córdoba → Lima\n💵 USD 245 solo ida · Aerolíneas Argentinas, 1 escala\n🗓️ Salida 22 nov\n\nhttps://www.aviasales.com/search/COR2211LIM1?t=AR17953773001795470300001670COREZEAEPLIM_76ba844cf7cf1f292965a95049d56476_19705&search_date=24102026&expected_price_uuid=01a16c64-d895-8031-2613-3446ce8c8c93&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ALrXoO00eEoAEpWf_3ANXA&expected_price_source=share&expected_price_currency=usd&expected_price=245&locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #Lima",
    "texto_instagram": "✈️ Córdoba → Lima por USD 245 solo ida\n\n🗓️ Salida el 22 de noviembre\n🛫 Aerolíneas Argentinas, 1 escala\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #Lima"
   },
@@ -1676,7 +1676,7 @@
    "region": "sudamerica",
    "tipo": "solo_ida",
    "activa": true,
-   "registros_90d": 15,
+   "registros_90d": 16,
    "precio_actual": 393.0,
    "aerolinea": "Copa Airlines",
    "escalas": 1,
@@ -1684,14 +1684,14 @@
    "fecha_retorno": null,
    "url": "https://www.aviasales.com/search/COR2810MDE1?t=CM17931583201793184900000563CORPTYMDE_16ffcbbe480051e907f76b0023fa955d_32540&search_date=20102026&expected_price_uuid=01a15a3a-d585-8040-2c40-3e6cb8011f90&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CVG341ptfjANv5VE8LrcSQ&expected_price_source=share&expected_price_currency=usd&expected_price=393&locale=es&currency=usd&marker=784835.panel",
    "url_web": "https://www.aviasales.com/search/COR2810MDE1?t=CM17931583201793184900000563CORPTYMDE_16ffcbbe480051e907f76b0023fa955d_32540&search_date=20102026&expected_price_uuid=01a15a3a-d585-8040-2c40-3e6cb8011f90&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CVG341ptfjANv5VE8LrcSQ&expected_price_source=share&expected_price_currency=usd&expected_price=393&locale=es&currency=usd&marker=784835.web",
-   "promedio_90d": 369.8,
+   "promedio_90d": 371.25,
    "minimo_90d": 306.0,
    "promedio_previo": 368.14,
    "registros_previos": 14,
    "descuento_pct": -6.8,
    "oferta": null,
    "url_x": "https://www.aviasales.com/search/COR2810MDE1?t=CM17931583201793184900000563CORPTYMDE_16ffcbbe480051e907f76b0023fa955d_32540&search_date=20102026&expected_price_uuid=01a15a3a-d585-8040-2c40-3e6cb8011f90&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CVG341ptfjANv5VE8LrcSQ&expected_price_source=share&expected_price_currency=usd&expected_price=393&locale=es&currency=usd&marker=784835.x",
-   "ultima_actualizacion": "2026-10-26T04:49:44+00:00",
+   "ultima_actualizacion": "2026-10-26T13:06:09+00:00",
    "texto_x": "✈️ Córdoba → Medellín\n💵 USD 393 solo ida · Copa Airlines, 1 escala\n🗓️ Salida 28 oct\n\nhttps://www.aviasales.com/search/COR2810MDE1?t=CM17931583201793184900000563CORPTYMDE_16ffcbbe480051e907f76b0023fa955d_32540&search_date=20102026&expected_price_uuid=01a15a3a-d585-8040-2c40-3e6cb8011f90&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CVG341ptfjANv5VE8LrcSQ&expected_price_source=share&expected_price_currency=usd&expected_price=393&locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #Medellin",
    "texto_instagram": "✈️ Córdoba → Medellín por USD 393 solo ida\n\n🗓️ Salida el 28 de octubre\n🛫 Copa Airlines, 1 escala\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #Medellin"
   },
