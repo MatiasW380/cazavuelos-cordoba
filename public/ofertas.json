@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T12:14:49+00:00",
+ "actualizado": "2026-10-27T18:04:03+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -293,13 +293,13 @@
    "destino": "Cancún",
    "region": "caribe",
    "tipo": "solo_ida",
-   "precio_actual": 369.0,
+   "precio_actual": 363.0,
    "fecha_salida": "2026-12-01",
    "fecha_retorno": null,
    "aerolinea": "Arajet",
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0112CUN1?t=DM17960856001796124900000775CORPUJCUN_506f954623ca3b09262958a5114f9917_30087&search_date=26102026&expected_price_uuid=01a17664-3fcd-8040-2afd-b1b0e8f44445&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=GiiPdWGtq5SAcWql0cu8Eg&expected_price_source=share&expected_price_currency=usd&expected_price=369&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR0112CUN1?t=DM17960856001796124900000775CORPUJCUN_506f954623ca3b09262958a5114f9917_29240&search_date=27102026&expected_price_uuid=01a17e1d-ca41-8040-628f-3eb38e18cf00&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=GiiPdWGtq5SAcWql0cu8Eg&expected_price_source=share&expected_price_currency=usd&expected_price=363&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Medellín",
