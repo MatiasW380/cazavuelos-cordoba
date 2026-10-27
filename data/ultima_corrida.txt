@@ -1,15 +1,15 @@
-Resultados crudos: 169 — únicos con ≤1 escala: 86
+Resultados crudos: 170 — únicos con ≤1 escala: 87
 
   IGR  Puerto Iguazú            ida y vuelta  n=  7  min USD 134
   BUE  Buenos Aires             ida y vuelta  n=  5  min USD 55
   USH  Ushuaia                  ida y vuelta  n=  5  min USD 208
-  RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 372
+  RIO  Río de Janeiro           ida y vuelta  n=  5  min USD 362
   MAD  Ciudad de Madrid         ida y vuelta  n=  3  min USD 960
   PUJ  Punta Cana               ida y vuelta  n=  2  min USD 733
   FLN  Florianópolis            ida y vuelta  n=  2  min USD 265
   SCL  Santiago de Chile        ida y vuelta  n=  2  min USD 288
   ROM  Roma                     ida y vuelta  n=  2  min USD 1,291
-  GUA  Guatemala                ida y vuelta  n=  2  min USD 545
+  GUA  Guatemala                ida y vuelta  n=  2  min USD 621
   JUJ  Jujuy                    ida y vuelta  n=  1  min USD 142
   MDZ  Mendoza                  ida y vuelta  n=  1  min USD 148
   BRC  Bariloche                ida y vuelta  n=  1  min USD 186
@@ -19,8 +19,8 @@ Resultados crudos: 169 — únicos con ≤1 escala: 86
   MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 260
   SLA  Salta                    ida y vuelta  n=  1  min USD 221
   AUA  Oranjestad               ida y vuelta  n=  1  min USD 723
-  MIA  Miami                    ida y vuelta  n=  1  min USD 726
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 773
+  MIA  Miami                    ida y vuelta  n=  1  min USD 722
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 770
   BCN  Barcelona                ida y vuelta  n=  1  min USD 968
   HAV  La Habana                ida y vuelta  n=  1  min USD 981
   MIL  Milán                    ida y vuelta  n=  1  min USD 1,189
@@ -39,7 +39,6 @@ Resultados crudos: 169 — únicos con ≤1 escala: 86
   USH  Ushuaia                  solo ida      n=  1  min USD 89
   FTE  El Calafate              solo ida      n=  1  min USD 105
   PMY  Puerto Madryn            solo ida      n=  1  min USD 112
-  CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 161
   AUA  Oranjestad               solo ida      n=  1  min USD 337
 
-Listo: 15 requests, 0 errores — 86 precios nuevos guardados
+Listo: 15 requests, 0 errores — 2 precios nuevos guardados
