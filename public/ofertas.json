@@ -1,29 +1,17 @@
 {
- "actualizado": "2026-10-27T22:15:27+00:00",
+ "actualizado": "2026-10-28T05:44:31+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
    "region": "argentina",
    "tipo": "solo_ida",
-   "precio_actual": 36.0,
-   "fecha_salida": "2026-12-11",
+   "precio_actual": 37.0,
+   "fecha_salida": "2026-11-18",
    "fecha_retorno": null,
    "aerolinea": "JetSMART",
    "escalas": 0,
    "oferta": "normal",
-   "url": "https://www.aviasales.com/search/COR1112BUE1?t=JA17970305401797035280000079CORAEP_df48d0d30dcb949e536d017656e28603_2888&search_date=26102026&expected_price_uuid=01a1763f-da26-8040-6e9d-a2512fd46e9b&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=1eTbPHv8X8eRpJcNibZC8w&expected_price_source=share&expected_price_currency=usd&expected_price=36&locale=es&currency=usd&marker=784835.web"
-  },
-  {
-   "destino": "Jujuy",
-   "region": "argentina",
-   "tipo": "solo_ida",
-   "precio_actual": 50.0,
-   "fecha_salida": "2026-11-10",
-   "fecha_retorno": null,
-   "aerolinea": "Aerolíneas Argentinas",
-   "escalas": 0,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR1011JUJ1?t=AR17943297001794335100000090CORJUJ_cec4f2ddfb6a0e05f881efca05112d45_4115&search_date=25102026&expected_price_uuid=01a17338-fb07-8040-2264-97b501fa450f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=EUqrZAZ4rAdN5nJTH9Ck_A&expected_price_source=share&expected_price_currency=usd&expected_price=50&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR1811BUE1?t=JA17950425001795047240000079CORAEP_bf1bbc2ed51cc2d749a27cd0f364d79e_2981&search_date=28102026&expected_price_uuid=01a1805a-e6da-8040-2619-49781031928e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=7bjkeKVBFk7dealReBm6Kg&expected_price_source=share&expected_price_currency=usd&expected_price=37&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Buenos Aires",
@@ -38,6 +26,30 @@
    "url": "https://www.aviasales.com/search/COR0303BUE04031?t=JA18040756201804080360000079CORAEP18041436001804148760000086AEPCOR_99ead020e41d67dc5d036b0cd49cd5cb_4516&search_date=21102026&expected_price_uuid=01a15f74-b29d-8040-2adb-ac3d8852157e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=JXtZ6PJaKnkbjIfV24soOw&expected_price_source=share&expected_price_currency=usd&expected_price=55&locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Salta",
+   "region": "argentina",
+   "tipo": "solo_ida",
+   "precio_actual": 77.0,
+   "fecha_salida": "2026-10-28",
+   "fecha_retorno": null,
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 0,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2810SLA1?t=AR17932050001793210100000085CORSLA_17101b61c4f7f560c6274b8b405c513a_6203&search_date=28102026&expected_price_uuid=01a18070-cb76-8040-67d5-52f7765b033b&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=WWW8TEKsZUzLWHvM-JhlCw&expected_price_source=share&expected_price_currency=usd&expected_price=77&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Jujuy",
+   "region": "argentina",
+   "tipo": "solo_ida",
+   "precio_actual": 79.0,
+   "fecha_salida": "2026-11-10",
+   "fecha_retorno": null,
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 0,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR1011JUJ1?t=AR17943297001794335100000090CORJUJ_cec4f2ddfb6a0e05f881efca05112d45_6364&search_date=27102026&expected_price_uuid=01a17ef7-6a16-8040-277c-2d4bc7bde2a0&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=EUqrZAZ4rAdN5nJTH9Ck_A&expected_price_source=share&expected_price_currency=usd&expected_price=79&locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Bariloche",
    "region": "argentina",
    "tipo": "solo_ida",
@@ -48,18 +60,6 @@
    "escalas": 1,
    "oferta": "normal",
    "url": "https://www.aviasales.com/search/COR2411BRC1?t=JA17955576001795648860001521CORAEPBRC_6ce393f6cbf4d90b0f353cfb92814d90_6553&search_date=22102026&expected_price_uuid=01a1611c-a707-8040-65f2-45f10e25e94e&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=99QG-syAGH8xSuWkhool5A&expected_price_source=share&expected_price_currency=usd&expected_price=80&locale=es&currency=usd&marker=784835.web"
-  },
-  {
-   "destino": "Iguazú",
-   "region": "argentina",
-   "tipo": "solo_ida",
-   "precio_actual": 84.0,
-   "fecha_salida": "2026-12-31",
-   "fecha_retorno": null,
-   "aerolinea": "JetSMART",
-   "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR3112IGR1?t=JA17987262601798751880000427CORAEPIGR_3eb505a396de516032f23402820cd786_6925&search_date=20102026&expected_price_uuid=01a159bc-8806-8030-eaee-ad9ed75e0333&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Y3aNALmDGqHB3ldCD1afsQ&expected_price_source=share&expected_price_currency=usd&expected_price=84&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Ushuaia",
@@ -86,18 +86,6 @@
    "url": "https://www.aviasales.com/search/COR0511PRA1?t=AR17939127001793977200001075CORAEPPRA_b7f079eceed45c7fc7b3be6ad5f28378_8217&search_date=21102026&expected_price_uuid=01a15d29-6349-8030-24fd-478d5f16e96d&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=DAyfj1ZKsI-wRoLesul9TA&expected_price_source=share&expected_price_currency=usd&expected_price=100&locale=es&currency=usd&marker=784835.web"
   },
   {
-   "destino": "El Calafate",
-   "region": "argentina",
-   "tipo": "solo_ida",
-   "precio_actual": 105.0,
-   "fecha_salida": "2026-11-27",
-   "fecha_retorno": null,
-   "aerolinea": "Aerolíneas Argentinas",
-   "escalas": 1,
-   "oferta": "normal",
-   "url": "https://www.aviasales.com/search/COR2711FTE1?t=JA17958117001795852860000686CORAEPEZEFTE_c5f495118f22a7ad7558b1c195e55f2a_8472&search_date=24102026&expected_price_uuid=01a17031-08a9-8030-aeb7-587cdc358280&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=xd38TCjGeMsmSeVmgCH2ew&expected_price_source=share&expected_price_currency=usd&expected_price=105&locale=es&currency=usd&marker=784835.web"
-  },
-  {
    "destino": "Puerto Madryn",
    "region": "argentina",
    "tipo": "solo_ida",
@@ -108,18 +96,6 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR0711PMY1?t=AR17940774001794159600001370CORAEPEZEPMY_9c57e042a4d00e6cdfebc31d133e2146_9047&search_date=23102026&expected_price_uuid=01a169be-aa64-8030-276d-22d461de7d0b&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=bSW5mw1uj4tt9BkdhVUajQ&expected_price_source=share&expected_price_currency=usd&expected_price=112&locale=es&currency=usd&marker=784835.web"
-  },
-  {
-   "destino": "Salta",
-   "region": "argentina",
-   "tipo": "solo_ida",
-   "precio_actual": 125.0,
-   "fecha_salida": "2027-02-03",
-   "fecha_retorno": null,
-   "aerolinea": "JetSMART",
-   "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0302SLA1?t=JA18016951801801726440000521CORAEPSLA_627fabf39e2cbfee59c1a6a73c627117_10069&search_date=27102026&expected_price_uuid=01a17efb-e390-8040-6d53-8e37e03536ee&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=XMdWdS54g57RzF8ig_OCYg&expected_price_source=share&expected_price_currency=usd&expected_price=125&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Iguazú",
@@ -134,88 +110,88 @@
    "url": "https://www.aviasales.com/search/COR1312IGR20121?t=AR17971848001797191400000110CORIGR17977587001797766200000125IGRCOR_bf5cc50d695d4c9f2544a9710a65ca1b_10818&search_date=23102026&expected_price_uuid=01a167f8-0b67-8040-a5e4-fe4a4b9d323f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=I5j1IYBqCDkFEcm3vlEYYw&expected_price_source=share&expected_price_currency=usd&expected_price=134&locale=es&currency=usd&marker=784835.web"
   },
   {
-   "destino": "Jujuy",
+   "destino": "El Calafate",
    "region": "argentina",
-   "tipo": "ida_vuelta",
-   "precio_actual": 142.0,
-   "fecha_salida": "2026-11-10",
-   "fecha_retorno": "2026-11-17",
+   "tipo": "solo_ida",
+   "precio_actual": 135.0,
+   "fecha_salida": "2026-11-27",
+   "fecha_retorno": null,
    "aerolinea": "Aerolíneas Argentinas",
-   "escalas": 0,
+   "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR1011JUJ17111?t=AR17943297001794335100000090CORJUJ17949090001794914400000090JUJCOR_a7206d2dca484d094f52b303c25a57fc_11462&search_date=26102026&expected_price_uuid=01a178c3-4cbf-8040-69ff-764edec553c1&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=BPWblvWGRF2rr4_iMLLCSg&expected_price_source=share&expected_price_currency=usd&expected_price=142&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR2711FTE1?t=JA17957706001795809180000643CORAEPEZEFTE_0e7190a199d5982862dde7f6f3b1ff29_10908&search_date=27102026&expected_price_uuid=01a17fa2-d011-8030-6be5-93e0c7523a49&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=K_Xjh5bXfIw6zYCrqFKEHw&expected_price_source=share&expected_price_currency=usd&expected_price=135&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Mendoza",
    "region": "argentina",
    "tipo": "ida_vuelta",
-   "precio_actual": 148.0,
+   "precio_actual": 149.0,
    "fecha_salida": "2026-11-06",
    "fecha_retorno": "2026-11-13",
-   "aerolinea": "Aerolíneas Argentinas",
+   "aerolinea": null,
    "escalas": 0,
    "oferta": "normal",
-   "url": "https://www.aviasales.com/search/COR0611MDZ13111?t=AR17939853001793989500000070CORMDZ17945814001794585300000065MDZCOR_1e609f80d28ae210d41ab201859977ba_11923&search_date=26102026&expected_price_uuid=01a178c4-d1e0-8040-a292-7fead271da49&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=3TM1j3uQ5YV2OowJQa6zcQ&expected_price_source=share&expected_price_currency=usd&expected_price=148&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR0611MDZ13111?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Santiago de Chile",
    "region": "sudamerica",
    "tipo": "solo_ida",
-   "precio_actual": 152.0,
+   "precio_actual": 158.0,
    "fecha_salida": "2027-01-19",
    "fecha_retorno": null,
    "aerolinea": "Aerolíneas Argentinas",
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR1901SCL1?t=JA18003723001800397320000417CORAEPSCL_cb35ee11123982d0014a1cdb3708adea_12241&search_date=24102026&expected_price_uuid=01a16f64-66a9-8030-6a50-397c678f6440&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=a3YAY5cVIbbpaezZkXxH4A&expected_price_source=share&expected_price_currency=usd&expected_price=152&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR1901SCL1?t=AR18003942001800437100000715CORAEPSCL_773d28e595991d0cb4a1dfeff62b48a3_12705&search_date=27102026&expected_price_uuid=01a17efb-356b-8040-2510-131ad2dcbbff&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=0CDYXOIMK5iHdM5_NmoorA&expected_price_source=share&expected_price_currency=usd&expected_price=158&locale=es&currency=usd&marker=784835.web"
   },
   {
-   "destino": "San Martin DeLos Andes",
-   "region": "argentina",
-   "tipo": "solo_ida",
-   "precio_actual": 161.0,
-   "fecha_salida": "2026-11-04",
-   "fecha_retorno": null,
-   "aerolinea": "Aerolíneas Argentinas",
-   "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0411CPC1?t=AR17937738001793797500000395CORAEPCPC_a74b21456c618305056c6c9553e24829_13316&search_date=20102026&expected_price_uuid=01a15848-5a31-8031-236d-45e77a48fb53&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ifWJ82m0fEziw5YyoCLwdQ&expected_price_source=share&expected_price_currency=usd&expected_price=161&locale=es&currency=usd&marker=784835.web"
-  },
-  {
-   "destino": "Bariloche",
+   "destino": "Jujuy",
    "region": "argentina",
    "tipo": "ida_vuelta",
-   "precio_actual": 186.0,
-   "fecha_salida": "2026-11-24",
-   "fecha_retorno": "2026-12-01",
-   "aerolinea": "JetSMART",
-   "escalas": 1,
+   "precio_actual": 175.0,
+   "fecha_salida": "2026-11-10",
+   "fecha_retorno": "2026-11-17",
+   "aerolinea": null,
+   "escalas": 0,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR2411BRC01121?t=JA17955639601795596060000535CORAEPEZEBRC17961590401796199960000682BRCEZEAEPCOR_f501b3336989cde43c3c327263b66126_15020&search_date=26102026&expected_price_uuid=01a178c1-5daa-8040-2ab5-c736605ac1ff&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=OiRWV3ZjYjA4ozLXTNAmtA&expected_price_source=share&expected_price_currency=usd&expected_price=186&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR1011JUJ17111?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Ushuaia",
    "region": "argentina",
    "tipo": "ida_vuelta",
-   "precio_actual": 208.0,
+   "precio_actual": 207.0,
    "fecha_salida": "2026-11-08",
    "fecha_retorno": "2026-11-12",
-   "aerolinea": "JetSMART",
+   "aerolinea": null,
    "escalas": 1,
    "oferta": "normal",
-   "url": "https://www.aviasales.com/search/COR0811USH12111?t=JA17941303201794170520000670CORAEPUSH17944837201794509640000432USHAEPCOR_7327ae094740f7987a004457e0914497_16726&search_date=24102026&expected_price_uuid=01a16b95-d76d-8040-2192-f172b39c4254&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=MgjjRvQKBlkhzd_x89cb9A&expected_price_source=share&expected_price_currency=usd&expected_price=208&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR0811USH12111?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Bariloche",
+   "region": "argentina",
+   "tipo": "ida_vuelta",
+   "precio_actual": 214.0,
+   "fecha_salida": "2026-11-24",
+   "fecha_retorno": "2026-12-01",
+   "aerolinea": null,
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2411BRC01121?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Salta",
    "region": "argentina",
    "tipo": "ida_vuelta",
-   "precio_actual": 219.0,
+   "precio_actual": 218.0,
    "fecha_salida": "2027-02-03",
    "fecha_retorno": "2027-02-10",
-   "aerolinea": "Aerolíneas Argentinas",
+   "aerolinea": null,
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0302SLA10021?t=AR18016770001801730100000885CORAEPSLA18022524001802257200000080SLACOR_4acbf3f785bebf051a67ecbf22fd9b6b_17656&search_date=27102026&expected_price_uuid=01a17efb-8d45-8040-6dd4-108398c3e41d&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=8Y35QXmr4Azkb9yLS-PyCw&expected_price_source=share&expected_price_currency=usd&expected_price=219&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR0302SLA10021?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "San Pablo",
@@ -245,49 +221,49 @@
    "destino": "Mar del Plata",
    "region": "argentina",
    "tipo": "ida_vuelta",
-   "precio_actual": 260.0,
+   "precio_actual": 259.0,
    "fecha_salida": "2027-01-03",
    "fecha_retorno": "2027-01-10",
-   "aerolinea": "Aerolíneas Argentinas",
+   "aerolinea": null,
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0301MDQ10011?t=AR17989803001798986300000100CORMDQ17996196001799650800000520MDQAEPCOR_d4e10e6fb8947575169b375264e66e4f_20849&search_date=24102026&expected_price_uuid=01a17032-f282-8031-67a6-6e0018b2873a&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ScSzVCI7ZS-SeGeNoXIJwA&expected_price_source=share&expected_price_currency=usd&expected_price=260&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR0301MDQ10011?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Florianópolis",
    "region": "sudamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 265.0,
+   "precio_actual": 264.0,
    "fecha_salida": "2027-03-14",
    "fecha_retorno": "2027-03-21",
-   "aerolinea": "JetSMART",
+   "aerolinea": null,
    "escalas": 0,
    "oferta": "normal",
-   "url": "https://www.aviasales.com/search/COR1403FLN21031?t=JA18050380801805047500000157CORFLN18056553001805665980000178FLNCOR_40ec8993278301885054b4449ff69ee5_21384&search_date=23102026&expected_price_uuid=01a167f7-5340-8040-2c04-b109f8610f2a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=InGtzoULbSSfCowP4-WPRw&expected_price_source=share&expected_price_currency=usd&expected_price=265&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR1403FLN21031?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Bogotá",
+   "region": "sudamerica",
+   "tipo": "solo_ida",
+   "precio_actual": 285.0,
+   "fecha_salida": "2027-01-26",
+   "fecha_retorno": null,
+   "aerolinea": "LATAM",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2601BOG1?t=LA18009927001801024500000650CORSCLBOG_441a4a8be2aa8bc0bc999c4630b6d7ef_22957&search_date=27102026&expected_price_uuid=01a17fc7-a722-8040-27be-48c8a56e816e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=RdWu_aBBZTpI410RUvCQIA&expected_price_source=share&expected_price_currency=usd&expected_price=285&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Santiago de Chile",
    "region": "sudamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 288.0,
+   "precio_actual": 287.0,
    "fecha_salida": "2026-12-24",
    "fecha_retorno": "2026-12-31",
-   "aerolinea": "Aerolíneas Argentinas",
+   "aerolinea": null,
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR2412SCL31121?t=AR17981052001798123500000305CORAEPSCL17987313001798786800000925SCLAEPCOR_31bf46d2f79ba0d769a21dde12b56780_23214&search_date=23102026&expected_price_uuid=01a167f9-743f-8040-64d8-f1ddd8b7ff70&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=cggeRmrE-GU2cZtO4IHRow&expected_price_source=share&expected_price_currency=usd&expected_price=288&locale=es&currency=usd&marker=784835.web"
-  },
-  {
-   "destino": "Aruba",
-   "region": "caribe",
-   "tipo": "solo_ida",
-   "precio_actual": 337.0,
-   "fecha_salida": "2027-01-27",
-   "fecha_retorno": null,
-   "aerolinea": "Arajet",
-   "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR2701AUA1?t=DM18010260001801063200000680CORPUJAUA_ad5af72d2a8a2ee258e0bef9c51bc5c6_27596&search_date=21102026&expected_price_uuid=01a15f43-071d-8040-66b2-3a40117ef97b&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=YOVzu-BsJTl7hgjj9RI1rw&expected_price_source=share&expected_price_currency=usd&expected_price=337&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR2412SCL31121?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Cancún",
@@ -305,79 +281,79 @@
    "destino": "Río de Janeiro",
    "region": "sudamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 362.0,
+   "precio_actual": 360.0,
    "fecha_salida": "2027-03-18",
    "fecha_retorno": "2027-05-17",
-   "aerolinea": "JetSMART",
+   "aerolinea": null,
    "escalas": 0,
    "oferta": "normal",
-   "url": "https://www.aviasales.com/search/COR1803RIO17051?t=G318053623201805373900000193CORGIG18105891001810602600000225GIGCOR_28caaf948dfe1cff8696f17677ac0b0c_29180&search_date=27102026&expected_price_uuid=01a17d32-8e8a-8040-2f58-d395a1827777&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Grai9kEEmC2PA7HBa_F_jg&expected_price_source=share&expected_price_currency=usd&expected_price=362&locale=es&currency=usd&marker=784835.web"
-  },
-  {
-   "destino": "Medellín",
-   "region": "sudamerica",
-   "tipo": "solo_ida",
-   "precio_actual": 393.0,
-   "fecha_salida": "2026-10-28",
-   "fecha_retorno": null,
-   "aerolinea": "Copa Airlines",
-   "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR2810MDE1?t=CM17931583201793184900000563CORPTYMDE_16ffcbbe480051e907f76b0023fa955d_32540&search_date=20102026&expected_price_uuid=01a15a3a-d585-8040-2c40-3e6cb8011f90&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CVG341ptfjANv5VE8LrcSQ&expected_price_source=share&expected_price_currency=usd&expected_price=393&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR1803RIO17051?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Lima",
    "region": "sudamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 423.0,
+   "precio_actual": 422.0,
    "fecha_salida": "2026-11-22",
    "fecha_retorno": "2026-11-29",
-   "aerolinea": "Aerolíneas Argentinas",
+   "aerolinea": null,
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR2211LIM29111?t=AR17953809001795470300001610CORAEPLIM17959887001796031600000595LIMAEPEZECOR_a93bad0f54abed4396677cc799ca266d_34197&search_date=26102026&expected_price_uuid=01a178c3-ab3a-8040-6fe0-871ef23527d2&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Z9drXZavm0v6NPQm85bvig&expected_price_source=share&expected_price_currency=usd&expected_price=423&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR2211LIM29111?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Guatemala",
    "region": "centroamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 545.0,
+   "precio_actual": 634.0,
    "fecha_salida": "2026-11-06",
    "fecha_retorno": "2026-11-13",
-   "aerolinea": "Copa Airlines",
+   "aerolinea": null,
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR0611GUA13111?locale=es&currency=usd&marker=784835.web"
   },
   {
-   "destino": "Barcelona",
-   "region": "europa",
-   "tipo": "solo_ida",
-   "precio_actual": 665.0,
-   "fecha_salida": "2026-10-27",
-   "fecha_retorno": null,
-   "aerolinea": "JetSMART",
+   "destino": "Aruba",
+   "region": "caribe",
+   "tipo": "ida_vuelta",
+   "precio_actual": 656.0,
+   "fecha_salida": "2026-12-05",
+   "fecha_retorno": "2026-12-20",
+   "aerolinea": null,
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR2710BCN1?t=IB17931451801793297700002302CORAEPEZEBCN_a66ce1d3b907d040a3f7d634613ae03c_53433&search_date=25102026&expected_price_uuid=01a17220-a6da-8031-6759-950acc526e9e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=1YTOrY1O4jheNSP5kOYwKw&expected_price_source=share&expected_price_currency=usd&expected_price=665&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR0512AUA20121?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Bogotá",
+   "region": "sudamerica",
+   "tipo": "ida_vuelta",
+   "precio_actual": 668.0,
+   "fecha_salida": "2027-01-26",
+   "fecha_retorno": "2027-01-26",
+   "aerolinea": null,
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2601BOG26011?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Cancún",
    "region": "caribe",
    "tipo": "ida_vuelta",
-   "precio_actual": 688.0,
+   "precio_actual": 712.0,
    "fecha_salida": "2026-12-01",
    "fecha_retorno": "2026-12-08",
-   "aerolinea": "Arajet",
+   "aerolinea": null,
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0112CUN08121?t=DM17960856001796124900000775CORPUJCUN17967333001796783400000715CUNPUJCOR_ab6b0b10da10eb8aa9f3203a9a389ec6_55556&search_date=26102026&expected_price_uuid=01a178c1-c0b8-8040-6517-b4e1b7380187&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=v5yPhT5nWlRnERXeoRAuhQ&expected_price_source=share&expected_price_currency=usd&expected_price=688&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR0112CUN08121?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Miami",
    "region": "norteamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 722.0,
+   "precio_actual": 718.0,
    "fecha_salida": "2027-10-02",
    "fecha_retorno": "2027-10-09",
    "aerolinea": null,
@@ -386,34 +362,22 @@
    "url": "https://www.aviasales.com/search/COR0210MIA09101?locale=es&currency=usd&marker=784835.web"
   },
   {
-   "destino": "Aruba",
-   "region": "caribe",
-   "tipo": "ida_vuelta",
-   "precio_actual": 723.0,
-   "fecha_salida": "2027-03-04",
-   "fecha_retorno": "2027-03-14",
-   "aerolinea": "Copa Airlines",
-   "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0403AUA14031?t=CM18041440801804242600001702CORPTYAUA18050410201805078400000563AUAPTYCOR_6c6984d93df96c33508da296ac2e8515_59194&search_date=21102026&expected_price_uuid=01a15f14-2a32-8040-234b-5c18f63ef0c8&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=2ai0fed_n18fZZkJ3tfQGw&expected_price_source=share&expected_price_currency=usd&expected_price=723&locale=es&currency=usd&marker=784835.web"
-  },
-  {
    "destino": "Punta Cana",
    "region": "caribe",
    "tipo": "ida_vuelta",
-   "precio_actual": 733.0,
+   "precio_actual": 730.0,
    "fecha_salida": "2026-11-01",
    "fecha_retorno": "2026-11-09",
-   "aerolinea": "LATAM",
+   "aerolinea": null,
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0111PUJ09111?t=X117935062001793542500000665CORLIMPUJ17942333401794264000000451PUJCOR_83188ed53134148034403a6dd58bcb7f_59826&search_date=25102026&expected_price_uuid=01a1731c-0371-8030-6d2c-03c445850062&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=pFoO6dSY2p74JyKYKbbrCA&expected_price_source=share&expected_price_currency=usd&expected_price=733&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR0111PUJ09111?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Fort Lauderdale",
    "region": "norteamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 770.0,
+   "precio_actual": 765.0,
    "fecha_salida": "2027-10-02",
    "fecha_retorno": "2027-10-09",
    "aerolinea": null,
@@ -434,25 +398,13 @@
    "url": "https://www.aviasales.com/search/COR1301MAD1?t=PU17998218001799908200001200CORAEPEZEMAD_b038aa0473371ddf57d9996f6adbd338_69788&search_date=26102026&expected_price_uuid=01a1797b-11eb-8030-2787-23700cf4b855&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Bxpzz5uuexX5kXelP2TNHw&expected_price_source=share&expected_price_currency=usd&expected_price=864&locale=es&currency=usd&marker=784835.web"
   },
   {
-   "destino": "Madrid",
-   "region": "europa",
-   "tipo": "ida_vuelta",
-   "precio_actual": 960.0,
-   "fecha_salida": "2026-12-02",
-   "fecha_retorno": "2027-01-14",
-   "aerolinea": "LATAM",
-   "escalas": 1,
-   "oferta": "normal",
-   "url": "https://www.aviasales.com/search/COR0212MAD14011?t=LA17962116001796288400001040CORSCLMAD17999253001800038700002130MADSCLCOR_ac7b651c2c3e8c471c8156963330021f_79513&search_date=20102026&expected_price_uuid=01a15a16-c2b2-8040-2794-5c0b54370a22&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Om3cjAi4SKL3PQgCtW7N8Q&expected_price_source=share&expected_price_currency=usd&expected_price=960&locale=es&currency=usd&marker=784835.web"
-  },
-  {
    "destino": "Barcelona",
    "region": "europa",
    "tipo": "ida_vuelta",
-   "precio_actual": 968.0,
+   "precio_actual": 965.0,
    "fecha_salida": "2027-05-19",
    "fecha_retorno": "2027-05-26",
-   "aerolinea": "Avianca",
+   "aerolinea": null,
    "escalas": 1,
    "oferta": "normal",
    "url": "https://www.aviasales.com/search/COR1905BCN26051?locale=es&currency=usd&marker=784835.web"
@@ -461,25 +413,37 @@
    "destino": "La Habana",
    "region": "caribe",
    "tipo": "ida_vuelta",
-   "precio_actual": 981.0,
+   "precio_actual": 977.0,
    "fecha_salida": "2026-12-14",
    "fecha_retorno": "2026-12-25",
-   "aerolinea": "Copa Airlines",
+   "aerolinea": null,
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR1412HAV25121?locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Madrid",
+   "region": "europa",
+   "tipo": "ida_vuelta",
+   "precio_actual": 979.0,
+   "fecha_salida": "2027-05-09",
+   "fecha_retorno": "2027-06-02",
+   "aerolinea": null,
+   "escalas": 1,
+   "oferta": "normal",
+   "url": "https://www.aviasales.com/search/COR0905MAD02061?locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Nueva York",
    "region": "norteamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 1172.0,
+   "precio_actual": 1168.0,
    "fecha_salida": "2026-12-09",
    "fecha_retorno": "2026-12-20",
-   "aerolinea": "Arajet",
+   "aerolinea": null,
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0912NYC20121?t=DM17967924001796859000001230CORPUJEWR17977644001797829200000960EWRPUJCOR_a9b36efc5e2193bd457e6aa14b010df4_95988&search_date=23102026&expected_price_uuid=01a1661b-356f-8040-2d2f-982366341c8a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=OzqonYWz-MFEW7OxIPKGaA&expected_price_source=share&expected_price_currency=usd&expected_price=1172&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR0912NYC20121?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Milán",
@@ -497,13 +461,13 @@
    "destino": "Roma",
    "region": "europa",
    "tipo": "ida_vuelta",
-   "precio_actual": 1291.0,
+   "precio_actual": 1286.0,
    "fecha_salida": "2026-12-23",
    "fecha_retorno": "2027-01-09",
-   "aerolinea": "LATAM",
+   "aerolinea": null,
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR2312ROM09011?t=LA17980272001798103400001030CORGRUFCO17994966001799547000001080FCOGRUCOR_2a7f69247f95c313d4fcdf4b423af43c_105982&search_date=21102026&expected_price_uuid=01a15ffc-421a-8030-25c6-308251c9a8a6&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ygdZgWBbwwVPJ21jxR3h4A&expected_price_source=share&expected_price_currency=usd&expected_price=1291&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR2312ROM09011?locale=es&currency=usd&marker=784835.web"
   }
  ]
 }
