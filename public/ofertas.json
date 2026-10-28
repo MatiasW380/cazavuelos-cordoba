@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T05:44:31+00:00",
+ "actualizado": "2026-10-28T12:57:39+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -182,6 +182,18 @@
    "url": "https://www.aviasales.com/search/COR2411BRC01121?locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Asunción",
+   "region": "sudamerica",
+   "tipo": "solo_ida",
+   "precio_actual": 214.0,
+   "fecha_salida": "2026-11-05",
+   "fecha_retorno": null,
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR0511ASU1?t=AR17939028001793996100001555COREZEAEPASU_1c465939814fd4dda1d4f455ecc4b3cc_17250&search_date=27102026&expected_price_uuid=01a17ea3-8eb9-8040-2b41-12c21c4e932f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=qSQ5-5MSrsPNxym3iMvVlw&expected_price_source=share&expected_price_currency=usd&expected_price=214&locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Salta",
    "region": "argentina",
    "tipo": "ida_vuelta",
@@ -317,7 +329,7 @@
    "destino": "Aruba",
    "region": "caribe",
    "tipo": "ida_vuelta",
-   "precio_actual": 656.0,
+   "precio_actual": 652.0,
    "fecha_salida": "2026-12-05",
    "fecha_retorno": "2026-12-20",
    "aerolinea": null,
@@ -377,7 +389,7 @@
    "destino": "Fort Lauderdale",
    "region": "norteamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 765.0,
+   "precio_actual": 762.0,
    "fecha_salida": "2027-10-02",
    "fecha_retorno": "2027-10-09",
    "aerolinea": null,
