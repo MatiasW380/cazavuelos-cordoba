@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T12:57:39+00:00",
+ "actualizado": "2026-10-28T22:36:48+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -278,6 +278,18 @@
    "url": "https://www.aviasales.com/search/COR2412SCL31121?locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Florianópolis",
+   "region": "sudamerica",
+   "tipo": "solo_ida",
+   "precio_actual": 311.0,
+   "fecha_salida": "2026-11-30",
+   "fecha_retorno": null,
+   "aerolinea": "JetSMART",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR3011FLN1?t=JA17960277601796237400003494CORAEPFLN_35b4460f14de790509e0f0f845f3355c_25005&search_date=28102026&expected_price_uuid=01a18475-49ac-8040-a1af-a0db6e7eebdc&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=xjaYmkDwZsyIqToCI_U_Uw&expected_price_source=share&expected_price_currency=usd&expected_price=311&locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Cancún",
    "region": "caribe",
    "tipo": "solo_ida",
@@ -312,6 +324,42 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR2211LIM29111?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Madrid",
+   "region": "europa",
+   "tipo": "solo_ida",
+   "precio_actual": 526.0,
+   "fecha_salida": "2026-12-03",
+   "fecha_retorno": null,
+   "aerolinea": "Air Europa",
+   "escalas": 0,
+   "oferta": "normal",
+   "url": "https://www.aviasales.com/search/COR0312MAD1?t=UX17963022001796359500000715CORMAD_3daa55bb40415161eba376532f1c2800_42312&search_date=28102026&expected_price_uuid=01a182cf-4c81-8031-2d19-ca4daea79b28&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=qWEJsRxSck758jECLTldaw&expected_price_source=share&expected_price_currency=usd&expected_price=526&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Cusco",
+   "region": "sudamerica",
+   "tipo": "ida_vuelta",
+   "precio_actual": 539.0,
+   "fecha_salida": "2027-09-13",
+   "fecha_retorno": "2027-09-22",
+   "aerolinea": "LATAM",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR1309CUZ22091?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Panamá",
+   "region": "centroamerica",
+   "tipo": "solo_ida",
+   "precio_actual": 605.0,
+   "fecha_salida": "2026-12-19",
+   "fecha_retorno": null,
+   "aerolinea": "Avianca",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR1912PTY1?t=AV17976660001797700500000695CORBOGPTY_f75175a61cad309634ff32663b6969f2_48677&search_date=28102026&expected_price_uuid=01a1849e-eb37-8040-26ae-0aca4cca935b&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=3gR_Vvh33wUFmW6QQqDDRA&expected_price_source=share&expected_price_currency=usd&expected_price=605&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Guatemala",
@@ -365,7 +413,7 @@
    "destino": "Miami",
    "region": "norteamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 718.0,
+   "precio_actual": 717.0,
    "fecha_salida": "2027-10-02",
    "fecha_retorno": "2027-10-09",
    "aerolinea": null,
@@ -396,18 +444,6 @@
    "escalas": 1,
    "oferta": "normal",
    "url": "https://www.aviasales.com/search/COR0210FLL09101?locale=es&currency=usd&marker=784835.web"
-  },
-  {
-   "destino": "Madrid",
-   "region": "europa",
-   "tipo": "solo_ida",
-   "precio_actual": 864.0,
-   "fecha_salida": "2027-01-13",
-   "fecha_retorno": null,
-   "aerolinea": "Aerolíneas Argentinas",
-   "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR1301MAD1?t=PU17998218001799908200001200CORAEPEZEMAD_b038aa0473371ddf57d9996f6adbd338_69788&search_date=26102026&expected_price_uuid=01a1797b-11eb-8030-2787-23700cf4b855&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Bxpzz5uuexX5kXelP2TNHw&expected_price_source=share&expected_price_currency=usd&expected_price=864&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Barcelona",
@@ -468,6 +504,18 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR3103MIL23041?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Lisboa",
+   "region": "europa",
+   "tipo": "ida_vuelta",
+   "precio_actual": 1259.0,
+   "fecha_salida": "2027-01-23",
+   "fecha_retorno": "2027-02-08",
+   "aerolinea": "LATAM",
+   "escalas": 1,
+   "oferta": "minimo",
+   "url": "https://www.aviasales.com/search/COR2301LIS08021?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Roma",
