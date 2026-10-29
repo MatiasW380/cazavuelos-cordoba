@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T13:04:08+00:00",
+ "actualizado": "2026-10-29T22:46:37+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -120,6 +120,18 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR2711FTE1?t=JA17957706001795809180000643CORAEPEZEFTE_0e7190a199d5982862dde7f6f3b1ff29_10908&search_date=27102026&expected_price_uuid=01a17fa2-d011-8030-6be5-93e0c7523a49&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=K_Xjh5bXfIw6zYCrqFKEHw&expected_price_source=share&expected_price_currency=usd&expected_price=135&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Montevideo",
+   "region": "sudamerica",
+   "tipo": "solo_ida",
+   "precio_actual": 144.0,
+   "fecha_salida": "2026-12-05",
+   "fecha_retorno": null,
+   "aerolinea": "JetSMART",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR0512MVD1?t=JA17965080001796546700000645CORAEPMVD_c45619f670103eb8258aa61f14536894_11603&search_date=29102026&expected_price_uuid=01a187f8-4642-8040-2101-baa914343984&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=t8v9J8nn1-AGeE-uup7KhQ&expected_price_source=share&expected_price_currency=usd&expected_price=144&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Mendoza",

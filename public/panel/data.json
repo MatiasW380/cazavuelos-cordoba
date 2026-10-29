@@ -1,12 +1,12 @@
 {
- "generado": "2026-10-29T13:04:08+00:00",
+ "generado": "2026-10-29T22:46:37+00:00",
  "estado": {
-  "ultima_corrida": "2026-10-29T13:04:08+00:00",
+  "ultima_corrida": "2026-10-29T22:46:37+00:00",
   "requests": 15,
   "errores": 0,
-  "rutas_activas": 78,
-  "rutas_con_datos": 74,
-  "precios_en_historial": 2290
+  "rutas_activas": 79,
+  "rutas_con_datos": 75,
+  "precios_en_historial": 2291
  },
  "rutas": [
   {
@@ -1794,6 +1794,31 @@
    "oferta": null,
    "url_x": null,
    "ultima_actualizacion": "2026-10-27T05:07:45+00:00"
+  },
+  {
+   "id": "COR-MVD-IDA",
+   "destino": "Montevideo",
+   "region": "sudamerica",
+   "tipo": "solo_ida",
+   "activa": true,
+   "registros_90d": 1,
+   "precio_actual": 144.0,
+   "aerolinea": "JetSMART",
+   "escalas": 1,
+   "fecha_salida": "2026-12-05",
+   "fecha_retorno": null,
+   "url": "https://www.aviasales.com/search/COR0512MVD1?t=JA17965080001796546700000645CORAEPMVD_c45619f670103eb8258aa61f14536894_11603&search_date=29102026&expected_price_uuid=01a187f8-4642-8040-2101-baa914343984&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=t8v9J8nn1-AGeE-uup7KhQ&expected_price_source=share&expected_price_currency=usd&expected_price=144&locale=es&currency=usd&marker=784835.panel",
+   "url_web": "https://www.aviasales.com/search/COR0512MVD1?t=JA17965080001796546700000645CORAEPMVD_c45619f670103eb8258aa61f14536894_11603&search_date=29102026&expected_price_uuid=01a187f8-4642-8040-2101-baa914343984&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=t8v9J8nn1-AGeE-uup7KhQ&expected_price_source=share&expected_price_currency=usd&expected_price=144&locale=es&currency=usd&marker=784835.web",
+   "promedio_90d": 144.0,
+   "minimo_90d": 144.0,
+   "promedio_previo": null,
+   "registros_previos": 0,
+   "descuento_pct": null,
+   "oferta": null,
+   "url_x": "https://www.aviasales.com/search/COR0512MVD1?t=JA17965080001796546700000645CORAEPMVD_c45619f670103eb8258aa61f14536894_11603&search_date=29102026&expected_price_uuid=01a187f8-4642-8040-2101-baa914343984&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=t8v9J8nn1-AGeE-uup7KhQ&expected_price_source=share&expected_price_currency=usd&expected_price=144&locale=es&currency=usd&marker=784835.x",
+   "ultima_actualizacion": "2026-10-29T22:46:28+00:00",
+   "texto_x": "✈️ Córdoba → Montevideo\n💵 USD 144 solo ida · JetSMART, 1 escala\n🗓️ Salida 5 dic\n\nhttps://www.aviasales.com/search/COR0512MVD1?t=JA17965080001796546700000645CORAEPMVD_c45619f670103eb8258aa61f14536894_11603&search_date=29102026&expected_price_uuid=01a187f8-4642-8040-2101-baa914343984&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=t8v9J8nn1-AGeE-uup7KhQ&expected_price_source=share&expected_price_currency=usd&expected_price=144&locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #Montevideo",
+   "texto_instagram": "✈️ Córdoba → Montevideo por USD 144 solo ida\n\n🗓️ Salida el 5 de diciembre\n🛫 JetSMART, 1 escala\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #Montevideo"
   },
   {
    "id": "COR-REC-IDA",
