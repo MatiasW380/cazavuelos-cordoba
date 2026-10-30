@@ -1,7 +1,7 @@
 {
- "generado": "2026-10-30T12:58:04+00:00",
+ "generado": "2026-10-30T22:22:35+00:00",
  "estado": {
-  "ultima_corrida": "2026-10-30T12:58:04+00:00",
+  "ultima_corrida": "2026-10-30T22:22:35+00:00",
   "requests": 15,
   "errores": 0,
   "rutas_activas": 80,
@@ -991,14 +991,14 @@
    "fecha_retorno": "2027-05-17",
    "url": "https://www.aviasales.com/search/COR1803RIO17051?locale=es&currency=usd&marker=784835.panel",
    "url_web": "https://www.aviasales.com/search/COR1803RIO17051?locale=es&currency=usd&marker=784835.web",
-   "promedio_90d": 455.63,
+   "promedio_90d": 455.56,
    "minimo_90d": 346.0,
    "promedio_previo": 458.95,
    "registros_previos": 96,
    "descuento_pct": 21.6,
    "oferta": "normal",
    "url_x": "https://www.aviasales.com/search/COR1803RIO17051?locale=es&currency=usd&marker=784835.x",
-   "ultima_actualizacion": "2026-10-30T12:57:55+00:00",
+   "ultima_actualizacion": "2026-10-30T22:22:25+00:00",
    "texto_x": "🔥 OFERTA desde Córdoba\n✈️ Córdoba → Río de Janeiro\n💵 USD 360 ida y vuelta · directo\n🗓️ 18 mar – 17 may (60 días)\n📉 22% menos que el promedio (USD 459)\n\nhttps://www.aviasales.com/search/COR1803RIO17051?locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #RioDeJaneiro",
    "texto_instagram": "🔥 ¡Oferta! Córdoba → Río de Janeiro por USD 360 ida y vuelta\n\n🗓️ Salida el 18 de marzo, regreso el 17 de mayo (60 días)\n🛫 Directo\n📉 22% menos que el precio promedio de esta ruta (USD 459)\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #RioDeJaneiro"
   },
