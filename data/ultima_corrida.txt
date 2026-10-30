@@ -1,4 +1,4 @@
-Resultados crudos: 178 — únicos con ≤1 escala: 112
+Resultados crudos: 177 — únicos con ≤1 escala: 113
 
   BUE  Buenos Aires             ida y vuelta  n=  7  min USD 75
   RIO  Río de Janeiro           ida y vuelta  n=  6  min USD 362
@@ -15,13 +15,12 @@ Resultados crudos: 178 — únicos con ≤1 escala: 112
   BRC  Bariloche                ida y vuelta  n=  1  min USD 255
   LIM  Lima                     ida y vuelta  n=  1  min USD 423
   AUA  Oranjestad               ida y vuelta  n=  1  min USD 654
-  NYC  Nueva York               ida y vuelta  n=  1  min USD 1,172
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,470
   MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 260
   BOG  Bogotá                   ida y vuelta  n=  1  min USD 670
   SLA  Salta                    ida y vuelta  n=  1  min USD 219
   MIA  Miami                    ida y vuelta  n=  1  min USD 726
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 771
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 772
   BCN  Barcelona                ida y vuelta  n=  1  min USD 968
   HAV  La Habana                ida y vuelta  n=  1  min USD 981
   CUZ  Cusco                    ida y vuelta  n=  1  min USD 539
@@ -30,7 +29,7 @@ Resultados crudos: 178 — únicos con ≤1 escala: 112
   MAD  Ciudad de Madrid         solo ida      n= 15  min USD 526
   BUE  Buenos Aires             solo ida      n= 13  min USD 37
   LIM  Lima                     solo ida      n=  9  min USD 237
-  SCL  Santiago de Chile        solo ida      n=  4  min USD 157
+  SCL  Santiago de Chile        solo ida      n=  5  min USD 157
   JUJ  Jujuy                    solo ida      n=  2  min USD 79
   BRC  Bariloche                solo ida      n=  2  min USD 129
   CUN  Cancún                   solo ida      n=  2  min USD 414
@@ -44,7 +43,8 @@ Resultados crudos: 178 — únicos con ≤1 escala: 112
   SAO  São Paulo                solo ida      n=  1  min USD 230
   BOG  Bogotá                   solo ida      n=  1  min USD 285
   SLA  Salta                    solo ida      n=  1  min USD 126
+  FOR  Fortaleza                solo ida      n=  1  min USD 386
 
-Rutas nuevas: COR-MVD-IDA
+Rutas nuevas: COR-FOR-IDA
 
-Listo: 15 requests, 0 errores — 1 precios nuevos guardados
+Listo: 15 requests, 0 errores — 113 precios nuevos guardados
