@@ -1,47 +1,46 @@
-Resultados crudos: 168 — únicos con ≤1 escala: 106
+Resultados crudos: 166 — únicos con ≤1 escala: 101
 
-  RIO  Río de Janeiro           ida y vuelta  n=  6  min USD 362
-  BUE  Buenos Aires             ida y vuelta  n=  5  min USD 75
-  FLN  Florianópolis            ida y vuelta  n=  5  min USD 317
-  IGR  Puerto Iguazú            ida y vuelta  n=  4  min USD 162
-  USH  Ushuaia                  ida y vuelta  n=  4  min USD 208
-  MDZ  Mendoza                  ida y vuelta  n=  2  min USD 201
-  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 712
-  CUN  Cancún                   ida y vuelta  n=  2  min USD 785
-  GUA  Guatemala                ida y vuelta  n=  2  min USD 636
-  JUJ  Jujuy                    ida y vuelta  n=  1  min USD 162
-  BRC  Bariloche                ida y vuelta  n=  1  min USD 255
-  LIM  Lima                     ida y vuelta  n=  1  min USD 423
-  AUA  Oranjestad               ida y vuelta  n=  1  min USD 654
+  RIO  Río de Janeiro           ida y vuelta  n=  6  min USD 357
+  BUE  Buenos Aires             ida y vuelta  n=  5  min USD 74
+  FLN  Florianópolis            ida y vuelta  n=  5  min USD 314
+  IGR  Puerto Iguazú            ida y vuelta  n=  4  min USD 160
+  MDZ  Mendoza                  ida y vuelta  n=  2  min USD 199
+  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 704
+  CUN  Cancún                   ida y vuelta  n=  2  min USD 776
+  GUA  Guatemala                ida y vuelta  n=  2  min USD 629
+  JUJ  Jujuy                    ida y vuelta  n=  1  min USD 160
+  BRC  Bariloche                ida y vuelta  n=  1  min USD 252
+  USH  Ushuaia                  ida y vuelta  n=  1  min USD 276
+  LIM  Lima                     ida y vuelta  n=  1  min USD 418
+  AUA  Oranjestad               ida y vuelta  n=  1  min USD 646
   MAD  Ciudad de Madrid         ida y vuelta  n=  1  min USD 1,095
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,470
-  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 260
-  SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 288
-  BOG  Bogotá                   ida y vuelta  n=  1  min USD 670
-  SLA  Salta                    ida y vuelta  n=  1  min USD 219
-  MIA  Miami                    ida y vuelta  n=  1  min USD 721
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 766
-  HAV  La Habana                ida y vuelta  n=  1  min USD 981
+  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 257
+  SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 285
+  BOG  Bogotá                   ida y vuelta  n=  1  min USD 662
+  SLA  Salta                    ida y vuelta  n=  1  min USD 217
+  MIA  Miami                    ida y vuelta  n=  1  min USD 711
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 756
   CUZ  Cusco                    ida y vuelta  n=  1  min USD 539
   LIS  Lisboa                   ida y vuelta  n=  1  min USD 1,259
   MIL  Milán                    ida y vuelta  n=  1  min USD 1,189
   MAD  Ciudad de Madrid         solo ida      n= 14  min USD 526
-  BUE  Buenos Aires             solo ida      n= 13  min USD 37
+  BUE  Buenos Aires             solo ida      n= 10  min USD 37
   LIM  Lima                     solo ida      n=  9  min USD 237
   SCL  Santiago de Chile        solo ida      n=  5  min USD 157
   JUJ  Jujuy                    solo ida      n=  3  min USD 79
+  SAO  São Paulo                solo ida      n=  2  min USD 230
+  SLA  Salta                    solo ida      n=  2  min USD 104
   CUN  Cancún                   solo ida      n=  2  min USD 414
   MDZ  Mendoza                  solo ida      n=  1  min USD 98
   BRC  Bariloche                solo ida      n=  1  min USD 129
-  FTE  El Calafate              solo ida      n=  1  min USD 135
+  FTE  El Calafate              solo ida      n=  1  min USD 159
   ASU  Asunción                 solo ida      n=  1  min USD 214
   FLN  Florianópolis            solo ida      n=  1  min USD 311
   MVD  Montevideo               solo ida      n=  1  min USD 144
   PTY  Ciudad de Panamá         solo ida      n=  1  min USD 605
-  SAO  São Paulo                solo ida      n=  1  min USD 230
   BOG  Bogotá                   solo ida      n=  1  min USD 285
   RIO  Río de Janeiro           solo ida      n=  1  min USD 334
-  SLA  Salta                    solo ida      n=  1  min USD 126
   FOR  Fortaleza                solo ida      n=  1  min USD 386
 
-Listo: 15 requests, 0 errores — 0 precios nuevos guardados
+Listo: 15 requests, 0 errores — 101 precios nuevos guardados
