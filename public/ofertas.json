@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T05:44:12+00:00",
+ "actualizado": "2026-10-31T12:33:53+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -276,6 +276,18 @@
    "escalas": 0,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR2112FLN02011?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Santa Cruz",
+   "region": "sudamerica",
+   "tipo": "solo_ida",
+   "precio_actual": 318.0,
+   "fecha_salida": "2026-11-20",
+   "fecha_retorno": null,
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2011SRZ1?t=AR17951562001795223400001180CORAEPVVI_21d8ab93edc73ef646c389af3fbe5a74_25515&search_date=31102026&expected_price_uuid=01a19138-f709-8040-683f-ccc5737050d5&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=N2GnP6qe0gih5yNkCDlrDQ&expected_price_source=share&expected_price_currency=usd&expected_price=318&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Río de Janeiro",

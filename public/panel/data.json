@@ -1,12 +1,12 @@
 {
- "generado": "2026-10-31T05:44:12+00:00",
+ "generado": "2026-10-31T12:33:53+00:00",
  "estado": {
-  "ultima_corrida": "2026-10-31T05:44:12+00:00",
+  "ultima_corrida": "2026-10-31T12:33:53+00:00",
   "requests": 15,
   "errores": 0,
-  "rutas_activas": 80,
-  "rutas_con_datos": 76,
-  "precios_en_historial": 2509
+  "rutas_activas": 81,
+  "rutas_con_datos": 77,
+  "precios_en_historial": 2511
  },
  "rutas": [
   {
@@ -1077,7 +1077,7 @@
    "region": "argentina",
    "tipo": "solo_ida",
    "activa": true,
-   "registros_90d": 385,
+   "registros_90d": 386,
    "precio_actual": 37.0,
    "aerolinea": "JetSMART",
    "escalas": 0,
@@ -1092,7 +1092,7 @@
    "descuento_pct": 30.4,
    "oferta": "normal",
    "url_x": "https://www.aviasales.com/search/COR1811BUE1?t=JA17950425001795047240000079CORAEP_bf1bbc2ed51cc2d749a27cd0f364d79e_2981&search_date=28102026&expected_price_uuid=01a1805a-e6da-8040-2619-49781031928e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=7bjkeKVBFk7dealReBm6Kg&expected_price_source=share&expected_price_currency=usd&expected_price=37&locale=es&currency=usd&marker=784835.x",
-   "ultima_actualizacion": "2026-10-31T05:44:01+00:00",
+   "ultima_actualizacion": "2026-10-31T12:33:44+00:00",
    "texto_x": "🔥 OFERTA desde Córdoba\n✈️ Córdoba → Buenos Aires\n💵 USD 37 solo ida · JetSMART, directo\n🗓️ Salida 18 nov\n📉 30% menos que el promedio (USD 53)\n\nhttps://www.aviasales.com/search/COR1811BUE1?t=JA17950425001795047240000079CORAEP_bf1bbc2ed51cc2d749a27cd0f364d79e_2981&search_date=28102026&expected_price_uuid=01a1805a-e6da-8040-2619-49781031928e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=7bjkeKVBFk7dealReBm6Kg&expected_price_source=share&expected_price_currency=usd&expected_price=37&locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #BuenosAires",
    "texto_instagram": "🔥 ¡Oferta! Córdoba → Buenos Aires por USD 37 solo ida\n\n🗓️ Salida el 18 de noviembre\n🛫 JetSMART, directo\n📉 30% menos que el precio promedio de esta ruta (USD 53)\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #BuenosAires"
   },
@@ -1907,6 +1907,31 @@
    "ultima_actualizacion": "2026-10-31T05:44:01+00:00",
    "texto_x": "✈️ Córdoba → San Pablo\n💵 USD 230 solo ida · JetSMART, 1 escala\n🗓️ Salida 28 ene\n\nhttps://www.aviasales.com/search/COR2801SAO1?t=AC18011484601801250700001704CORAEPEZEGRU_6adaef8b168edb20ca27ca5505f7e343_18467&search_date=24102026&expected_price_uuid=01a16ed3-6110-8030-2329-18a279b64a86&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=X8hUtM4U5aw_meCQOoYQTw&expected_price_source=share&expected_price_currency=usd&expected_price=230&locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #SanPablo",
    "texto_instagram": "✈️ Córdoba → San Pablo por USD 230 solo ida\n\n🗓️ Salida el 28 de enero\n🛫 JetSMART, 1 escala\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #SanPablo"
+  },
+  {
+   "id": "COR-SRZ-IDA",
+   "destino": "Santa Cruz",
+   "region": "sudamerica",
+   "tipo": "solo_ida",
+   "activa": true,
+   "registros_90d": 1,
+   "precio_actual": 318.0,
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 1,
+   "fecha_salida": "2026-11-20",
+   "fecha_retorno": null,
+   "url": "https://www.aviasales.com/search/COR2011SRZ1?t=AR17951562001795223400001180CORAEPVVI_21d8ab93edc73ef646c389af3fbe5a74_25515&search_date=31102026&expected_price_uuid=01a19138-f709-8040-683f-ccc5737050d5&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=N2GnP6qe0gih5yNkCDlrDQ&expected_price_source=share&expected_price_currency=usd&expected_price=318&locale=es&currency=usd&marker=784835.panel",
+   "url_web": "https://www.aviasales.com/search/COR2011SRZ1?t=AR17951562001795223400001180CORAEPVVI_21d8ab93edc73ef646c389af3fbe5a74_25515&search_date=31102026&expected_price_uuid=01a19138-f709-8040-683f-ccc5737050d5&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=N2GnP6qe0gih5yNkCDlrDQ&expected_price_source=share&expected_price_currency=usd&expected_price=318&locale=es&currency=usd&marker=784835.web",
+   "promedio_90d": 318.0,
+   "minimo_90d": 318.0,
+   "promedio_previo": null,
+   "registros_previos": 0,
+   "descuento_pct": null,
+   "oferta": null,
+   "url_x": "https://www.aviasales.com/search/COR2011SRZ1?t=AR17951562001795223400001180CORAEPVVI_21d8ab93edc73ef646c389af3fbe5a74_25515&search_date=31102026&expected_price_uuid=01a19138-f709-8040-683f-ccc5737050d5&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=N2GnP6qe0gih5yNkCDlrDQ&expected_price_source=share&expected_price_currency=usd&expected_price=318&locale=es&currency=usd&marker=784835.x",
+   "ultima_actualizacion": "2026-10-31T12:33:44+00:00",
+   "texto_x": "✈️ Córdoba → Santa Cruz\n💵 USD 318 solo ida · Aerolíneas Argentinas, 1 escala\n🗓️ Salida 20 nov\n\nhttps://www.aviasales.com/search/COR2011SRZ1?t=AR17951562001795223400001180CORAEPVVI_21d8ab93edc73ef646c389af3fbe5a74_25515&search_date=31102026&expected_price_uuid=01a19138-f709-8040-683f-ccc5737050d5&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=N2GnP6qe0gih5yNkCDlrDQ&expected_price_source=share&expected_price_currency=usd&expected_price=318&locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #SantaCruz",
+   "texto_instagram": "✈️ Córdoba → Santa Cruz por USD 318 solo ida\n\n🗓️ Salida el 20 de noviembre\n🛫 Aerolíneas Argentinas, 1 escala\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #SantaCruz"
   },
   {
    "id": "COR-SCL-IDA",
