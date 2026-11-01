@@ -1,11 +1,10 @@
-Resultados crudos: 165 — únicos con ≤1 escala: 100
+Resultados crudos: 171 — únicos con ≤1 escala: 106
 
+  RIO  Río de Janeiro           ida y vuelta  n= 12  min USD 294
   FLN  Florianópolis            ida y vuelta  n=  6  min USD 317
   BUE  Buenos Aires             ida y vuelta  n=  5  min USD 75
-  RIO  Río de Janeiro           ida y vuelta  n=  5  min USD 362
   MDZ  Mendoza                  ida y vuelta  n=  2  min USD 201
   LIM  Lima                     ida y vuelta  n=  2  min USD 423
-  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 712
   CUN  Cancún                   ida y vuelta  n=  2  min USD 785
   GUA  Guatemala                ida y vuelta  n=  2  min USD 636
   JUJ  Jujuy                    ida y vuelta  n=  1  min USD 162
@@ -13,6 +12,7 @@ Resultados crudos: 165 — únicos con ≤1 escala: 100
   USH  Ushuaia                  ida y vuelta  n=  1  min USD 279
   IGR  Puerto Iguazú            ida y vuelta  n=  1  min USD 180
   AUA  Oranjestad               ida y vuelta  n=  1  min USD 654
+  PUJ  Punta Cana               ida y vuelta  n=  1  min USD 712
   MAD  Ciudad de Madrid         ida y vuelta  n=  1  min USD 1,095
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,470
   SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 288
@@ -24,8 +24,9 @@ Resultados crudos: 165 — únicos con ≤1 escala: 100
   LIS  Lisboa                   ida y vuelta  n=  1  min USD 1,259
   MIL  Milán                    ida y vuelta  n=  1  min USD 1,189
   MAD  Ciudad de Madrid         solo ida      n= 13  min USD 526
-  BUE  Buenos Aires             solo ida      n= 10  min USD 37
   LIM  Lima                     solo ida      n=  9  min USD 237
+  BUE  Buenos Aires             solo ida      n=  8  min USD 37
+  FLN  Florianópolis            solo ida      n=  3  min USD 166
   SCL  Santiago de Chile        solo ida      n=  3  min USD 157
   SLA  Salta                    solo ida      n=  2  min USD 104
   BRC  Bariloche                solo ida      n=  2  min USD 127
@@ -38,12 +39,9 @@ Resultados crudos: 165 — únicos con ≤1 escala: 100
   MDZ  Mendoza                  solo ida      n=  1  min USD 98
   FTE  El Calafate              solo ida      n=  1  min USD 159
   ASU  Asunción                 solo ida      n=  1  min USD 214
-  FLN  Florianópolis            solo ida      n=  1  min USD 311
   SRZ  Santa Cruz               solo ida      n=  1  min USD 318
   MVD  Montevideo               solo ida      n=  1  min USD 144
   PTY  Ciudad de Panamá         solo ida      n=  1  min USD 605
   FOR  Fortaleza                solo ida      n=  1  min USD 386
 
-Rutas nuevas: COR-MDQ-IDA
-
-Listo: 15 requests, 0 errores — 100 precios nuevos guardados
+Listo: 15 requests, 0 errores — 9 precios nuevos guardados
