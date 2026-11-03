@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T14:17:52+00:00",
+ "actualizado": "2026-11-03T23:24:45+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -182,6 +182,18 @@
    "url": "https://www.aviasales.com/search/COR0412IGR11121?locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Neuquén",
+   "region": "argentina",
+   "tipo": "ida_vuelta",
+   "precio_actual": 208.0,
+   "fecha_salida": "2026-11-19",
+   "fecha_retorno": "2026-11-24",
+   "aerolinea": "JetSMART",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR1911NQN24111?t=JA17951298601795161420000526CORAEPEZENQN17955459001795561260000256NQNAEPCOR_56818abffd7ebe9a373412cb68d22e11_16923&search_date=03112026&expected_price_uuid=01a1a1ce-d122-8040-65ef-9ad5ef488500&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ZTkPBDRyJQE3R97LSzoALg&expected_price_source=share&expected_price_currency=usd&expected_price=208&locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Salta",
    "region": "argentina",
    "tipo": "ida_vuelta",
@@ -288,6 +300,18 @@
    "escalas": 0,
    "oferta": "normal",
    "url": "https://www.aviasales.com/search/COR2102RIO28021?t=JA18032190601803230700000194CORGIG18038391001803852840000229GIGCOR_8ba5ee3b5c0626719a3ba4883077d383_23639&search_date=01112026&expected_price_uuid=01a1972b-0a3f-8040-a3e0-0bcefff35b14&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ZcPGQU1GLtNjqqpAzWGycQ&expected_price_source=share&expected_price_currency=usd&expected_price=294&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "San Pablo",
+   "region": "sudamerica",
+   "tipo": "solo_ida",
+   "precio_actual": 328.0,
+   "fecha_salida": "2026-11-03",
+   "fecha_retorno": null,
+   "aerolinea": "JetSMART",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR0311SAO1?t=G317937495601793772300000379CORAEPGRU_66615abedbd81e4f6eb2c33555735a38_26685&search_date=29102026&expected_price_uuid=01a188dc-d011-8040-27d2-0517eff9cf2e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=BFqgzGt6DFSGuX2TwbAQaA&expected_price_source=share&expected_price_currency=usd&expected_price=328&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Fortaleza",
