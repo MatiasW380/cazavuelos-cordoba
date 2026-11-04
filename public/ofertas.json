@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T06:25:59+00:00",
+ "actualizado": "2026-11-04T19:47:05+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -401,7 +401,7 @@
    "destino": "Miami",
    "region": "norteamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 720.0,
+   "precio_actual": 716.0,
    "fecha_salida": "2027-10-02",
    "fecha_retorno": "2027-10-09",
    "aerolinea": "Avianca",
@@ -456,6 +456,18 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR0201GUA12011?t=AV17988756001798910700000765CORBOGGUA17997624001799821200000800GUABOGCOR_921647ef3c72b978dc05363c5e7fb8be_84079&search_date=03112026&expected_price_uuid=01a1a133-69de-8030-e1b3-d54eb8f41fa0&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=OSFHkllIqPoUIZBhdsPzFA&expected_price_source=share&expected_price_currency=usd&expected_price=1031&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Auckland",
+   "region": "otros",
+   "tipo": "solo_ida",
+   "precio_actual": 1088.0,
+   "fecha_salida": "2027-04-01",
+   "fecha_retorno": null,
+   "aerolinea": "China Eastern",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR0104AKL1?t=MU18066072001806740100001255COREZEAKL_a38a9a78e0f809aed72db5ee51056333_89135&search_date=04112026&expected_price_uuid=01a1a659-0cdb-8030-a360-1a70229c16bb&static_fare_key=TY%7CP0%7CH1%7CL1_2_0%7CCH1%7CR0%7CTBC1&itinerary_key=wEO-_TCOtcMYPeKTnvtdBQ&expected_price_source=share&expected_price_currency=usd&expected_price=1088&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Lisboa",

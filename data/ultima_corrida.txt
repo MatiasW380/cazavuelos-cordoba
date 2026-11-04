@@ -1,8 +1,9 @@
-Resultados crudos: 155 — únicos con ≤1 escala: 100
+Resultados crudos: 138 — únicos con ≤1 escala: 87
 
   RIO  Río de Janeiro           ida y vuelta  n= 10  min USD 294
   FLN  Florianópolis            ida y vuelta  n=  6  min USD 245
   CUN  Cancún                   ida y vuelta  n=  3  min USD 785
+  BUE  Buenos Aires             ida y vuelta  n=  2  min USD 75
   MDZ  Mendoza                  ida y vuelta  n=  2  min USD 201
   LIM  Lima                     ida y vuelta  n=  2  min USD 423
   MAD  Ciudad de Madrid         ida y vuelta  n=  2  min USD 907
@@ -10,20 +11,15 @@ Resultados crudos: 155 — únicos con ≤1 escala: 100
   NQN  Neuquén                  ida y vuelta  n=  1  min USD 208
   BRC  Bariloche                ida y vuelta  n=  1  min USD 255
   USH  Ushuaia                  ida y vuelta  n=  1  min USD 279
-  BUE  Buenos Aires             ida y vuelta  n=  1  min USD 75
-  AUA  Oranjestad               ida y vuelta  n=  1  min USD 654
   PUJ  Punta Cana               ida y vuelta  n=  1  min USD 712
   SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 288
   GUA  Guatemala                ida y vuelta  n=  1  min USD 1,031
   SLA  Salta                    ida y vuelta  n=  1  min USD 219
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,282
   IGR  Puerto Iguazú            ida y vuelta  n=  1  min USD 208
-  MIA  Miami                    ida y vuelta  n=  1  min USD 720
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 764
-  CUZ  Cusco                    ida y vuelta  n=  1  min USD 539
-  LIS  Lisboa                   ida y vuelta  n=  1  min USD 1,259
+  MIA  Miami                    ida y vuelta  n=  1  min USD 716
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 778
   BUE  Buenos Aires             solo ida      n= 18  min USD 34
-  MAD  Ciudad de Madrid         solo ida      n= 12  min USD 526
   LIM  Lima                     solo ida      n=  8  min USD 237
   SCL  Santiago de Chile        solo ida      n=  3  min USD 156
   IGR  Puerto Iguazú            solo ida      n=  2  min USD 61
@@ -40,5 +36,8 @@ Resultados crudos: 155 — únicos con ≤1 escala: 100
   RIO  Río de Janeiro           solo ida      n=  1  min USD 334
   SLA  Salta                    solo ida      n=  1  min USD 126
   FOR  Fortaleza                solo ida      n=  1  min USD 386
+  AKL  Auckland                 solo ida      n=  1  min USD 1,088
 
-Listo: 15 requests, 0 errores — 100 precios nuevos guardados
+Rutas nuevas: COR-AKL-IDA
+
+Listo: 15 requests, 0 errores — 2 precios nuevos guardados
