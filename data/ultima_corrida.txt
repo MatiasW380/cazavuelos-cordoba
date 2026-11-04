@@ -1,9 +1,8 @@
-Resultados crudos: 163 — únicos con ≤1 escala: 104
+Resultados crudos: 155 — únicos con ≤1 escala: 100
 
   RIO  Río de Janeiro           ida y vuelta  n= 10  min USD 294
   FLN  Florianópolis            ida y vuelta  n=  6  min USD 245
   CUN  Cancún                   ida y vuelta  n=  3  min USD 785
-  BUE  Buenos Aires             ida y vuelta  n=  2  min USD 75
   MDZ  Mendoza                  ida y vuelta  n=  2  min USD 201
   LIM  Lima                     ida y vuelta  n=  2  min USD 423
   MAD  Ciudad de Madrid         ida y vuelta  n=  2  min USD 907
@@ -11,10 +10,10 @@ Resultados crudos: 163 — únicos con ≤1 escala: 104
   NQN  Neuquén                  ida y vuelta  n=  1  min USD 208
   BRC  Bariloche                ida y vuelta  n=  1  min USD 255
   USH  Ushuaia                  ida y vuelta  n=  1  min USD 279
+  BUE  Buenos Aires             ida y vuelta  n=  1  min USD 75
   AUA  Oranjestad               ida y vuelta  n=  1  min USD 654
   PUJ  Punta Cana               ida y vuelta  n=  1  min USD 712
   SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 288
-  BOG  Bogotá                   ida y vuelta  n=  1  min USD 670
   GUA  Guatemala                ida y vuelta  n=  1  min USD 1,031
   SLA  Salta                    ida y vuelta  n=  1  min USD 219
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,282
@@ -31,11 +30,10 @@ Resultados crudos: 163 — únicos con ≤1 escala: 104
   FLN  Florianópolis            solo ida      n=  2  min USD 230
   JUJ  Jujuy                    solo ida      n=  2  min USD 140
   MDQ  Mar del Plata            solo ida      n=  2  min USD 106
-  BOG  Bogotá                   solo ida      n=  2  min USD 285
   FTE  El Calafate              solo ida      n=  1  min USD 95
   MDZ  Mendoza                  solo ida      n=  1  min USD 98
   BRC  Bariloche                solo ida      n=  1  min USD 129
-  SAO  São Paulo                solo ida      n=  1  min USD 328
+  SAO  São Paulo                solo ida      n=  1  min USD 240
   MVD  Montevideo               solo ida      n=  1  min USD 144
   CUN  Cancún                   solo ida      n=  1  min USD 402
   PTY  Ciudad de Panamá         solo ida      n=  1  min USD 605
@@ -43,6 +41,4 @@ Resultados crudos: 163 — únicos con ≤1 escala: 104
   SLA  Salta                    solo ida      n=  1  min USD 126
   FOR  Fortaleza                solo ida      n=  1  min USD 386
 
-Rutas nuevas: COR-NQN
-
-Listo: 15 requests, 0 errores — 6 precios nuevos guardados
+Listo: 15 requests, 0 errores — 100 precios nuevos guardados
