@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T13:03:59+00:00",
+ "actualizado": "2026-11-07T21:52:31+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -14,6 +14,18 @@
    "url": "https://www.aviasales.com/search/COR1711BUE1?t=JA17949591601794963900000079CORAEP_c8f8b9474f3f35603f24176b59f065cb_2735&search_date=01112026&expected_price_uuid=01a19898-2474-8040-6912-8da2138a33ff&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ahI9eUgJyNh8T7kv8rh_tg&expected_price_source=share&expected_price_currency=usd&expected_price=34&locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Jujuy",
+   "region": "argentina",
+   "tipo": "solo_ida",
+   "precio_actual": 51.0,
+   "fecha_salida": "2026-11-10",
+   "fecha_retorno": null,
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 0,
+   "oferta": "normal",
+   "url": "https://www.aviasales.com/search/COR1011JUJ1?t=AR17943363001794341700000090CORJUJ_6bf60eab54eec23453a218a7259391cf_4182&search_date=06112026&expected_price_uuid=01a1b26e-d750-8040-2d8d-5e741aa12c28&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=vCRdvajhJt3olKUWZnhFYA&expected_price_source=share&expected_price_currency=usd&expected_price=51&locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Iguazú",
    "region": "argentina",
    "tipo": "solo_ida",
@@ -24,6 +36,18 @@
    "escalas": 1,
    "oferta": "normal",
    "url": "https://www.aviasales.com/search/COR0112IGR1?t=JA17961694201796198100000478CORAEPEZEIGR_2f9c728b8e3a19e2674dbde50410f037_4984&search_date=02112026&expected_price_uuid=01a19e66-aafc-8040-a775-83473a5988ca&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=zp4U16Q1rBO5uRLs5rwslw&expected_price_source=share&expected_price_currency=usd&expected_price=61&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Salta",
+   "region": "argentina",
+   "tipo": "solo_ida",
+   "precio_actual": 73.0,
+   "fecha_salida": "2027-02-15",
+   "fecha_retorno": null,
+   "aerolinea": "JetSMART",
+   "escalas": 1,
+   "oferta": "normal",
+   "url": "https://www.aviasales.com/search/COR1502SLA1?t=JA18027305401802781540000850CORAEPSLA_a7d2fbde562e0f06071178aedeab0c2c_5977&search_date=07112026&expected_price_uuid=01a1b66e-6ac3-8030-625d-661b76bdf3a4&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=GPlWtRCreyY1YMYuIn87Hw&expected_price_source=share&expected_price_currency=usd&expected_price=73&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Buenos Aires",

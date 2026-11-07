@@ -1,18 +1,18 @@
-Resultados crudos: 182 — únicos con ≤1 escala: 120
+Resultados crudos: 181 — únicos con ≤1 escala: 119
 
-  IGR  Puerto Iguazú            ida y vuelta  n= 43  min USD 149
+  IGR  Puerto Iguazú            ida y vuelta  n= 42  min USD 149
   RIO  Río de Janeiro           ida y vuelta  n= 11  min USD 294
   FLN  Florianópolis            ida y vuelta  n=  5  min USD 245
   BUE  Buenos Aires             ida y vuelta  n=  4  min USD 78
   PUJ  Punta Cana               ida y vuelta  n=  4  min USD 832
   BRC  Bariloche                ida y vuelta  n=  2  min USD 222
-  LIM  Lima                     ida y vuelta  n=  2  min USD 449
   MDQ  Mar del Plata            ida y vuelta  n=  2  min USD 194
   MAD  Ciudad de Madrid         ida y vuelta  n=  2  min USD 907
   MDZ  Mendoza                  ida y vuelta  n=  1  min USD 177
   JUJ  Jujuy                    ida y vuelta  n=  1  min USD 206
   NQN  Neuquén                  ida y vuelta  n=  1  min USD 208
   USH  Ushuaia                  ida y vuelta  n=  1  min USD 250
+  LIM  Lima                     ida y vuelta  n=  1  min USD 449
   AUA  Oranjestad               ida y vuelta  n=  1  min USD 805
   GUA  Guatemala                ida y vuelta  n=  1  min USD 1,031
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,282
@@ -21,19 +21,21 @@ Resultados crudos: 182 — únicos con ≤1 escala: 120
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 778
   CUN  Cancún                   ida y vuelta  n=  1  min USD 831
   SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 235
-  BUE  Buenos Aires             solo ida      n= 16  min USD 34
+  BUE  Buenos Aires             solo ida      n= 15  min USD 34
   BRC  Bariloche                solo ida      n=  2  min USD 99
   IGR  Puerto Iguazú            solo ida      n=  2  min USD 61
   FTE  El Calafate              solo ida      n=  2  min USD 158
   MDQ  Mar del Plata            solo ida      n=  2  min USD 106
+  JUJ  Jujuy                    solo ida      n=  1  min USD 51
   MAO  Manaos                   solo ida      n=  1  min USD 406
   MAD  Ciudad de Madrid         solo ida      n=  1  min USD 585
-  SCL  Santiago de Chile        solo ida      n=  1  min USD 145
+  SCL  Santiago de Chile        solo ida      n=  1  min USD 167
   LIM  Lima                     solo ida      n=  1  min USD 271
   CUN  Cancún                   solo ida      n=  1  min USD 363
   ASU  Asunción                 solo ida      n=  1  min USD 157
+  SLA  Salta                    solo ida      n=  1  min USD 73
   FLN  Florianópolis            solo ida      n=  1  min USD 178
   PUJ  Punta Cana               solo ida      n=  1  min USD 418
   AKL  Auckland                 solo ida      n=  1  min USD 1,088
 
-Listo: 15 requests, 0 errores — 1 precios nuevos guardados
+Listo: 15 requests, 0 errores — 2 precios nuevos guardados
