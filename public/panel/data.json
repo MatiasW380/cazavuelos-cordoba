@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-07T06:00:00+00:00",
+ "generado": "2026-11-07T13:03:59+00:00",
  "estado": {
-  "ultima_corrida": "2026-11-07T06:00:00+00:00",
+  "ultima_corrida": "2026-11-07T13:03:59+00:00",
   "requests": 15,
   "errores": 0,
   "rutas_activas": 86,
   "rutas_con_datos": 82,
-  "precios_en_historial": 3286
+  "precios_en_historial": 3287
  },
  "rutas": [
   {
@@ -737,22 +737,24 @@
    "region": "sudamerica",
    "tipo": "ida_vuelta",
    "activa": true,
-   "registros_90d": 18,
-   "precio_actual": null,
-   "aerolinea": null,
-   "escalas": null,
-   "fecha_salida": null,
-   "fecha_retorno": null,
-   "url": null,
-   "url_web": null,
-   "promedio_90d": 318.0,
+   "registros_90d": 19,
+   "precio_actual": 404.0,
+   "aerolinea": "JetSMART",
+   "escalas": 1,
+   "fecha_salida": "2027-09-01",
+   "fecha_retorno": "2027-09-04",
+   "url": "https://www.aviasales.com/search/COR0109ASU04091?locale=es&currency=usd&marker=784835.panel",
+   "url_web": "https://www.aviasales.com/search/COR0109ASU04091?locale=es&currency=usd&marker=784835.web",
+   "promedio_90d": 322.53,
    "minimo_90d": 283.0,
    "promedio_previo": 318.0,
    "registros_previos": 18,
-   "descuento_pct": null,
+   "descuento_pct": -27.0,
    "oferta": null,
-   "url_x": null,
-   "ultima_actualizacion": "2026-10-26T04:49:44+00:00"
+   "url_x": "https://www.aviasales.com/search/COR0109ASU04091?locale=es&currency=usd&marker=784835.x",
+   "ultima_actualizacion": "2026-11-07T13:03:50+00:00",
+   "texto_x": "✈️ Córdoba → Asunción\n💵 USD 404 ida y vuelta · JetSMART, 1 escala\n🗓️ 1 sep – 4 sep (3 días)\n\nhttps://www.aviasales.com/search/COR0109ASU04091?locale=es&currency=usd&marker=784835.x\n\n#VuelosBaratos #Córdoba #Asuncion",
+   "texto_instagram": "✈️ Córdoba → Asunción por USD 404 ida y vuelta\n\n🗓️ Salida el 1 de septiembre, regreso el 4 de septiembre (3 días)\n🛫 JetSMART, 1 escala\n\nLos precios de los pasajes cambian rápido: confirmalo antes de comprar.\n🔗 Link en la bio → cazavuelos-cordoba.vercel.app\n\n#VuelosBaratos #VuelosDesdeCordoba #CordobaVuela #OfertasDeVuelos #ViajesDesdeCordoba #Asuncion"
   },
   {
    "id": "COR-BOG",

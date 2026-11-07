@@ -1,4 +1,4 @@
-Resultados crudos: 180 — únicos con ≤1 escala: 119
+Resultados crudos: 182 — únicos con ≤1 escala: 120
 
   IGR  Puerto Iguazú            ida y vuelta  n= 43  min USD 149
   RIO  Río de Janeiro           ida y vuelta  n= 11  min USD 294
@@ -16,6 +16,7 @@ Resultados crudos: 180 — únicos con ≤1 escala: 119
   AUA  Oranjestad               ida y vuelta  n=  1  min USD 805
   GUA  Guatemala                ida y vuelta  n=  1  min USD 1,031
   ROM  Roma                     ida y vuelta  n=  1  min USD 1,282
+  ASU  Asunción                 ida y vuelta  n=  1  min USD 404
   MIA  Miami                    ida y vuelta  n=  1  min USD 716
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 778
   CUN  Cancún                   ida y vuelta  n=  1  min USD 831
@@ -35,6 +36,4 @@ Resultados crudos: 180 — únicos con ≤1 escala: 119
   PUJ  Punta Cana               solo ida      n=  1  min USD 418
   AKL  Auckland                 solo ida      n=  1  min USD 1,088
 
-Rutas nuevas: COR-PUJ-IDA
-
-Listo: 15 requests, 0 errores — 119 precios nuevos guardados
+Listo: 15 requests, 0 errores — 1 precios nuevos guardados
