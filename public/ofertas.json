@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T06:34:10+00:00",
+ "actualizado": "2026-11-09T22:23:29+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -108,6 +108,18 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR0101MDQ1?t=JA17987916601798829100000624CORAEPMDQ_ae3ca3ecd728b696b765cf29891b3d01_11070&search_date=06112026&expected_price_uuid=01a1b270-de1a-8040-2cc3-d1f4a08e6a1a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=4dQzLNLOVLQUCcQBoptoUQ&expected_price_source=share&expected_price_currency=usd&expected_price=135&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Mendoza",
+   "region": "argentina",
+   "tipo": "solo_ida",
+   "precio_actual": 135.0,
+   "fecha_salida": "2026-11-19",
+   "fecha_retorno": null,
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 0,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR1911MDZ1?t=AR17951079001795112100000070CORMDZ_7ce0fd4cee20703bfabc1f891cc41a58_11156&search_date=09112026&expected_price_uuid=01a1c0be-2da5-8030-aa79-5e0fcf05b226&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=mptyTmMO7s-OPZrrH0gXFw&expected_price_source=share&expected_price_currency=usd&expected_price=135&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Iguazú",
