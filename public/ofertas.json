@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T07:21:05+00:00",
+ "actualizado": "2026-11-10T19:45:18+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -12,6 +12,18 @@
    "escalas": 0,
    "oferta": "normal",
    "url": "https://www.aviasales.com/search/COR0501BUE1?t=JA17991864001799191140000079CORAEP_2d31e02f98f9ea5e5178cc5268c31d5f_2252&search_date=08112026&expected_price_uuid=01a1ba04-6f94-8040-2ffc-e5fdb765b84b&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=V7kaQs05meYSaVCRQp0Lnw&expected_price_source=share&expected_price_currency=usd&expected_price=27&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Jujuy",
+   "region": "argentina",
+   "tipo": "solo_ida",
+   "precio_actual": 51.0,
+   "fecha_salida": "2026-11-10",
+   "fecha_retorno": null,
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 0,
+   "oferta": "normal",
+   "url": "https://www.aviasales.com/search/COR1011JUJ1?t=AR17943363001794341700000090CORJUJ_6bf60eab54eec23453a218a7259391cf_4182&search_date=06112026&expected_price_uuid=01a1b26e-d750-8040-2d8d-5e741aa12c28&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=vCRdvajhJt3olKUWZnhFYA&expected_price_source=share&expected_price_currency=usd&expected_price=51&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Iguazú",
@@ -324,6 +336,18 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR1211MDE1?t=CM17944554601794480900000544CORPTYMDE_b94cc0b41a3d61586152750b5c260f7c_24960&search_date=05112026&expected_price_uuid=01a1ad65-e568-8040-aac5-4a0e00f7f4de&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Fkxf4TXAEKfL_ZW8fCN0rA&expected_price_source=share&expected_price_currency=usd&expected_price=306&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "San Pablo",
+   "region": "sudamerica",
+   "tipo": "solo_ida",
+   "precio_actual": 309.0,
+   "fecha_salida": "2026-11-20",
+   "fecha_retorno": null,
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2011SAO1?t=AR17952078001795301100001555COREZEAEPGRU_6deb024b02b2f23ff15593e5b3e8fd4d_25625&search_date=10112026&expected_price_uuid=01a1c609-f4ce-8040-a460-560c9ed7a5cf&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=8DuHP7bPMI6BEYCHpxSnuw&expected_price_source=share&expected_price_currency=usd&expected_price=309&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Florianópolis",
