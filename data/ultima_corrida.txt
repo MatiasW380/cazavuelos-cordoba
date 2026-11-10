@@ -1,39 +1,40 @@
-Resultados crudos: 221 — únicos con ≤1 escala: 114
+Resultados crudos: 230 — únicos con ≤1 escala: 111
 
   IGR  Puerto Iguazú            ida y vuelta  n= 35  min USD 149
   BUE  Buenos Aires             ida y vuelta  n=  6  min USD 78
-  RIO  Río de Janeiro           ida y vuelta  n=  5  min USD 277
   PUJ  Punta Cana               ida y vuelta  n=  5  min USD 794
+  RIO  Río de Janeiro           ida y vuelta  n=  4  min USD 366
   MDZ  Mendoza                  ida y vuelta  n=  3  min USD 114
   CUN  Cancún                   ida y vuelta  n=  3  min USD 831
-  FLN  Florianópolis            ida y vuelta  n=  3  min USD 245
   USH  Ushuaia                  ida y vuelta  n=  2  min USD 250
+  SCL  Santiago de Chile        ida y vuelta  n=  2  min USD 235
   MDQ  Mar del Plata            ida y vuelta  n=  2  min USD 194
   MVD  Montevideo               ida y vuelta  n=  2  min USD 305
   JUJ  Jujuy                    ida y vuelta  n=  1  min USD 206
   NQN  Neuquén                  ida y vuelta  n=  1  min USD 208
+  PMY  Puerto Madryn            ida y vuelta  n=  1  min USD 270
   BRC  Bariloche                ida y vuelta  n=  1  min USD 235
   LIM  Lima                     ida y vuelta  n=  1  min USD 449
   AUA  Oranjestad               ida y vuelta  n=  1  min USD 805
   GUA  Guatemala                ida y vuelta  n=  1  min USD 1,031
+  FLN  Florianópolis            ida y vuelta  n=  1  min USD 315
   REC  Recife                   ida y vuelta  n=  1  min USD 506
   BAQ  Barranquilla             ida y vuelta  n=  1  min USD 683
   MAD  Ciudad de Madrid         ida y vuelta  n=  1  min USD 984
-  ROM  Roma                     ida y vuelta  n=  1  min USD 1,282
   ASU  Asunción                 ida y vuelta  n=  1  min USD 404
   MIA  Miami                    ida y vuelta  n=  1  min USD 716
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 778
   BCN  Barcelona                ida y vuelta  n=  1  min USD 1,356
-  SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 235
-  BUE  Buenos Aires             solo ida      n= 12  min USD 27
-  IGR  Puerto Iguazú            solo ida      n=  2  min USD 61
+  BUE  Buenos Aires             solo ida      n=  9  min USD 27
+  LIM  Lima                     solo ida      n=  3  min USD 278
+  IGR  Puerto Iguazú            solo ida      n=  2  min USD 59
   FTE  El Calafate              solo ida      n=  2  min USD 158
-  LIM  Lima                     solo ida      n=  2  min USD 293
   NQN  Neuquén                  solo ida      n=  1  min USD 91
   BRC  Bariloche                solo ida      n=  1  min USD 111
   MDZ  Mendoza                  solo ida      n=  1  min USD 135
   PRA  Paraná                   solo ida      n=  1  min USD 221
-  SCL  Santiago de Chile        solo ida      n=  1  min USD 167
+  MDE  Medellín                 solo ida      n=  1  min USD 306
+  SCL  Santiago de Chile        solo ida      n=  1  min USD 165
   CUN  Cancún                   solo ida      n=  1  min USD 363
   IBZ  Ibiza                    solo ida      n=  1  min USD 630
   MDQ  Mar del Plata            solo ida      n=  1  min USD 135
@@ -45,4 +46,6 @@ Resultados crudos: 221 — únicos con ≤1 escala: 114
   RIO  Río de Janeiro           solo ida      n=  1  min USD 202
   AKL  Auckland                 solo ida      n=  1  min USD 1,088
 
-Listo: 15 requests, 0 errores — 9 precios nuevos guardados
+Rutas nuevas: COR-PMY
+
+Listo: 15 requests, 0 errores — 111 precios nuevos guardados
