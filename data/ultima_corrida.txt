@@ -1,41 +1,41 @@
-Resultados crudos: 248 — únicos con ≤1 escala: 110
+Resultados crudos: 225 — únicos con ≤1 escala: 99
 
-  MDZ  Mendoza                  ida y vuelta  n= 12  min USD 113
-  PUJ  Punta Cana               ida y vuelta  n=  6  min USD 790
-  BUE  Buenos Aires             ida y vuelta  n=  5  min USD 78
-  RIO  Río de Janeiro           ida y vuelta  n=  4  min USD 337
-  FLN  Florianópolis            ida y vuelta  n=  4  min USD 305
-  IGR  Puerto Iguazú            ida y vuelta  n=  3  min USD 141
-  CUN  Cancún                   ida y vuelta  n=  3  min USD 831
-  SCL  Santiago de Chile        ida y vuelta  n=  2  min USD 235
-  MVD  Montevideo               ida y vuelta  n=  2  min USD 303
-  PMY  Puerto Madryn            ida y vuelta  n=  1  min USD 435
-  JUJ  Jujuy                    ida y vuelta  n=  1  min USD 213
-  LIM  Lima                     ida y vuelta  n=  1  min USD 447
-  USH  Ushuaia                  ida y vuelta  n=  1  min USD 471
-  MIA  Miami                    ida y vuelta  n=  1  min USD 693
-  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 227
-  REC  Recife                   ida y vuelta  n=  1  min USD 504
-  BAQ  Barranquilla             ida y vuelta  n=  1  min USD 680
-  MAD  Ciudad de Madrid         ida y vuelta  n=  1  min USD 958
-  ASU  Asunción                 ida y vuelta  n=  1  min USD 403
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 779
+  MDZ  Mendoza                  ida y vuelta  n= 12  min USD 114
+  BUE  Buenos Aires             ida y vuelta  n=  4  min USD 72
+  FLN  Florianópolis            ida y vuelta  n=  4  min USD 306
+  IGR  Puerto Iguazú            ida y vuelta  n=  3  min USD 142
+  RIO  Río de Janeiro           ida y vuelta  n=  3  min USD 339
+  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 794
+  CUN  Cancún                   ida y vuelta  n=  2  min USD 893
+  MVD  Montevideo               ida y vuelta  n=  2  min USD 305
+  PMY  Puerto Madryn            ida y vuelta  n=  1  min USD 437
+  JUJ  Jujuy                    ida y vuelta  n=  1  min USD 214
+  SCL  Santiago de Chile        ida y vuelta  n=  1  min USD 351
+  USH  Ushuaia                  ida y vuelta  n=  1  min USD 473
+  MIA  Miami                    ida y vuelta  n=  1  min USD 696
+  REC  Recife                   ida y vuelta  n=  1  min USD 506
+  BAQ  Barranquilla             ida y vuelta  n=  1  min USD 683
+  MAD  Ciudad de Madrid         ida y vuelta  n=  1  min USD 1,079
+  ASU  Asunción                 ida y vuelta  n=  1  min USD 404
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 782
   BCN  Barcelona                ida y vuelta  n=  1  min USD 1,356
   LIM  Lima                     solo ida      n= 10  min USD 296
   BUE  Buenos Aires             solo ida      n=  8  min USD 27
-  MDZ  Mendoza                  solo ida      n=  8  min USD 58
-  FLN  Florianópolis            solo ida      n=  8  min USD 207
+  MDZ  Mendoza                  solo ida      n=  7  min USD 58
+  FLN  Florianópolis            solo ida      n=  7  min USD 207
+  RIO  Río de Janeiro           solo ida      n=  5  min USD 202
   SAO  São Paulo                solo ida      n=  4  min USD 265
-  RIO  Río de Janeiro           solo ida      n=  3  min USD 202
   MAD  Ciudad de Madrid         solo ida      n=  3  min USD 759
-  IGR  Puerto Iguazú            solo ida      n=  2  min USD 59
+  IGR  Puerto Iguazú            solo ida      n=  2  min USD 88
   FTE  El Calafate              solo ida      n=  2  min USD 130
   CPC  San Martin DeLos Andes   solo ida      n=  2  min USD 257
-  MDQ  Mar del Plata            solo ida      n=  2  min USD 135
   PRA  Paraná                   solo ida      n=  1  min USD 221
   SCL  Santiago de Chile        solo ida      n=  1  min USD 159
   MVD  Montevideo               solo ida      n=  1  min USD 162
   SLA  Salta                    solo ida      n=  1  min USD 73
-  PUJ  Punta Cana               solo ida      n=  1  min USD 418
+  MDQ  Mar del Plata            solo ida      n=  1  min USD 140
+  MIA  Miami                    solo ida      n=  1  min USD 398
 
-Listo: 15 requests, 0 errores — 7 precios nuevos guardados
+Rutas nuevas: COR-MIA-IDA
+
+Listo: 15 requests, 0 errores — 99 precios nuevos guardados
