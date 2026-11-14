@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T18:04:25+00:00",
+ "actualizado": "2026-11-14T22:26:11+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -48,6 +48,18 @@
    "escalas": 1,
    "oferta": "normal",
    "url": "https://www.aviasales.com/search/COR1502SLA1?t=JA18027305401802781540000850CORAEPSLA_a7d2fbde562e0f06071178aedeab0c2c_5977&search_date=07112026&expected_price_uuid=01a1b66e-6ac3-8030-625d-661b76bdf3a4&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=GPlWtRCreyY1YMYuIn87Hw&expected_price_source=share&expected_price_currency=usd&expected_price=73&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Bariloche",
+   "region": "argentina",
+   "tipo": "solo_ida",
+   "precio_actual": 74.0,
+   "fecha_salida": "2027-02-28",
+   "fecha_retorno": null,
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 0,
+   "oferta": "minimo",
+   "url": "https://www.aviasales.com/search/COR2802BRC1?t=AR18038235001803831600000135CORBRC_b40acbaaaca90aa6012828fcc2ad014a_6159&search_date=14112026&expected_price_uuid=01a1dbd8-928c-8040-2e96-86a5c4604944&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jkSivXMI_qlz_sUY9EJ7wg&expected_price_source=share&expected_price_currency=usd&expected_price=74&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Iguazú",
@@ -348,6 +360,18 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR2202BAQ27021?t=CM18032681401803299760000647CORPTYBAQ18037192801803774240000796BAQPTYCOR_8908bff599f172e1d0b6ec539b7ebff1_55937&search_date=08112026&expected_price_uuid=01a1bc09-2b6d-8040-236e-5d0dd16ec4b9&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=yBhe7xRug-g7PuWkq98NUg&expected_price_source=share&expected_price_currency=usd&expected_price=683&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Lima",
+   "region": "sudamerica",
+   "tipo": "ida_vuelta",
+   "precio_actual": 732.0,
+   "fecha_salida": "2027-01-02",
+   "fecha_retorno": "2027-01-30",
+   "aerolinea": "JetSMART",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR0201LIM30011?t=JA17989272001798964100000735CORAEPLIM18013461001801382460000486LIMAEPCOR_fd1c8dc8d44664e1870305194be09f17_60631&search_date=14112026&expected_price_uuid=01a1db79-6307-8040-21d3-a96e8064502a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=JTAqsRP43GV2P_BVhCghYw&expected_price_source=share&expected_price_currency=usd&expected_price=732&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Madrid",
