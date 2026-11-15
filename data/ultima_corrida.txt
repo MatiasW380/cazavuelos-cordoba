@@ -1,11 +1,12 @@
-Resultados crudos: 237 — únicos con ≤1 escala: 110
+Resultados crudos: 242 — únicos con ≤1 escala: 114
 
   MDZ  Mendoza                  ida y vuelta  n= 12  min USD 114
-  BUE  Buenos Aires             ida y vuelta  n=  4  min USD 72
+  BUE  Buenos Aires             ida y vuelta  n=  5  min USD 62
   RIO  Río de Janeiro           ida y vuelta  n=  4  min USD 339
-  IGR  Puerto Iguazú            ida y vuelta  n=  3  min USD 142
-  FLN  Florianópolis            ida y vuelta  n=  3  min USD 306
-  MIA  Miami                    ida y vuelta  n=  2  min USD 646
+  FLN  Florianópolis            ida y vuelta  n=  4  min USD 306
+  MIA  Miami                    ida y vuelta  n=  3  min USD 646
+  AUA  Oranjestad               ida y vuelta  n=  3  min USD 669
+  IGR  Puerto Iguazú            ida y vuelta  n=  2  min USD 142
   PUJ  Punta Cana               ida y vuelta  n=  2  min USD 794
   CUN  Cancún                   ida y vuelta  n=  2  min USD 893
   MVD  Montevideo               ida y vuelta  n=  2  min USD 305
@@ -22,8 +23,8 @@ Resultados crudos: 237 — únicos con ≤1 escala: 110
   BUE  Buenos Aires             solo ida      n= 12  min USD 27
   LIM  Lima                     solo ida      n=  9  min USD 332
   BRC  Bariloche                solo ida      n=  9  min USD 74
-  MDZ  Mendoza                  solo ida      n=  7  min USD 58
-  FLN  Florianópolis            solo ida      n=  7  min USD 207
+  FLN  Florianópolis            solo ida      n=  8  min USD 207
+  MDZ  Mendoza                  solo ida      n=  6  min USD 58
   RIO  Río de Janeiro           solo ida      n=  5  min USD 202
   SAO  São Paulo                solo ida      n=  4  min USD 265
   MAD  Ciudad de Madrid         solo ida      n=  3  min USD 759
@@ -32,8 +33,7 @@ Resultados crudos: 237 — únicos con ≤1 escala: 110
   PRA  Paraná                   solo ida      n=  1  min USD 221
   SCL  Santiago de Chile        solo ida      n=  1  min USD 159
   CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 257
-  MVD  Montevideo               solo ida      n=  1  min USD 162
   MDQ  Mar del Plata            solo ida      n=  1  min USD 140
   MIA  Miami                    solo ida      n=  1  min USD 398
 
-Listo: 15 requests, 0 errores — 12 precios nuevos guardados
+Listo: 15 requests, 0 errores — 114 precios nuevos guardados
