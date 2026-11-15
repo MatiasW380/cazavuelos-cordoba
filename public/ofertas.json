@@ -1,17 +1,17 @@
 {
- "actualizado": "2026-11-15T06:35:44+00:00",
+ "actualizado": "2026-11-15T18:52:31+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
    "region": "argentina",
    "tipo": "solo_ida",
-   "precio_actual": 27.0,
+   "precio_actual": 26.0,
    "fecha_salida": "2027-01-05",
    "fecha_retorno": null,
    "aerolinea": "JetSMART",
    "escalas": 0,
    "oferta": "normal",
-   "url": "https://www.aviasales.com/search/COR0501BUE1?t=JA17991864001799191140000079CORAEP_2d31e02f98f9ea5e5178cc5268c31d5f_2252&search_date=08112026&expected_price_uuid=01a1ba04-6f94-8040-2ffc-e5fdb765b84b&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=V7kaQs05meYSaVCRQp0Lnw&expected_price_source=share&expected_price_currency=usd&expected_price=27&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR0501BUE1?t=JA17991864001799191140000079CORAEP_2d31e02f98f9ea5e5178cc5268c31d5f_2156&search_date=08112026&expected_price_uuid=01a1bd7c-7cda-8040-28fb-f64aac67a1f2&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=V7kaQs05meYSaVCRQp0Lnw&expected_price_source=share&expected_price_currency=usd&expected_price=26&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Mendoza",
@@ -302,6 +302,18 @@
    "url": "https://www.aviasales.com/search/COR2202REC04031?t=LA18032616001803307200000760CORGIGREC18041328001804177500000745RECCGHGRUCOR_91d50a1307fe2ac9e8edde49736880e6_41448&search_date=08112026&expected_price_uuid=01a1bafd-464d-8040-6e40-5b11cce9df17&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=KZTN8wf82CI-cWRahq51_w&expected_price_source=share&expected_price_currency=usd&expected_price=506&locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Guatemala",
+   "region": "centroamerica",
+   "tipo": "solo_ida",
+   "precio_actual": 556.0,
+   "fecha_salida": "2027-01-19",
+   "fecha_retorno": null,
+   "aerolinea": "Copa Airlines",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR1901GUA1?t=CM18003305401800437880001969CORPTYGUA_a23abb907a72a4e731580745ae434881_46087&search_date=15112026&expected_price_uuid=01a1dffe-030a-8040-615e-b84ac475c0fa&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=H9IFQRBWXlUw5fKe8WKaNg&expected_price_source=share&expected_price_currency=usd&expected_price=556&locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Miami",
    "region": "norteamerica",
    "tipo": "ida_vuelta",
@@ -365,10 +377,10 @@
    "destino": "Fort Lauderdale",
    "region": "norteamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 782.0,
+   "precio_actual": 774.0,
    "fecha_salida": "2027-10-02",
    "fecha_retorno": "2027-10-09",
-   "aerolinea": "Copa Airlines",
+   "aerolinea": "Avianca",
    "escalas": 1,
    "oferta": "normal",
    "url": "https://www.aviasales.com/search/COR0210FLL09101?locale=es&currency=usd&marker=784835.web"
