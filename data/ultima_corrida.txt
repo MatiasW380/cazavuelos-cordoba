@@ -1,43 +1,43 @@
-Resultados crudos: 222 — únicos con ≤1 escala: 126
+Resultados crudos: 206 — únicos con ≤1 escala: 124
 
-  MDZ  Mendoza                  ida y vuelta  n= 11  min USD 150
-  BUE  Buenos Aires             ida y vuelta  n=  8  min USD 62
-  FLN  Florianópolis            ida y vuelta  n=  6  min USD 305
-  MIA  Miami                    ida y vuelta  n=  6  min USD 634
-  RIO  Río de Janeiro           ida y vuelta  n=  5  min USD 338
-  IGR  Puerto Iguazú            ida y vuelta  n=  3  min USD 142
-  SCL  Santiago de Chile        ida y vuelta  n=  3  min USD 277
-  AUA  Oranjestad               ida y vuelta  n=  3  min USD 668
-  LIM  Lima                     ida y vuelta  n=  2  min USD 523
+  MDZ  Mendoza                  ida y vuelta  n= 11  min USD 149
+  BUE  Buenos Aires             ida y vuelta  n=  8  min USD 61
+  FLN  Florianópolis            ida y vuelta  n=  6  min USD 303
+  MIA  Miami                    ida y vuelta  n=  6  min USD 630
+  RIO  Río de Janeiro           ida y vuelta  n=  5  min USD 336
+  SCL  Santiago de Chile        ida y vuelta  n=  3  min USD 275
+  AUA  Oranjestad               ida y vuelta  n=  3  min USD 663
+  IGR  Puerto Iguazú            ida y vuelta  n=  2  min USD 155
+  LIM  Lima                     ida y vuelta  n=  2  min USD 519
   CUN  Cancún                   ida y vuelta  n=  2  min USD 775
-  JUJ  Jujuy                    ida y vuelta  n=  1  min USD 213
-  SLA  Salta                    ida y vuelta  n=  1  min USD 335
-  PUJ  Punta Cana               ida y vuelta  n=  1  min USD 795
-  HAV  La Habana                ida y vuelta  n=  1  min USD 955
-  TCI  Tenerife                 ida y vuelta  n=  1  min USD 1,774
-  BRC  Bariloche                ida y vuelta  n=  1  min USD 181
-  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 255
-  MAD  Ciudad de Madrid         ida y vuelta  n=  1  min USD 947
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 772
+  JUJ  Jujuy                    ida y vuelta  n=  1  min USD 212
+  SLA  Salta                    ida y vuelta  n=  1  min USD 333
+  HAV  La Habana                ida y vuelta  n=  1  min USD 949
+  TCI  Tenerife                 ida y vuelta  n=  1  min USD 1,762
+  BRC  Bariloche                ida y vuelta  n=  1  min USD 179
+  MDQ  Mar del Plata            ida y vuelta  n=  1  min USD 254
+  MAD  Ciudad de Madrid         ida y vuelta  n=  1  min USD 940
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 777
   BUE  Buenos Aires             solo ida      n= 15  min USD 41
   BRC  Bariloche                solo ida      n=  9  min USD 74
   LIM  Lima                     solo ida      n=  8  min USD 315
   MDZ  Mendoza                  solo ida      n=  5  min USD 40
-  RIO  Río de Janeiro           solo ida      n=  5  min USD 211
   FLN  Florianópolis            solo ida      n=  5  min USD 228
-  FTE  El Calafate              solo ida      n=  3  min USD 130
+  RIO  Río de Janeiro           solo ida      n=  4  min USD 211
   SAO  São Paulo                solo ida      n=  3  min USD 271
   MAD  Ciudad de Madrid         solo ida      n=  3  min USD 759
   IGR  Puerto Iguazú            solo ida      n=  2  min USD 86
+  MDQ  Mar del Plata            solo ida      n=  2  min USD 85
+  FTE  El Calafate              solo ida      n=  2  min USD 130
+  CTC  San Fernando del Valle de Catamarca solo ida      n=  1  min USD 250
   SCL  Santiago de Chile        solo ida      n=  1  min USD 165
   SLA  Salta                    solo ida      n=  1  min USD 172
   CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 257
   MUC  Múnich                   solo ida      n=  1  min USD 608
   FRA  Francfort                solo ida      n=  1  min USD 659
   GUA  Guatemala                solo ida      n=  1  min USD 556
-  MDQ  Mar del Plata            solo ida      n=  1  min USD 140
   ASU  Asunción                 solo ida      n=  1  min USD 164
   MIA  Miami                    solo ida      n=  1  min USD 391
   NYC  Nueva York               solo ida      n=  1  min USD 583
 
-Listo: 15 requests, 0 errores — 126 precios nuevos guardados
+Listo: 15 requests, 0 errores — 2 precios nuevos guardados
