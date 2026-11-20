@@ -1,4 +1,4 @@
-Resultados crudos: 224 — únicos con ≤1 escala: 134
+Resultados crudos: 216 — únicos con ≤1 escala: 132
 
   SCL  Santiago de Chile        ida y vuelta  n=  9  min USD 266
   BUE  Buenos Aires             ida y vuelta  n=  7  min USD 62
@@ -16,6 +16,7 @@ Resultados crudos: 224 — únicos con ≤1 escala: 134
   FTE  El Calafate              ida y vuelta  n=  1  min USD 745
   JUJ  Jujuy                    ida y vuelta  n=  1  min USD 210
   SLA  Salta                    ida y vuelta  n=  1  min USD 298
+  USH  Ushuaia                  ida y vuelta  n=  1  min USD 375
   HAV  La Habana                ida y vuelta  n=  1  min USD 954
   PAR  París                    ida y vuelta  n=  1  min USD 1,615
   TCI  Tenerife                 ida y vuelta  n=  1  min USD 1,772
@@ -24,10 +25,9 @@ Resultados crudos: 224 — únicos con ≤1 escala: 134
   CUN  Cancún                   ida y vuelta  n=  1  min USD 692
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 782
   NYC  Nueva York               ida y vuelta  n=  1  min USD 953
-  BUE  Buenos Aires             solo ida      n= 13  min USD 35
+  BUE  Buenos Aires             solo ida      n= 12  min USD 35
   BRC  Bariloche                solo ida      n= 12  min USD 74
-  LIM  Lima                     solo ida      n=  3  min USD 296
-  MAD  Ciudad de Madrid         solo ida      n=  3  min USD 759
+  LIM  Lima                     solo ida      n=  4  min USD 296
   MDZ  Mendoza                  solo ida      n=  2  min USD 56
   MDQ  Mar del Plata            solo ida      n=  2  min USD 101
   FTE  El Calafate              solo ida      n=  2  min USD 169
@@ -35,11 +35,11 @@ Resultados crudos: 224 — únicos con ≤1 escala: 134
   FRA  Francfort                solo ida      n=  2  min USD 659
   RIO  Río de Janeiro           solo ida      n=  2  min USD 217
   FLN  Florianópolis            solo ida      n=  2  min USD 195
+  JUJ  Jujuy                    solo ida      n=  1  min USD 59
   TUC  TUC                      solo ida      n=  1  min USD 236
   CTC  San Fernando del Valle de Catamarca solo ida      n=  1  min USD 250
   SCL  Santiago de Chile        solo ida      n=  1  min USD 152
   SLA  Salta                    solo ida      n=  1  min USD 154
-  CPC  San Martin DeLos Andes   solo ida      n=  1  min USD 257
   HAV  La Habana                solo ida      n=  1  min USD 579
   MUC  Múnich                   solo ida      n=  1  min USD 608
   GUA  Guatemala                solo ida      n=  1  min USD 556
@@ -48,6 +48,4 @@ Resultados crudos: 224 — únicos con ≤1 escala: 134
   MIA  Miami                    solo ida      n=  1  min USD 390
   NYC  Nueva York               solo ida      n=  1  min USD 583
 
-Rutas nuevas: COR-FTE
-
-Listo: 15 requests, 0 errores — 134 precios nuevos guardados
+Listo: 15 requests, 0 errores — 3 precios nuevos guardados

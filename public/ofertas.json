@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T07:18:17+00:00",
+ "actualizado": "2026-11-20T20:23:26+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -24,6 +24,18 @@
    "escalas": 0,
    "oferta": "normal",
    "url": "https://www.aviasales.com/search/COR2611MDZ1?t=AR17957127001795716900000070CORMDZ_39067ec30dff155998e67e614a07f1c8_4593&search_date=19112026&expected_price_uuid=01a1f3bb-3383-8040-29b1-f175de633eae&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=mptyTmMO7s-OPZrrH0gXFw&expected_price_source=share&expected_price_currency=usd&expected_price=56&locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Jujuy",
+   "region": "argentina",
+   "tipo": "solo_ida",
+   "precio_actual": 59.0,
+   "fecha_salida": "2026-11-30",
+   "fecha_retorno": null,
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 0,
+   "oferta": "normal",
+   "url": "https://www.aviasales.com/search/COR3011JUJ1?t=AR17960589001796064300000090CORJUJ_8801346fdb82dc3c5973dd791d3f49d6_4843&search_date=20112026&expected_price_uuid=01a1fa44-b87b-8030-63f5-fe1e665ba3af&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=hzPBxj_1fG52B1NdDWgZyg&expected_price_source=share&expected_price_currency=usd&expected_price=59&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Buenos Aires",
@@ -312,6 +324,18 @@
    "escalas": 0,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR1103RIO18031?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Ushuaia",
+   "region": "argentina",
+   "tipo": "ida_vuelta",
+   "precio_actual": 375.0,
+   "fecha_salida": "2026-12-05",
+   "fecha_retorno": "2026-12-06",
+   "aerolinea": null,
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR0512USH06121?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Miami",
