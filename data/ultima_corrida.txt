@@ -1,10 +1,10 @@
-Resultados crudos: 218 — únicos con ≤1 escala: 133
+Resultados crudos: 220 — únicos con ≤1 escala: 133
 
   SCL  Santiago de Chile        ida y vuelta  n=  9  min USD 221
-  RIO  Río de Janeiro           ida y vuelta  n=  8  min USD 364
+  BUE  Buenos Aires             ida y vuelta  n=  7  min USD 62
   FLN  Florianópolis            ida y vuelta  n=  7  min USD 307
+  RIO  Río de Janeiro           ida y vuelta  n=  7  min USD 364
   AUA  Oranjestad               ida y vuelta  n=  7  min USD 625
-  BUE  Buenos Aires             ida y vuelta  n=  6  min USD 62
   PUJ  Punta Cana               ida y vuelta  n=  6  min USD 693
   MIA  Miami                    ida y vuelta  n=  5  min USD 646
   MAD  Ciudad de Madrid         ida y vuelta  n=  5  min USD 948
@@ -13,7 +13,7 @@ Resultados crudos: 218 — únicos con ≤1 escala: 133
   MDQ  Mar del Plata            ida y vuelta  n=  2  min USD 191
   MDZ  Mendoza                  ida y vuelta  n=  1  min USD 165
   ASU  Asunción                 ida y vuelta  n=  1  min USD 532
-  FTE  El Calafate              ida y vuelta  n=  1  min USD 748
+  FTE  El Calafate              ida y vuelta  n=  1  min USD 1,382
   JUJ  Jujuy                    ida y vuelta  n=  1  min USD 211
   SLA  Salta                    ida y vuelta  n=  1  min USD 299
   USH  Ushuaia                  ida y vuelta  n=  1  min USD 376
@@ -26,11 +26,11 @@ Resultados crudos: 218 — únicos con ≤1 escala: 133
   IGR  Puerto Iguazú            ida y vuelta  n=  1  min USD 182
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 784
   NYC  Nueva York               ida y vuelta  n=  1  min USD 955
-  CCS  Caracas                  ida y vuelta  n=  1  min USD 1,221
+  CCS  Caracas                  ida y vuelta  n=  1  min USD 1,320
   BRC  Bariloche                solo ida      n= 12  min USD 74
-  BUE  Buenos Aires             solo ida      n= 11  min USD 35
+  BUE  Buenos Aires             solo ida      n= 10  min USD 35
+  RIO  Río de Janeiro           solo ida      n=  4  min USD 204
   LIM  Lima                     solo ida      n=  4  min USD 296
-  RIO  Río de Janeiro           solo ida      n=  3  min USD 217
   MDZ  Mendoza                  solo ida      n=  2  min USD 56
   MDQ  Mar del Plata            solo ida      n=  2  min USD 101
   FTE  El Calafate              solo ida      n=  2  min USD 169
@@ -50,6 +50,4 @@ Resultados crudos: 218 — únicos con ≤1 escala: 133
   MIA  Miami                    solo ida      n=  1  min USD 390
   NYC  Nueva York               solo ida      n=  1  min USD 583
 
-Rutas nuevas: COR-CCS
-
-Listo: 15 requests, 0 errores — 133 precios nuevos guardados
+Listo: 15 requests, 0 errores — 2 precios nuevos guardados

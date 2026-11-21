@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T07:11:28+00:00",
+ "actualizado": "2026-11-21T19:17:30+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -194,6 +194,18 @@
    "url": "https://www.aviasales.com/search/COR2003FLN1?t=JA18055564801805565900000157CORFLN_64baafde4dc259265dda64f5d58d9c0d_15991&search_date=19112026&expected_price_uuid=01a1f3b5-76eb-8040-ae25-5c17264ff14a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=fWeg7Ki5cA0U5yatcplA6g&expected_price_source=share&expected_price_currency=usd&expected_price=195&locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Río de Janeiro",
+   "region": "sudamerica",
+   "tipo": "solo_ida",
+   "precio_actual": 204.0,
+   "fecha_salida": "2027-02-21",
+   "fecha_retorno": null,
+   "aerolinea": "JetSMART",
+   "escalas": 0,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2102RIO1?t=JA18032190601803230700000194CORGIG_55b6014fc0da1078449ff3492a5c5890_16748&search_date=21112026&expected_price_uuid=01a1fd95-2e5b-8030-e908-7c9ac1b6e781&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=T1rfzTSK37wd-65v-6Npjg&expected_price_source=share&expected_price_currency=usd&expected_price=204&locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Jujuy",
    "region": "argentina",
    "tipo": "ida_vuelta",
@@ -204,18 +216,6 @@
    "escalas": 0,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR0812JUJ18121?t=AR17967495001796754900000090CORJUJ17975874001797592800000090JUJCOR_49d0cd40b38bf831514ffbb7dfc75476_17392&search_date=18112026&expected_price_uuid=01a1efda-4603-8040-6b2d-ba368e265630&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Gi95lJ1ATMo2S5i5OhwYTw&expected_price_source=share&expected_price_currency=usd&expected_price=211&locale=es&currency=usd&marker=784835.web"
-  },
-  {
-   "destino": "Río de Janeiro",
-   "region": "sudamerica",
-   "tipo": "solo_ida",
-   "precio_actual": 217.0,
-   "fecha_salida": "2027-03-11",
-   "fecha_retorno": null,
-   "aerolinea": "JetSMART",
-   "escalas": 0,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR1103RIO1?t=JA18047575201804769100000193CORGIG_b347f957a656bc46517a4878fa463501_17795&search_date=19112026&expected_price_uuid=01a1f3b6-67f2-8040-2bf9-ce27c9f5e683&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=m9Xitxla3AC5BV05_WtHNA&expected_price_source=share&expected_price_currency=usd&expected_price=217&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Santiago de Chile",
