@@ -1,53 +1,56 @@
-Resultados crudos: 220 — únicos con ≤1 escala: 133
+Resultados crudos: 203 — únicos con ≤1 escala: 118
 
   SCL  Santiago de Chile        ida y vuelta  n=  9  min USD 221
-  BUE  Buenos Aires             ida y vuelta  n=  7  min USD 62
-  FLN  Florianópolis            ida y vuelta  n=  7  min USD 307
+  BUE  Buenos Aires             ida y vuelta  n=  7  min USD 70
   RIO  Río de Janeiro           ida y vuelta  n=  7  min USD 364
-  AUA  Oranjestad               ida y vuelta  n=  7  min USD 625
-  PUJ  Punta Cana               ida y vuelta  n=  6  min USD 693
-  MIA  Miami                    ida y vuelta  n=  5  min USD 646
-  MAD  Ciudad de Madrid         ida y vuelta  n=  5  min USD 948
+  FLN  Florianópolis            ida y vuelta  n=  6  min USD 307
+  PUJ  Punta Cana               ida y vuelta  n=  6  min USD 694
+  MAD  Ciudad de Madrid         ida y vuelta  n=  5  min USD 949
+  LIM  Lima                     ida y vuelta  n=  4  min USD 524
   BRC  Bariloche                ida y vuelta  n=  4  min USD 179
-  LIM  Lima                     ida y vuelta  n=  4  min USD 523
+  AUA  Oranjestad               ida y vuelta  n=  4  min USD 626
+  MIA  Miami                    ida y vuelta  n=  3  min USD 646
   MDQ  Mar del Plata            ida y vuelta  n=  2  min USD 191
   MDZ  Mendoza                  ida y vuelta  n=  1  min USD 165
   ASU  Asunción                 ida y vuelta  n=  1  min USD 532
-  FTE  El Calafate              ida y vuelta  n=  1  min USD 1,382
   JUJ  Jujuy                    ida y vuelta  n=  1  min USD 211
   SLA  Salta                    ida y vuelta  n=  1  min USD 299
-  USH  Ushuaia                  ida y vuelta  n=  1  min USD 376
-  HAV  La Habana                ida y vuelta  n=  1  min USD 957
-  PAR  París                    ida y vuelta  n=  1  min USD 1,620
-  TCI  Tenerife                 ida y vuelta  n=  1  min USD 1,777
-  SAO  São Paulo                ida y vuelta  n=  1  min USD 549
-  CFB  Cabo Frío                ida y vuelta  n=  1  min USD 615
-  CUN  Cancún                   ida y vuelta  n=  1  min USD 694
+  USH  Ushuaia                  ida y vuelta  n=  1  min USD 377
+  HAV  La Habana                ida y vuelta  n=  1  min USD 958
+  PAR  París                    ida y vuelta  n=  1  min USD 1,622
+  TCI  Tenerife                 ida y vuelta  n=  1  min USD 1,779
+  SAO  São Paulo                ida y vuelta  n=  1  min USD 550
+  CFB  Cabo Frío                ida y vuelta  n=  1  min USD 616
+  CUN  Cancún                   ida y vuelta  n=  1  min USD 695
   IGR  Puerto Iguazú            ida y vuelta  n=  1  min USD 182
-  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 784
-  NYC  Nueva York               ida y vuelta  n=  1  min USD 955
-  CCS  Caracas                  ida y vuelta  n=  1  min USD 1,320
-  BRC  Bariloche                solo ida      n= 12  min USD 74
+  FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 785
+  NYC  Nueva York               ida y vuelta  n=  1  min USD 957
+  BPS  Porto Seguro             ida y vuelta  n=  1  min USD 864
   BUE  Buenos Aires             solo ida      n= 10  min USD 35
-  RIO  Río de Janeiro           solo ida      n=  4  min USD 204
-  LIM  Lima                     solo ida      n=  4  min USD 296
+  BRC  Bariloche                solo ida      n=  4  min USD 68
+  LIM  Lima                     solo ida      n=  3  min USD 296
+  RIO  Río de Janeiro           solo ida      n=  3  min USD 204
   MDZ  Mendoza                  solo ida      n=  2  min USD 56
   MDQ  Mar del Plata            solo ida      n=  2  min USD 101
-  FTE  El Calafate              solo ida      n=  2  min USD 169
+  SCL  Santiago de Chile        solo ida      n=  2  min USD 156
   SAO  São Paulo                solo ida      n=  2  min USD 272
   FRA  Francfort                solo ida      n=  2  min USD 659
   FLN  Florianópolis            solo ida      n=  2  min USD 195
   JUJ  Jujuy                    solo ida      n=  1  min USD 59
   TUC  TUC                      solo ida      n=  1  min USD 236
   CTC  San Fernando del Valle de Catamarca solo ida      n=  1  min USD 250
-  SCL  Santiago de Chile        solo ida      n=  1  min USD 152
+  NQN  Neuquén                  solo ida      n=  1  min USD 133
   SLA  Salta                    solo ida      n=  1  min USD 154
+  FTE  El Calafate              solo ida      n=  1  min USD 298
   HAV  La Habana                solo ida      n=  1  min USD 579
   MUC  Múnich                   solo ida      n=  1  min USD 608
+  MVD  Montevideo               solo ida      n=  1  min USD 155
   GUA  Guatemala                solo ida      n=  1  min USD 556
   IGR  Puerto Iguazú            solo ida      n=  1  min USD 78
   ASU  Asunción                 solo ida      n=  1  min USD 164
   MIA  Miami                    solo ida      n=  1  min USD 390
   NYC  Nueva York               solo ida      n=  1  min USD 583
 
-Listo: 15 requests, 0 errores — 2 precios nuevos guardados
+Rutas nuevas: COR-BPS
+
+Listo: 15 requests, 0 errores — 118 precios nuevos guardados
