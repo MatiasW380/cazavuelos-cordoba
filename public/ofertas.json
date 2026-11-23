@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T07:41:29+00:00",
+ "actualizado": "2026-11-23T23:55:14+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -245,13 +245,13 @@
    "destino": "San Pablo",
    "region": "sudamerica",
    "tipo": "solo_ida",
-   "precio_actual": 272.0,
-   "fecha_salida": "2026-12-12",
+   "precio_actual": 247.0,
+   "fecha_salida": "2027-03-02",
    "fecha_retorno": null,
-   "aerolinea": "LATAM",
+   "aerolinea": "Aerolíneas Argentinas",
    "escalas": 1,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR1212SAO1?t=LA17970756001797121800000770CORSCLGRU_2b2f7213b98d6fafc114559710157cb8_22442&search_date=18112026&expected_price_uuid=01a1ef7a-0042-8030-2aaa-149d87e5125e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=TViog0GVeAH8Mzly_lfKlw&expected_price_source=share&expected_price_currency=usd&expected_price=272&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR0203SAO1?t=AR18039864001804027500000685CORAEPGRU_fa3a31547b7fe530fd6094d3f683703a_20253&search_date=23112026&expected_price_uuid=01a209c6-56e6-8040-ab11-7f580e794d15&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=hdyC_GHnl4XY8nnY6bLFVQ&expected_price_source=share&expected_price_currency=usd&expected_price=247&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Lima",
@@ -341,13 +341,13 @@
    "destino": "San Pablo",
    "region": "sudamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 463.0,
-   "fecha_salida": "2026-12-04",
-   "fecha_retorno": "2026-12-12",
+   "precio_actual": 431.0,
+   "fecha_salida": "2026-12-24",
+   "fecha_retorno": "2026-12-31",
    "aerolinea": null,
    "escalas": 1,
    "oferta": "minimo",
-   "url": "https://www.aviasales.com/search/COR0412SAO12121?locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR2412SAO31121?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Trelew",
@@ -420,6 +420,30 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR2911ASU30111?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "El Calafate",
+   "region": "argentina",
+   "tipo": "ida_vuelta",
+   "precio_actual": 538.0,
+   "fecha_salida": "2027-01-13",
+   "fecha_retorno": "2027-01-21",
+   "aerolinea": "Aerolíneas Argentinas",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR1301FTE21011?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Calama",
+   "region": "sudamerica",
+   "tipo": "ida_vuelta",
+   "precio_actual": 596.0,
+   "fecha_salida": "2026-11-24",
+   "fecha_retorno": "2026-11-29",
+   "aerolinea": null,
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2411CJC29111?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Cabo Frío",
@@ -542,6 +566,18 @@
    "url": "https://www.aviasales.com/search/COR1712HAV23121?locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "San Salvador",
+   "region": "centroamerica",
+   "tipo": "ida_vuelta",
+   "precio_actual": 1138.0,
+   "fecha_salida": "2026-12-30",
+   "fecha_retorno": "2027-01-14",
+   "aerolinea": null,
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR3012SAL14011?locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "París",
    "region": "europa",
    "tipo": "ida_vuelta",
@@ -552,6 +588,30 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR2412PAR14011?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Barcelona",
+   "region": "europa",
+   "tipo": "ida_vuelta",
+   "precio_actual": 1634.0,
+   "fecha_salida": "2026-11-24",
+   "fecha_retorno": "2026-12-01",
+   "aerolinea": "Avianca",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR2411BCN01121?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Kingston",
+   "region": "caribe",
+   "tipo": "ida_vuelta",
+   "precio_actual": 1761.0,
+   "fecha_salida": "2027-01-03",
+   "fecha_retorno": "2027-01-10",
+   "aerolinea": null,
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR0301KIN10011?locale=es&currency=usd&marker=784835.web"
   }
  ]
 }
