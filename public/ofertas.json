@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T09:56:17+00:00",
+ "actualizado": "2026-11-24T22:28:15+00:00",
  "vuelos": [
   {
    "destino": "Buenos Aires",
@@ -101,13 +101,13 @@
    "destino": "Salta",
    "region": "argentina",
    "tipo": "solo_ida",
-   "precio_actual": 154.0,
-   "fecha_salida": "2026-12-28",
+   "precio_actual": 144.0,
+   "fecha_salida": "2026-12-16",
    "fecha_retorno": null,
    "aerolinea": "Aerolíneas Argentinas",
    "escalas": 0,
    "oferta": null,
-   "url": "https://www.aviasales.com/search/COR2812SLA1?t=AR17984763001798481400000085CORSLA_2b137773f87d5362be62ae91b5158c30_12629&search_date=19112026&expected_price_uuid=01a1f3bd-f5e5-8040-a827-16af4c62a3bd&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=JdNuJC-sZjx7cTdirfesAA&expected_price_source=share&expected_price_currency=usd&expected_price=154&locale=es&currency=usd&marker=784835.web"
+   "url": "https://www.aviasales.com/search/COR1612SLA1?t=AR17974386001797443700000085CORSLA_9b950dd6e9d2ed0417bd25e1e48825b9_11801&search_date=24112026&expected_price_uuid=01a20f48-ec5e-8031-28d7-6fca0988d7eb&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=WWW8TEKsZUzLWHvM-JhlCw&expected_price_source=share&expected_price_currency=usd&expected_price=144&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Montevideo",
@@ -362,6 +362,18 @@
    "url": "https://www.aviasales.com/search/COR2611REL29111?t=AR17956938001795760700001115COREZEREL17959860001796021700000595RELEZEAEPCOR_62407734d8d6e266f196e171f0f19577_39412&search_date=23112026&expected_price_uuid=01a2067b-edc7-8040-aaa0-bb16afdc4885&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=P8V54jh8quX58XoljS_X7Q&expected_price_source=share&expected_price_currency=usd&expected_price=484&locale=es&currency=usd&marker=784835.web"
   },
   {
+   "destino": "Maceió",
+   "region": "sudamerica",
+   "tipo": "ida_vuelta",
+   "precio_actual": 488.0,
+   "fecha_salida": "2026-11-28",
+   "fecha_retorno": "2026-12-05",
+   "aerolinea": "LATAM",
+   "escalas": 1,
+   "oferta": "minimo",
+   "url": "https://www.aviasales.com/search/COR2811MCZ05121?t=LA17958867001795915500000480CORGRUMCZ17964420001796487900000765MCZGRUCOR_8721ac87ed67fa7f4efd93db553f07e6_40085&search_date=24112026&expected_price_uuid=01a20e8f-1448-8040-68cf-432b26a8dccc&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=nOE1_4SB-5MeXCEu8-_x7Q&expected_price_source=share&expected_price_currency=usd&expected_price=488&locale=es&currency=usd&marker=784835.web"
+  },
+  {
    "destino": "Bogotá",
    "region": "sudamerica",
    "tipo": "ida_vuelta",
@@ -372,18 +384,6 @@
    "escalas": 1,
    "oferta": null,
    "url": "https://www.aviasales.com/search/COR0203BOG16031?locale=es&currency=usd&marker=784835.web"
-  },
-  {
-   "destino": "Maceió",
-   "region": "sudamerica",
-   "tipo": "ida_vuelta",
-   "precio_actual": 523.0,
-   "fecha_salida": "2027-03-02",
-   "fecha_retorno": "2027-03-16",
-   "aerolinea": "LATAM",
-   "escalas": 1,
-   "oferta": null,
-   "url": "https://www.aviasales.com/search/COR0203MCZ16031?locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Asunción",
@@ -485,13 +485,25 @@
    "destino": "Fort Lauderdale",
    "region": "norteamerica",
    "tipo": "ida_vuelta",
-   "precio_actual": 785.0,
+   "precio_actual": 784.0,
    "fecha_salida": "2027-10-02",
    "fecha_retorno": "2027-10-09",
    "aerolinea": "Copa Airlines",
    "escalas": 1,
    "oferta": "normal",
    "url": "https://www.aviasales.com/search/COR0210FLL09101?locale=es&currency=usd&marker=784835.web"
+  },
+  {
+   "destino": "Ciudad de México",
+   "region": "norteamerica",
+   "tipo": "ida_vuelta",
+   "precio_actual": 888.0,
+   "fecha_salida": "2027-02-13",
+   "fecha_retorno": "2027-02-18",
+   "aerolinea": "Copa Airlines",
+   "escalas": 1,
+   "oferta": null,
+   "url": "https://www.aviasales.com/search/COR1302MEX18021?t=CM18025003201802556300001113CORPTYMEX18029136001802996640001204MEXPTYCOR_70449c5a5935e8afda0895ff12785e5f_72841&search_date=24112026&expected_price_uuid=01a20f11-fea6-8040-a288-8e8482fda9e9&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=XfgPx0ESryLEKK_DjsKAzA&expected_price_source=share&expected_price_currency=usd&expected_price=888&locale=es&currency=usd&marker=784835.web"
   },
   {
    "destino": "Nueva York",
