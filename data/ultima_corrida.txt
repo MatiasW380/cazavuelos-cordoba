@@ -1,60 +1,56 @@
-Resultados crudos: 267 — únicos con ≤1 escala: 143
+Resultados crudos: 251 — únicos con ≤1 escala: 125
 
-  FLN  Florianópolis            ida y vuelta  n= 13  min USD 296
-  BUE  Buenos Aires             ida y vuelta  n= 11  min USD 65
-  RIO  Río de Janeiro           ida y vuelta  n= 11  min USD 364
-  SCL  Santiago de Chile        ida y vuelta  n=  6  min USD 221
-  MDQ  Mar del Plata            ida y vuelta  n=  5  min USD 170
-  MAD  Ciudad de Madrid         ida y vuelta  n=  3  min USD 1,023
-  BRC  Bariloche                ida y vuelta  n=  3  min USD 179
-  MIA  Miami                    ida y vuelta  n=  3  min USD 662
-  JUJ  Jujuy                    ida y vuelta  n=  2  min USD 246
-  REL  Trelew                   ida y vuelta  n=  2  min USD 379
-  SLA  Salta                    ida y vuelta  n=  2  min USD 206
-  IGR  Puerto Iguazú            ida y vuelta  n=  2  min USD 182
+  FLN  Florianópolis            ida y vuelta  n= 13  min USD 248
+  BUE  Buenos Aires             ida y vuelta  n= 10  min USD 65
+  RIO  Río de Janeiro           ida y vuelta  n= 10  min USD 313
+  SCL  Santiago de Chile        ida y vuelta  n=  5  min USD 221
+  MDQ  Mar del Plata            ida y vuelta  n=  3  min USD 162
+  PUJ  Punta Cana               ida y vuelta  n=  3  min USD 612
+  JUJ  Jujuy                    ida y vuelta  n=  2  min USD 133
+  IGR  Puerto Iguazú            ida y vuelta  n=  2  min USD 159
   SAO  São Paulo                ida y vuelta  n=  2  min USD 432
-  PUJ  Punta Cana               ida y vuelta  n=  2  min USD 768
+  BRC  Bariloche                ida y vuelta  n=  2  min USD 237
   FTE  El Calafate              ida y vuelta  n=  2  min USD 538
-  CUN  Cancún                   ida y vuelta  n=  2  min USD 781
-  AUA  Oranjestad               ida y vuelta  n=  2  min USD 1,038
-  CFB  Cabo Frío                ida y vuelta  n=  2  min USD 448
+  MIA  Miami                    ida y vuelta  n=  2  min USD 688
   NYC  Nueva York               ida y vuelta  n=  2  min USD 957
-  MDZ  Mendoza                  ida y vuelta  n=  1  min USD 165
   MCZ  Maceió                   ida y vuelta  n=  1  min USD 488
   ASU  Asunción                 ida y vuelta  n=  1  min USD 532
   USH  Ushuaia                  ida y vuelta  n=  1  min USD 377
   SAL  San Salvador             ida y vuelta  n=  1  min USD 1,141
-  LIM  Lima                     ida y vuelta  n=  1  min USD 540
+  PSS  Posadas                  ida y vuelta  n=  1  min USD 108
+  SLA  Salta                    ida y vuelta  n=  1  min USD 134
+  CUN  Cancún                   ida y vuelta  n=  1  min USD 1,276
+  AUA  Oranjestad               ida y vuelta  n=  1  min USD 1,278
+  CFB  Cabo Frío                ida y vuelta  n=  1  min USD 448
   MEX  Ciudad de México         ida y vuelta  n=  1  min USD 888
   NAT  Natal                    ida y vuelta  n=  1  min USD 480
-  ROS  Rosario                  ida y vuelta  n=  1  min USD 230
-  NQN  Neuquén                  ida y vuelta  n=  1  min USD 306
-  PDP  Punta del Este           ida y vuelta  n=  1  min USD 348
-  TUC  TUC                      ida y vuelta  n=  1  min USD 389
+  MDZ  Mendoza                  ida y vuelta  n=  1  min USD 142
+  ROS  Rosario                  ida y vuelta  n=  1  min USD 217
+  NQN  Neuquén                  ida y vuelta  n=  1  min USD 325
+  PDP  Punta del Este           ida y vuelta  n=  1  min USD 352
+  TUC  TUC                      ida y vuelta  n=  1  min USD 376
+  REL  Trelew                   ida y vuelta  n=  1  min USD 424
   BOG  Bogotá                   ida y vuelta  n=  1  min USD 491
   GUA  Guatemala                ida y vuelta  n=  1  min USD 611
-  CPC  San Martin DeLos Andes   ida y vuelta  n=  1  min USD 706
+  CPC  San Martin DeLos Andes   ida y vuelta  n=  1  min USD 756
   FLL  Fort Lauderdale          ida y vuelta  n=  1  min USD 784
   KIN  Kingston                 ida y vuelta  n=  1  min USD 1,764
   BCN  Barcelona                ida y vuelta  n=  1  min USD 1,469
   CUZ  Cusco                    ida y vuelta  n=  1  min USD 579
   POP  Puerto Plata             ida y vuelta  n=  1  min USD 1,908
-  ROM  Roma                     ida y vuelta  n=  1  min USD 1,298
-  BUE  Buenos Aires             solo ida      n= 13  min USD 35
+  BUE  Buenos Aires             solo ida      n= 18  min USD 25
   SLA  Salta                    solo ida      n=  6  min USD 125
   SAO  São Paulo                solo ida      n=  5  min USD 230
-  IGR  Puerto Iguazú            solo ida      n=  3  min USD 78
-  BRC  Bariloche                solo ida      n=  3  min USD 68
   FTE  El Calafate              solo ida      n=  3  min USD 219
-  MDZ  Mendoza                  solo ida      n=  2  min USD 56
-  SCL  Santiago de Chile        solo ida      n=  2  min USD 161
+  IGR  Puerto Iguazú            solo ida      n=  2  min USD 89
+  BRC  Bariloche                solo ida      n=  2  min USD 98
   JUJ  Jujuy                    solo ida      n=  1  min USD 59
-  MDQ  Mar del Plata            solo ida      n=  1  min USD 101
+  MDZ  Mendoza                  solo ida      n=  1  min USD 134
   NQN  Neuquén                  solo ida      n=  1  min USD 133
-  MVD  Montevideo               solo ida      n=  1  min USD 155
-  LIM  Lima                     solo ida      n=  1  min USD 296
+  SCL  Santiago de Chile        solo ida      n=  1  min USD 161
+  PSS  Posadas                  solo ida      n=  1  min USD 66
   RIO  Río de Janeiro           solo ida      n=  1  min USD 204
-  FLN  Florianópolis            solo ida      n=  1  min USD 195
-  MIA  Miami                    solo ida      n=  1  min USD 390
 
-Listo: 15 requests, 0 errores — 143 precios nuevos guardados
+Rutas nuevas: COR-PSS, COR-PSS-IDA
+
+Listo: 15 requests, 0 errores — 14 precios nuevos guardados
